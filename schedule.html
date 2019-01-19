@@ -21,7 +21,6 @@ layout: default
 
 </div>
 
-{% comment %}
 {% for week in site.data.schedule.weeks %}
 {% include week.html week = week %}
 {% unless forloop.last %}<hr>{% endunless %}
@@ -29,7 +28,6 @@ layout: default
 <!-- end week row -->
 
 {% endfor %}
-{% endcomment %}
 
 <!-- icon legend -->
 <div class="buttons">
