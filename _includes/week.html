@@ -29,12 +29,14 @@
           {%- if day.resources %}
           <ul class="icons">
             {%- for item in day.resources %}
-            <li {% if item.type %}class="has-text-{{ item.type }}"{% endif %}>
-              {%- if item.icon %}
+            <li{% if item.type %} class="has-text-{{ item.type }}"{% endif %}{% if item.bump %} style="padding-top: 1ex;"{% endif %}>
               <span class="li-icon">
+              {%- if item.icon %}
                 <i class="fa-fw {{ item.icon.class }}"></i>
-              </span>
+              {%- else %}
+                <i class="fa-fw far fa-question-square"></i>
               {%- endif %}
+              </span>
               {%- if item.link %}
               <a href="{{ item.link }}">
                 {{ item.text }}
@@ -56,7 +58,7 @@
 
           <ul class="icons">
             {%- for item in day.deadlines %}
-            <li {% if item.type %}class="has-text-{{ item.type }}"{% endif %}>
+            <li{% if item.type %} class="has-text-{{ item.type }}"{% endif %}{% if item.bump %} style="padding-top: 1ex;"{% endif %}>
               <span class="li-icon">
               {%- if item.icon %}
                 <i class="fa-fw {{ item.icon.class }}"></i>
