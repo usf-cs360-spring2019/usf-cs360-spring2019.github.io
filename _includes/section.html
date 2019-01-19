@@ -1,0 +1,10 @@
+<{{ include.level }} id="{{ include.name | slugify }}">
+  {{ include.name }}
+  <small>
+    <sup>
+      <a href="#{{ include.name | slugify }}" class="has-text-grey-lighter">
+        <i class="fal fa-anchor"></i>
+      </a>
+    </sup>
+  </small>
+</{{ include.level }}>

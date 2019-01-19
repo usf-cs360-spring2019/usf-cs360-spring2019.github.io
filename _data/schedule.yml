@@ -1,0 +1,1592 @@
+# reusable icon references
+icons:
+  website: &icon_website
+    label: Website
+    class: far fa-atlas
+  code: &icon_code
+    label: Code
+    class: far fa-code
+  slides: &icon_slides
+    label: Slides
+    class: far fa-chalkboard-teacher
+  video: &icon_video
+    label: Video
+    class: far fa-video
+  project: &icon_project
+    label: Project
+    class: far fa-project-diagram
+  homework: &icon_homework
+    label: Homework
+    class: far fa-file-code
+  participation: &icon_participation
+    label: Participation
+    class: far fa-user-friends
+  quiz: &icon_quiz
+    label: Quiz
+    class: far fa-edit
+  exam: &icon_exam
+    label: Exam
+    class: far fa-tasks
+  date: &icon_date
+    label: Date
+    class: far fa-calendar-alt
+
+# icons that don't need a legend
+icons_special:
+  warning: &icon_warning
+    label: Warning
+    class: fas fa-exclamation-triangle
+  youtube: &icon_youtube
+    label: YouTube
+    class: fab fa-youtube
+  pending: &icon_pending
+    label: Pending
+    class: far fa-question-square
+
+# reusable assignments
+assignments:
+  - argumentmap: &hw_argumentmap
+      text: ArgumentMap
+      icon: *icon_homework
+      link: https://github.com/
+      date: 2019-02-01
+
+# schedule
+weeks:
+- week: 1
+  days:
+    - type: Lecture
+      date: 2019-01-22
+      resources:
+      - text: Course Syllabus
+        link: /syllabus.html
+        icon: *icon_website
+      - text: Project Euler
+        icon: *icon_code
+        type: grey
+    - type: Lecture
+      date: 2019-01-24
+      resources:
+      - text: File IO
+        icon: *icon_pending
+        type: grey
+      - text: Exceptions
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-01-25
+      resources:
+      - <<: *hw_argumentmap
+      deadlines:
+      - text: Project Euler
+        icon: *icon_code
+
+- week: 2
+  days:
+    - type: Lecture
+      date: 2019-01-29
+      resources:
+      - text: Data Structures
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Add Deadline
+        icon:
+          class: far fa-calendar-plus
+        date: 2019-01-28
+    - type: Lecture
+      date: 2019-01-31
+      resources:
+      - text: Iteration
+        icon: *icon_pending
+        type: grey
+      - text: Search
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-02-01
+      resources:
+      - text: JSONWriter
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - <<: *hw_argumentmap
+
+- week: 3
+  days:
+    - type: Lecture
+      date: 2019-02-05
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-02-07
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-02-08
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 4
+  days:
+    - type: Lecture
+      date: 2019-02-12
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-02-14
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-02-15
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 5
+  days:
+    - type: Lecture
+      date: 2019-02-19
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-02-21
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-02-22
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 6
+  days:
+    - type: Lecture
+      date: 2019-02-26
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-02-28
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-03-01
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 7
+  days:
+    - type: Lecture
+      date: 2019-03-05
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-03-07
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-03-08
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 8
+  days:
+    - type: Lecture
+      date: 2019-03-12
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-03-14
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-03-15
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 9
+  days:
+    - type: Lecture
+      date: 2019-03-19
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-03-21
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-03-22
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 10
+  days:
+    - type: Lecture
+      date: 2019-03-26
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-03-28
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-03-29
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 11
+  days:
+    - type: Lecture
+      date: 2019-04-02
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-04-04
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-04-05
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 12
+  days:
+    - type: Lecture
+      date: 2019-04-09
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-04-11
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-04-12
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 13
+  days:
+    - type: Lecture
+      date: 2019-04-16
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-04-18
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-04-19
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 14
+  days:
+    - type: Lecture
+      date: 2019-04-23
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-04-25
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-04-26
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 15
+  days:
+    - type: Lecture
+      date: 2019-04-30
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-05-02
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-05-03
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- week: 16
+  days:
+    - type: Lecture
+      date: 2019-05-07
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lecture
+      date: 2019-05-09
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Lab
+      date: 2019-05-10
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+- text: Finals
+  days:
+    - type: Finals Week
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Finals Week
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+    - type: Finals Week
+      resources:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+      deadlines:
+      - text: Pending
+        icon: *icon_pending
+        type: grey
+
+# assignments
+# argumentmap: &argumentmap
+#   text: ArgumentMap
+#   link: https://usfca.instructure.com/courses/1582958/assignments/6818764
+#   icon: far fa-file-code
+#
+
+
+
+
+# - week: 1
+#   lectures:
+#     - date: 2018-08-21
+#       resources:
+#       - text: 'Course Introduction'
+#         link: '/syllabus.html'
+#         icon: 'fas fa-atlas'
+#       - text: 'Project Euler'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/ProjectEuler'
+#         icon: 'far fa-code'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/o63li6OzzhzWNjbX071C-erJMOc2YT704MPvmliesGuwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/Gt-kqWpgWyK0c6PrZHM4IrfMVTO-IzQvrEVzYAX_Ar-wIumekTziMw'
+#       deadlines:
+#       - text: 'Due: Lab Survey'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2329036'
+#         icon: 'far fa-edit'
+#       - text: 'Due: Piazza Setup'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782072'
+#         icon: 'far fa-user-friends'
+#     - date: 2018-08-23
+#       resources:
+#       - text: 'Course Guides'
+#         link: '/guides.html'
+#         icon: 'fas fa-atlas'
+#       - text: 'Files, Exceptions'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Files%20and%20Exceptions'
+#         icon: 'far fa-code'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/HL5D8oJwkzNcdMo-jJBKmeQktaY7M2-VLunaSpKa8mY'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/KAx_7v-eTuHLDJsMqHXgUzqaUyvgpbVR5nUztblsWmc'
+#       - text: 'ArgumentMap'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779414'
+#         icon: 'far fa-file-code'
+#         bump: true
+#   labs:
+#     resources:
+#       - text: 'No Labs in Week 01'
+#         link: false
+#         icon: 'fas fa-exclamation-triangle'
+#         type: 'danger'
+# - week: 2
+#   lectures:
+#     - date: 2018-08-28
+#       resources:
+#       - text: 'Data Structures'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Data%20Structures'
+#         icon: 'far fa-code'
+#       - text: 'Data Structures - Types'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upQThpbGphTXlTTEk'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Data Structures - Framework'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_updENzRGRoRnQ0UEU'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/hiT0Eh1jrXo-wjlze6smQGw45Th90fPGHbmI-1d2exuwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/qcyEHjEX9EpwsJbFTFcvA8UBt5XP-CU2e788ptN9ALGwIumekTziMw'
+#       - text: 'Project 1'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
+#         icon: 'far fa-project-diagram'
+#         bump: true
+#       deadlines:
+#       - date: 2018-08-27
+#         text: 'Add Deadline'
+#         link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
+#         icon: 'far fa-calendar-plus'
+#         type: 'grey'
+#     - date: 2018-08-30
+#       resources:
+#       - text: 'Data Structures'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Data%20Structures'
+#         icon: 'far fa-code'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/nlQ1ovmqQp2FPIzfHhYj67FAW08f222SMN4o9pXhbhOwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/MOJLE2igoeAxa9ZiyCe-18cKw-_4vo2uLW4zQjzbzsSwIumekTziMw'
+#       - text: 'Quiz: Data Structures'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330327'
+#         icon: 'far fa-edit'
+#         bump: true
+#       - text: 'WordIndex'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
+#         icon: 'far fa-file-code'
+#       deadlines:
+#       - date: false
+#         text: 'Due: ArgumentMap'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779414'
+#         icon: 'far fa-file-code'
+#   labs:
+#     resources:
+#       - text: 'Project 1'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'ArgumentMap'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779414'
+#         icon: 'far fa-file-code'
+#       - text: 'WordIndex'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 02 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779468'
+#         icon: 'far fa-laptop-code'
+# - week: 3
+#   lectures:
+#     - date: 2018-09-04
+#       resources:
+#       - text: 'OOP Terminology'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upZmY5OFpfZXl3ZVU'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Object Oriented Programming'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/OOP%20Principles'
+#         icon: 'far fa-code'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/LDFn5lvOQP7cTs0ZWC91gfR8q-06rQ8FXJSsOBGyf5GwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/lrzHS40BQ9Y-A3wNl1bn9Kn2vfXaBzZWuANJAyRl22OwIumekTziMw'
+#     - date: 2018-09-06
+#       resources:
+#       - text: 'Object Oriented Programming'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/OOP%20Principles'
+#         icon: 'far fa-code'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/x7t_zRut5iKUoC3uk7L8ZJj0PUpJ_6ISr5WX_9uTNHywIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/p5Z-ST0vBxsYeyInC1r8RjaBL8kPEAPBTRiUcSb990-wIumekTziMw'
+#       - text: 'Quiz: Instances'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330550'
+#         icon: 'far fa-edit'
+#         bump: true
+#       - text: 'Quiz: Members'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330552'
+#         icon: 'far fa-edit'
+#       - text: 'Quiz: Mutability, Part 1'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330548'
+#         icon: 'far fa-edit'
+#       - text: 'Quiz: Mutability, Part 2'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330542'
+#         icon: 'far fa-edit'
+#       - text: 'TreeJSONWriter'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
+#         icon: 'far fa-file-code'
+#         bump: true
+#       deadlines:
+#       - date: false
+#         text: 'Due: WordIndex'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
+#         icon: 'far fa-file-code'
+#       - text: 'Due: Data Structures'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330327'
+#         icon: 'far fa-edit'
+#       - date: 2018-09-07
+#         text: 'Drop Deadline'
+#         link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
+#         icon: 'far fa-calendar-minus'
+#         type: 'grey'
+#   labs:
+#     resources:
+#       - text: 'Project 1'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'WordIndex'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779415'
+#         icon: 'far fa-file-code'
+#       - text: 'TreeJSONWriter'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 03 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782015'
+#         icon: 'far fa-laptop-code'
+# - week: 4
+#   lectures:
+#     - date: 2018-09-11
+#       resources:
+#       - text: 'Project Testing'
+#         link: '/guides/project-testing.html'
+#         icon: 'far fa-atlas'
+#       - text: 'Project Functionality'
+#         link: '/guides/project-functionality.html'
+#         icon: 'far fa-atlas'
+#       - text: 'Inheritance'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Inheritance'
+#         icon: 'far fa-code'
+#         bump: true
+#       - text: 'Introduction to Inheritance'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upbFlMM2E0bWhwVnc'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Object Revisited'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upZ0ZnYm5iT2hjOXc'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'The Final Keyword'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upTXU2b1BQcWRFcjQ'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Abstract Classes and Interfaces'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upM0Z4MVZLbXdWb3M'
+#         icon: 'far fa-chalkboard-teacher'
+#         bump: true
+#       - text: 'Collections Revisited'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upaFM2bUkwSnVoZ1k'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/IHn-Hj3K4Z86SH_ymVFfEPvpdOZJhj9X4xJFt8xd2yGwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/MmVkG6dY6HQbIIvGEmgPSb-7bSLbt_qxcmG8dN8_O52wIumekTziMw'
+#       - text: 'Quiz: Final Keyword'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330518'
+#         icon: 'far fa-edit'
+#         bump: true
+#       - text: 'Quiz: Collections Revisited'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330541'
+#         icon: 'far fa-edit'
+#       - text: 'Quiz: Casting'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330556'
+#         icon: 'far fa-edit'
+#     - date: 2018-09-13
+#       resources:
+#       - text: 'Inheritance'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Inheritance'
+#         icon: 'far fa-code'
+#       - text: 'Casting'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upempmQWFJd0xFWjg'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Nested Classes'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upWFpPd25oYjNjd00'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Generics'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upS3M1Z0Qxd0NfUWs'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/YAFR_5iQFr3ahGP5Hl1szOQsa9XU6IOQtkok79-bMg6wIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/dQ9xT4OdirOSppWpyOm0E9wzZjRgtIzlORojEPWTHfuwIumekTziMw'
+#       - text: 'Quiz: Inheritance Terminology'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330549'
+#         icon: 'far fa-edit'
+#         bump: true
+#       - text: 'TextFileStemmer'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
+#         icon: 'far fa-file-code'
+#         bump: true
+#       deadlines:
+#       - text: 'Due: Instances'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330550'
+#         icon: 'far fa-edit'
+#       - text: 'Due: Members'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330552'
+#         icon: 'far fa-edit'
+#       - text: 'Due: Mutability, Part 1'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330548'
+#         icon: 'far fa-edit'
+#       - text: 'Due: Mutability, Part 2'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330542'
+#         icon: 'far fa-edit'
+#       - date: false
+#         text: 'Due: TreeJSONWriter'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
+#         icon: 'far fa-file-code'
+#   labs:
+#     resources:
+#       - text: 'Project 1'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'TreeJSONWriter'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779416'
+#         icon: 'far fa-file-code'
+#       - text: 'TextFileStemmer'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 04 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782019'
+#         icon: 'far fa-laptop-code'
+# - week: 5
+#   lectures:
+#     - date: 2018-09-18
+#       resources:
+#       - text: 'Project 2'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'Java Versions'
+#         link: 'https://drive.google.com/open?id=19sbAraldveqQ5jQGn9zGEr1ANtEkvW1S'
+#         icon: 'far fa-chalkboard-teacher'
+#         bump: true
+#       - text: 'Lambda Expressions'
+#         link: 'https://drive.google.com/open?id=1PF9o9JhsDhJR3Zna3rGli2aJcX-oa504'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Lambda Expressions'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Lambdas%20and%20Streams'
+#         icon: 'far fa-code'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/ECgIWlIsU4VH33wFit9xXLXdYIAWBfCW-F6pxmPiJrqwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/3v0OKK2RkKfSSZ5eh1mUJ8ijIX99k61MJ-lfdJUqlE2wIumekTziMw'
+#       - text: 'Quiz: Lambda Expressions'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330833'
+#         icon: 'far fa-edit'
+#         bump: true
+#       deadlines:
+#       - text: 'Due: Final Keyword'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330518'
+#         icon: 'far fa-edit'
+#       - text: 'Due: Collections Revisited'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330541'
+#         icon: 'far fa-edit'
+#       - text: 'Due: Casting'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330556'
+#         icon: 'far fa-edit'
+#       - date: false
+#         text: 'Project 1 Checkpoint'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
+#         icon: 'far fa-project-diagram'
+#         type: 'info'
+#     - date: 2018-09-20
+#       resources:
+#       - text: 'MovieSorter'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
+#         icon: 'far fa-file-code'
+#       - text: 'Streams - Introduction'
+#         link: 'https://drive.google.com/open?id=1HQlACG3kzarpDsQ8Gzq8XVB8cSnp2_kO'
+#         icon: 'far fa-chalkboard-teacher'
+#         bump: true
+#       - text: 'Streams - Pipelines'
+#         link: 'https://drive.google.com/open?id=1A4f-lNTZkFUhgJ3EaoI0SDPrAIkpK4gP'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Streams'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Lambdas%20and%20Streams'
+#         icon: 'far fa-code'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/qEOw2ELqIwWQij_RjaGtcYL0dyQAcTU5xgWJDVZtqd-wIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/-wD1RqPrOWfSeP4ZooLwgZpdGjXl9YZSGGX7JxIeCMiwIumekTziMw'
+#       deadlines:
+#       - text: 'Due: Inheritance Terminology'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330549'
+#         icon: 'far fa-edit'
+#       - text: 'Due: TextFileStemmer'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
+#         icon: 'far fa-file-code'
+#   labs:
+#     resources:
+#       - text: 'Project 1'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'Project 2'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'TextFileStemmer'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779418'
+#         icon: 'far fa-file-code'
+#       - text: 'MovieSorter'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 05 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782020'
+#         icon: 'far fa-laptop-code'
+# - week: 6
+#   lectures:
+#     - date: 2018-09-25
+#       resources:
+#       - text: 'Exam 1 Review'
+#         link: '/guides/exam-1.html'
+#         icon: 'far fa-atlas'
+#       - text: 'Testing - Motivation'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upN09pQTBXbmxveGM'
+#         icon: 'far fa-chalkboard-teacher'
+#         bump: true
+#       - text: 'Testing - Approaches'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upQnNKQnRBU1dlbk0'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Testing - Unit Testing'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upNlZlU1FVTzYtWnc'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Debugging'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Debugging'
+#         icon: 'far fa-code'
+#         bump: true
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/tbgTIs4A9QcCTResEadVN9l6W3PsZPhLVM4291hNxCuwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/Yyz2aERG99QbbSkUvKezeArBzEdXKbxhhZ7dMtaOsIOwIumekTziMw'
+#       - text: 'Quiz: Unit Testing'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330917'
+#         icon: 'far fa-edit'
+#         bump: true
+#       deadlines:
+#       - text: 'Due: Lambda Expressions'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330833'
+#         icon: 'far fa-edit'
+#     - date: 2018-09-27
+#       resources:
+#       - text: 'Debugging - Assertions'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upbWRtbVd6bVVRZ0k'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Debugging - Logging'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upZnc3LTYyOHlsbmM'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Debugging'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Debugging'
+#         icon: 'far fa-code'
+#         bump: true
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/YQbaH5ky_NYzPDDMOyVpJnRLdBoSjlfoc7oyY5VquhewIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/jDz9Qhf5SJlsUWzDzcx1J2U3pZsZ3R20Xt8Hktb-kkiwIumekTziMw'
+#       - text: 'Quiz: Debugging'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330532'
+#         icon: 'far fa-edit'
+#         bump: true
+#       - text: 'LoggerSetup'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779420'
+#         icon: 'far fa-file-alt'
+#       deadlines:
+#       - date: false
+#         text: 'Due: MovieSorter'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
+#         icon: 'far fa-file-code'
+#   labs:
+#     resources:
+#       - text: 'Project 1'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-1.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'Project 2'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'MovieSorter'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779419'
+#         icon: 'far fa-file-code'
+#       - text: 'LoggerSetup'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779420'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 06 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782021'
+#         icon: 'far fa-laptop-code'
+# - week: 7
+#   lectures:
+#     - date: 2018-10-02
+#       resources:
+#       - text: 'Exam 1'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331009'
+#         icon: 'far fa-tasks'
+#         type: 'danger'
+#       deadlines:
+#       - text: 'Due: Unit Testing'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330917'
+#         icon: 'far fa-edit'
+#     - date: 2018-10-04
+#       resources:
+#       - text: 'Exam 1 Retake'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2331040'
+#         icon: 'far fa-tasks'
+#         type: 'danger'
+#       deadlines:
+#       - text: 'Due: Debugging'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330532'
+#         icon: 'far fa-edit'
+#       - date: false
+#         text: 'Due: LoggerSetup'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779420'
+#         icon: 'far fa-file-code'
+#   labs:
+#     resources:
+#       - text: 'No Labs in Week 07'
+#         link: false
+#         icon: 'fas fa-exclamation-triangle'
+#         type: 'danger'
+# - week: 8
+#   lectures:
+#     - date: 2018-10-09
+#       resources:
+#       - text: 'Multithreading - Introduction'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upbEhHOTFSODFZcDg'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Multithreading - Synchronization'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Multithreading - Thread Liveness'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upNkNlWGl5VnU3RVE'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Multithreading Basics'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Basics'
+#         icon: 'far fa-code'
+#         bump: true
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/T52n4vJUjoHaJErZnStTdTbLW7HgMm0yntFb4qvZ41CwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/8Gn9cY8Q9IavcZfhhGtgi2NQdpmLSrcqA_HSjHp8X5qwIumekTziMw'
+#       - text: 'Project 3'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
+#         icon: 'far fa-project-diagram'
+#         bump: true
+#       - text: 'Quiz: Thread Basics'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330523'
+#         icon: 'far fa-edit'
+#         bump: true
+#       deadlines:
+#       - date: false
+#         text: 'Project 2 Checkpoint'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
+#         icon: 'far fa-project-diagram'
+#         type: 'info'
+#       - date: false
+#         text: 'Due: Piazza Participation 1'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6786309'
+#         icon: 'far fa-user-friends'
+#       - date: false
+#         text: 'Due: CS Event Participation 1'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6790468'
+#         icon: 'far fa-user-friends'
+#     - date: 2018-10-11
+#       resources:
+#       - text: 'Multithreading - Synchronization'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upMHp2MDl6RTc0aWM'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Multithreading - Custom Locks'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upVTRzMnRpTndqcDg'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Synchronization'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Synchronization'
+#         icon: 'far fa-code'
+#         bump: true
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/KuQZINxRYjUqHO7aTJhogTESLii9Mif9DlXVbyNQSLOwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/j-JIj-MfFPKFVDohMPLveIbNQN8ibHXwd_8NSxOHhw2wIumekTziMw'
+#       - text: 'ReadWriteLock'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779421'
+#         icon: 'far fa-file-code'
+#         bump: true
+#       - text: 'Quiz: Synchronization'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330559'
+#         icon: 'far fa-edit'
+#         bump: true
+#   labs:
+#     resources:
+#       - text: 'Project 2'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'Project 3'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'ReadWriteLock'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779421'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 08 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782032'
+#         icon: 'far fa-laptop-code'
+# - week: 9
+#   lectures:
+#     - date: 2018-10-16
+#       resources:
+#       - text: 'Fall Break (No Class)'
+#         link: false
+#         icon: 'far fa-umbrella-beach'
+#         type: 'grey'
+#       deadlines:
+#       - text: 'Due: Thread Basics'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330523'
+#         icon: 'far fa-edit'
+#     - date: 2018-10-18
+#       resources:
+#       - text: 'The Volatile Keyword'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upVUgza255MzVCSVU'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Thread Pools and Work Queues'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upbnlWWDFFRlRvWVU'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Work Queues'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Multithreading%20Work%20Queues'
+#         icon: 'far fa-code'
+#         bump: true
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/rqFZJG9RxF1il35gi0hyFNsoW_y8XpoESxceAq-tf7-wIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/EiSxda54RS30EK8durWzYq6RxAQ6SaUXgoZS4GYO9RiwIumekTziMw'
+#       - text: 'PrimeFinder'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779422'
+#         icon: 'far fa-file-code'
+#         bump: true
+#       - text: 'Work Queues'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330555'
+#         icon: 'far fa-edit'
+#         bump: true
+#       deadlines:
+#       - date: false
+#         text: 'Due: ReadWriteLock'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779421'
+#         icon: 'far fa-file-code'
+#       - text: 'Due: Synchronization'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330559'
+#         icon: 'far fa-edit'
+#   labs:
+#     resources:
+#       - text: 'No Labs in Week 09'
+#         link: false
+#         icon: 'fas fa-exclamation-triangle'
+#         type: 'danger'
+# - week: 10
+#   lectures:
+#     - date: 2018-10-23
+#       resources:
+#       - text: 'CS 212 Alumni Interviews'
+#         link: 'https://usfca.instructure.com/courses/1579367/discussion_topics'
+#         icon: 'far fa-user-graduate'
+#         type: 'primary'
+#       deadlines:
+#       - date: false
+#         text: 'Due: CS 212 Alumni Interviews'
+#         link: 'https://usfca.instructure.com/courses/1579367/discussion_topics'
+#         icon: 'far fa-user-graduate'
+#         type: 'primary'
+#       - date: false
+#         text: 'Sophie @ IEEE VIS'
+#         link: false
+#         icon: 'far fa-plane-departure'
+#         type: 'grey'
+#     - date: 2018-10-25
+#       resources:
+#       - text: 'Multithreading Demo'
+#         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF1gz79T_7SaqTRzcWKAV7CQ'
+#         icon: 'fab fa-youtube'
+#       - text: 'World Wide Web'
+#         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF2VBZ1DNto-e6lG_zggopxz'
+#         icon: 'fab fa-youtube'
+#       - text: 'Regular Expressions'
+#         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF0-si4t072pEON5BNVyss2g'
+#         icon: 'fab fa-youtube'
+#       - text: 'Regular Expressions'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Regular%20Expressions'
+#         icon: 'far fa-code'
+#         bump: true
+#       - text: 'Web Basics'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330558'
+#         icon: 'far fa-edit'
+#         bump: true
+#       - text: 'HTTP'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330531'
+#         icon: 'far fa-edit'
+#       - text: 'HTMLCleaner'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
+#         icon: 'far fa-file-code'
+#         bump: true
+#       deadlines:
+#       - text: 'Due: Work Queues'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330555'
+#         icon: 'far fa-edit'
+#       - text: 'Due: PrimeFinder'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779422'
+#         icon: 'far fa-file-code'
+#       - text: 'Sophie @ IEEE VIS'
+#         link: false
+#         icon: 'far fa-plane-departure'
+#         type: 'grey'
+#   labs:
+#     resources:
+#       - text: 'Project 2'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-2.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'Project 3'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'PrimeFinder'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779422'
+#         icon: 'far fa-file-code'
+#       - text: 'HTMLCleaner'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 10 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782034'
+#         icon: 'far fa-laptop-code'
+# - week: 11
+#   lectures:
+#     - date: 2018-10-30
+#       resources:
+#       - text: 'Regular Expressions'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Regular%20Expressions'
+#         icon: 'far fa-code'
+#       - text: 'Regex Basics'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330545'
+#         icon: 'far fa-edit'
+#         bump: true
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/FSFN0K6sXWWmcKMAqtT7DW9qUUfuCpo7CsJwscSiR3qwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/9XTLM0_UtmNGBvJP1EB0wOiBJmPdWyQWl4-hzJuLhBKwIumekTziMw'
+#     - date: 2018-11-01
+#       resources:
+#       - text: 'Sockets'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Sockets'
+#         icon: 'far fa-code'
+#       - text: 'LinkParser'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
+#         icon: 'far fa-file-code'
+#         bump: true
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/GfH7wyCwZn2togRQc9vEQbgQOSrR5RY6SClnPZDAuG6wIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/ucQoESlZ4cqhj9u9MLdlH9XL_d3Ic4q0cWT9UckRgImwIumekTziMw'
+#       deadlines:
+#       - text: 'Due: Web Basics'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330558'
+#         icon: 'far fa-edit'
+#       - text: 'Due: HTTP'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330531'
+#         icon: 'far fa-edit'
+#       - date: 2018-11-01
+#         text: 'Project Cutoff'
+#         link: '/syllabus.html#pass-requirements'
+#         icon: 'far fa-calendar-check'
+#         type: 'danger'
+#       - date: 2018-11-02
+#         text: 'Withdraw Deadline'
+#         link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
+#         icon: 'far fa-calendar-minus'
+#         type: 'grey'
+#   labs:
+#     resources:
+#       - text: 'Project 3'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'HTMLCleaner'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
+#         icon: 'far fa-file-code'
+#       - text: 'LinkParser'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 11 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782035'
+#         icon: 'far fa-laptop-code'
+# - week: 12
+#   lectures:
+#     - date: 2018-11-06
+#       resources:
+#       - text: 'Dynamic Webpages - Introduction'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upY1ozdHk5VVYycUE'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Dynamic Webpages - Servlets'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upZFFPWUZocmdtLWM'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Servlets'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Servlets'
+#         icon: 'far fa-code'
+#         bump: true
+#       - text: 'Context Server'
+#         link: 'https://youtu.be/kJDmEom17-Q'
+#         icon: 'fab fa-youtube'
+#       - text: 'Project 4 Web Crawler'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
+#         icon: 'far fa-project-diagram'
+#         bump: true
+#       - text: 'Quiz: Jetty'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330533'
+#         icon: 'far fa-edit'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/heElCEGOKuKLIfX4UUlkk4qCZfie27WxqRB-dvQCElWwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/Hzxhqppdk8_e_U6tu47d8GviEpmsmrIAT8WinCRTcmCwIumekTziMw'
+#       deadlines:
+#       - date: false
+#         text: 'Project 3 Checkpoint'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
+#         icon: 'far fa-project-diagram'
+#         type: 'info'
+#       - text: 'Due: Regex Basics'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330545'
+#         icon: 'far fa-edit'
+#     - date: 2018-11-08
+#       resources:
+#       - text: 'Sessions'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Sessions'
+#         icon: 'far fa-code'
+#       - text: 'Adventure Game'
+#         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF1CKRtwPBPli05W51srMZpH'
+#         icon: 'fab fa-youtube'
+#       - text: 'HTMLFetcher'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
+#         icon: 'far fa-file-code'
+#         bump: true
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/9EBLtDWnnvME8ASgvi5UpwHO38z2F3cOUich5ZX0gPawIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/LTPTRwBCRjJ7znqafXVAEemENEprjp3XJUI43RFX_KmwIumekTziMw'
+#       deadlines:
+#       - text: 'Due: HTMLCleaner'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
+#         icon: 'far fa-file-code'
+#       - text: 'Due: LinkParser'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
+#         icon: 'far fa-file-code'
+#   labs:
+#     resources:
+#       - text: 'Project 3'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'Project 4'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'HTMLCleaner'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779423'
+#         icon: 'far fa-file-code'
+#       - text: 'LinkParser'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779424'
+#         icon: 'far fa-file-code'
+#       - text: 'HTMLFetcher'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 12 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782036'
+#         icon: 'far fa-laptop-code'
+# - week: 13
+#   lectures:
+#     - date: 2018-11-13
+#       resources:
+#       - text: 'Relational Databases'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upQkdxdlZCOUZSYm8'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Structured Query Language (SQL)'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upblRyQ09qU1ExQkE'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'SQL Intro Demo'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/wiki/SQL-Intro-Demo'
+#         icon: 'far fa-atlas'
+#         bump: true
+#       - text: 'SQL Database Accounts'
+#         link: 'https://usfca.instructure.com/courses/1579367/pages/database-accounts'
+#         icon: 'far fa-database'
+#         type: 'success'
+#         bump: true
+#       - text: 'Quiz: SQL Grouping'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330520'
+#         icon: 'far fa-edit'
+#         bump: true
+#       - text: 'Quiz: SQL Joins'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330521'
+#         icon: 'far fa-edit'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/b1bjRLCGSDVFBUjq2I0-Few53ZPbC42lHkvz0wPZuLCwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/Qb7Xo6b75etIf5ZBt5ax9HkjRsNvfzjUaeTMHpFbUbiwIumekTziMw'
+#       deadlines:
+#       - date: false
+#         text: 'Due: Jetty'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330533'
+#         icon: 'far fa-edit'
+#     - date: 2018-11-15
+#       resources:
+#       - text: 'SQL Intro Demo'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/wiki/SQL-Intro-Demo'
+#         icon: 'far fa-atlas'
+#       - text: 'SQL Faculty Demo'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/wiki/SQL-Faculty-Demo'
+#         icon: 'far fa-atlas'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/qv3VfH48htsvhJ2LjYKpQ9BIIUiOYqwDHqzvVFboJn2wIumekTziMw'
+#         bump: true
+#       deadlines:
+#       - text: 'Due: HTMLFetcher'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
+#         icon: 'far fa-file-code'
+#   labs:
+#     resources:
+#       - text: 'Project 3'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-3.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'Project 4'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'HTMLFetcher'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6779425'
+#         icon: 'far fa-file-code'
+#     deadlines:
+#       - date: false
+#         text: 'Due: Week 13 Lab'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6782037'
+#         icon: 'far fa-laptop-code'
+# - week: 14
+#   lectures:
+#     - date: 2018-11-20
+#       resources:
+#       - text: 'Final Code Review Signup'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+#         icon: 'far fa-info-circle'
+#       - text: 'Project 4 Search Engine'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
+#         icon: 'far fa-project-diagram'
+#         bump: true
+#       - text: 'Exam 2 Review'
+#         link: '/guides/exam-2.html'
+#         icon: 'far fa-atlas'
+#         bump: true
+#       deadlines:
+#       - text: 'Due: SQL Grouping'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330520'
+#         icon: 'far fa-edit'
+#       - text: 'Due: SQL Joins'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2330521'
+#         icon: 'far fa-edit'
+#     - date: 2018-11-22
+#       resources:
+#       - text: 'Thanksgiving Break (No Class)'
+#         link: false
+#         icon: 'far fa-utensils'
+#         type: 'grey'
+#   labs:
+#     resources:
+#       - text: 'No Labs in Week 14'
+#         link: false
+#         icon: 'fas fa-exclamation-triangle'
+#         type: 'danger'
+# - week: 15
+#   lectures:
+#     - date: 2018-11-27
+#       resources:
+#       - text: 'Exam 2'
+#         link: 'https://usfca.instructure.com/courses/1579367/quizzes/2332059'
+#         icon: 'far fa-tasks'
+#         type: 'danger'
+#       deadlines:
+#       - text: 'Project 4 Checkpoint'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
+#         icon: 'far fa-project-diagram'
+#         type: 'info'
+#     - date: 2018-11-29
+#       resources:
+#       - text: 'Exam 2 Retake'
+#         link: false
+#         icon: 'far fa-tasks'
+#         type: 'danger'
+#   labs:
+#     resources:
+#       - text: 'No Labs in Week 15'
+#         link: false
+#         icon: 'fas fa-exclamation-triangle'
+#         type: 'danger'
+# - week: 16
+#   lectures:
+#     - date: 2018-12-04
+#       resources:
+#       - text: 'Java Database Connectivity (JDBC)'
+#         link: 'https://drive.google.com/open?id=0BxYofk0iB_upNUp2V1BiWGw3NlU'
+#         icon: 'far fa-chalkboard-teacher'
+#       - text: 'Jetty and JDBC'
+#         link: 'https://github.com/usf-cs212-fall2018/lectures/tree/master/Jetty%20and%20JDBC'
+#         icon: 'far fa-code'
+#       - text: 'Login Demo (Old)'
+#         link: 'https://www.youtube.com/playlist?list=PLm6V-0HXZmF3iA7aZw7ueSWIgEahClJPb'
+#         icon: 'fab fa-youtube'
+#         bump: true
+#       - text: 'Course Feedback (Informal)'
+#         link: 'https://goo.gl/forms/QWkat66YF1LVfeKo2'
+#         icon: 'fab fa-google-drive'
+#         bump: true
+#       - text: 'Course Evaluation (Official)'
+#         icon: 'far fa-edit'
+#         link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
+#       - text: 'Final Code Review Signup'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+#         icon: 'far fa-info-circle'
+#         bump: true
+#       - text: 'Project 4 Search Engine'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/project-4.html'
+#         icon: 'far fa-project-diagram'
+#       - text: 'CS 212-01 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/lIfieBpTDbo2sC-1SiQmzwhGRKbBmq3762_M27sqszmwIumekTziMw'
+#         bump: true
+#       - text: 'CS 212-02 Recording'
+#         icon: 'far fa-video'
+#         link: 'https://usfca.zoom.us/recording/share/U3B6iM3fSrO0ucJqitSB-t3fJsSYttzq6VErvRy6x6CwIumekTziMw'
+#       deadlines:
+#       - date: false
+#         text: 'Last Day of Class'
+#         link: false
+#         icon: 'far fa-calendar-alt'
+#         type: 'grey'
+#       - date: false
+#         text: 'Code Review Issue Cutoff'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+#         icon: 'far fa-calendar-check'
+#         type: 'danger'
+#       - date: false
+#         text: 'Due: Piazza Participation 2'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6786336'
+#         icon: 'far fa-user-friends'
+#     - date: 2018-12-06
+#       resources:
+#       - text: 'Review Day (No Class)'
+#         link: false
+#         icon: 'far fa-calendar-times'
+#         type: 'grey'
+#       deadlines:
+#       - date: 2018-12-05
+#         text: 'Code Review Cutoff'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+#         icon: 'far fa-calendar-check'
+#         type: 'danger'
+#       - date: 2018-12-06
+#         text: 'Verification Issue Cutoff'
+#         link: 'https://usf-cs212-fall2018.github.io/guides/final-code-review.html'
+#         icon: 'far fa-calendar-check'
+#         type: 'danger'
+#       - date: 2018-12-06
+#         text: 'CS Night'
+#         link: 'http://usfblogs.usfca.edu/usfcs/2018/11/16/17th-annual-computer-science-night/'
+#         icon: 'far fa-calendar-alt'
+#         type: 'primary'
+#         bump: true
+#       - date: 2018-12-07
+#         text: 'Due: CS Event Participation 2'
+#         link: 'https://usfca.instructure.com/courses/1579367/assignments/6790463'
+#         icon: 'far fa-user-friends'
+#   labs:
+#     resources:
+#       - text: 'No Labs in Week 16'
+#         link: false
+#         icon: 'fas fa-exclamation-triangle'
+#         type: 'danger'

@@ -1,0 +1,19 @@
+<section class="hero is-dark is-bold">
+  <div class="is-7 has-text-grey" style="position: absolute; top: 0; right: 1em;">
+    <sub>Last Build: {{ 'now' | date: '%m/%d/%y %l:%M%P' }}</sub>
+  </div>
+
+
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        {{ site.data.course.name }}
+      </h1>
+      <h2 class="subtitle">
+        {{ site.data.course.code }} &bull; {{ site.data.course.term }}
+      </h2>
+
+      {% include navigation.html %}
+    </div> <!-- end container -->
+  </div> <!-- end hero -->
+</section>

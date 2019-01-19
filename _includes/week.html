@@ -1,0 +1,92 @@
+<!-- start week {{ week.week }} -->
+<div class="columns schedule">
+  <div class="column is-narrow">
+    <div class="heading" id="week-{{ week.week }}{{ week.text | slugify }}">
+      <span class="week">
+        {%- if week.week %}
+        Week {% if week.week < 10 %}0{% endif %}{{ week.week }}
+        {%- else %}
+        {{ week.text }}
+        {%- endif %}
+      </span>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="tile is-ancestor">
+
+      {%- for day in week.days %}
+      <div class="tile is-parent is-4 is-vertical">
+        <div class="tile is-child">
+          <div class="heading">
+            {%- if day.date %}
+            {{ day.date | date: "%A %m/%d" }} {{ day.type }}
+            {%- else %}
+            {{ day.type }}
+            {%- endif %}
+          </div>
+
+          {%- if day.resources %}
+          <ul class="icons">
+            {%- for item in day.resources %}
+            <li {% if item.type %}class="has-text-{{ item.type }}"{% endif %}>
+              {%- if item.icon %}
+              <span class="li-icon">
+                <i class="fa-fw {{ item.icon.class }}"></i>
+              </span>
+              {%- endif %}
+              {%- if item.link %}
+              <a href="{{ item.link }}">
+                {{ item.text }}
+              </a>
+              {%- else %}
+              {{ item.text }}
+              {%- endif %}
+            </li>
+            {%- endfor %}
+          </ul>
+          {%- endif %}
+        </div>
+
+        {%- if day.deadlines %}
+        <div class="tile is-child">
+          <div class="heading">
+            Dates and Deadlines
+          </div>
+
+          <ul class="icons">
+            {%- for item in day.deadlines %}
+            <li {% if item.type %}class="has-text-{{ item.type }}"{% endif %}>
+              <span class="li-icon">
+              {%- if item.icon %}
+                <i class="fa-fw {{ item.icon.class }}"></i>
+              {%- else %}
+                <i class="fa-fw far fa-question-square"></i>
+              {%- endif %}
+              </span>
+              {%- if item.date %}
+              {%- if item.date == day.date %}
+              <strong>Due:</strong>
+              {%- else %}
+              <strong>{{ item.date | date: "%m/%d" }}</strong>
+              {%- endif %}
+              {%- endif %}
+              {%- if item.link %}
+              <a href="{{ item.link }}">
+                {{ item.text }}
+              </a>
+              {%- else %}
+              {{ item.text }}
+              {%- endif %}
+            </li>
+            {%- endfor %}
+          </ul>
+        </div>
+        {%- endif %}
+
+      </div>
+      {%- endfor %}
+
+    </div>
+  </div>
+</div>

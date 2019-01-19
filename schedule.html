@@ -1,0 +1,43 @@
+---
+title: Schedule
+navbar: Schedule
+layout: default
+---
+
+<p>The following is the current weekly schedule. This schedule is subject to change and will be frequently updated throughout the semester. The latest deadlines may also be found on <a href="{{ site.data.course.canvas }}">Canvas</a>.</p>
+
+<!-- quick navigation -->
+<div class="buttons has-addons is-centered">
+  <a class="button is-small is-link is-outlined" disabled>
+    Weeks:
+  </a>
+
+  {% for week in site.data.schedule.weeks %}
+
+  <a class="button is-small is-link is-outlined" href="#week-{{ week.week }}{{ week.text | slugify }}">
+    {{ week.week }}{{ week.text }}
+  </a>
+  {%- endfor %}
+
+</div>
+
+{% comment %}
+{% for week in site.data.schedule.weeks %}
+{% include week.html week = week %}
+{% unless forloop.last %}<hr>{% endunless %}
+
+<!-- end week row -->
+
+{% endfor %}
+{% endcomment %}
+
+<!-- icon legend -->
+<div class="buttons">
+  {%- for icon in site.data.schedule.icons %}
+
+  <span class="button is-small is-static">
+    <i class="{{ icon[1].class }}"></i>&nbsp;{{ icon[1].label }}
+  </span>
+  {%- endfor %}
+
+</div>

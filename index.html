@@ -1,0 +1,55 @@
+---
+title: Home
+navbar: Home
+layout: default
+---
+
+<p>Welcome to the course website for <strong>{{ site.title }}</strong> for Spring 2019! You can find the <a href="{{ "syllabus.html" | relative_url }}">Syllabus</a> and <a href="{{ "schedule.html" | relative_url }}">Weekly Schedule</a> (including links to the lecture materials, assignments, and projects) on this site. Visit <a href="{{ site.data.course.canvas }}">Canvas</a> for grades and assignment submission. Visit <a href="{{ site.data.course.piazza }}">Piazza</a> for announcements and questions.</p>
+
+<h3>Upcoming Schedule</h3>
+
+<p>Here is the upcoming course schedule, which includes links to lecture material, assignments, and more:</p>
+
+{% comment %}
+{%- assign today = 'now' | date: '%s' -%}
+{%- assign beg_date = site.data.course.beg_date | date: '%s' -%}
+
+{%- if today < beg_date -%}
+  {%- assign beg_index = 0 -%}
+{%- else -%}
+  {%- assign beg_index = site.data.schedule.weeks | size | minus: 2 -%}
+  {%- assign found = false -%}
+  {%- for week in site.data.schedule.weeks limit:beg_index -%}
+    {%- for day in week.days -%}
+      {%- if day.date -%}
+        {%- assign as_seconds = day.date | date: '%s' -%}
+        {%- if today <= as_seconds -%}
+          {%- assign found = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- if found and forloop.index0 < beg_index -%}
+      {%- assign beg_index = forloop.index0 -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{% for week in site.data.schedule.weeks offset:beg_index limit:2 %}
+{% include week.html week = week %}
+{% endfor %}
+
+<br/>
+
+<p>This is subject to change and will be frequently updated throughout the semester. See the <a href="{{ "schedule.html" | relative_url }}">Weekly Schedule</a> for the full schedule.</p>
+
+<h3>Google Calendar</h3>
+
+<p>Here is the combined calendar for this course, which includes the latest office hours schedule, upcoming deadlines, and more:</p>
+
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cs.usfca.edu_3gh6b2i2l34rsh6mbcos8qrapg%40group.calendar.google.com&amp;color=%235A6986&amp;src=cs.usfca.edu_m4pfugives9824svmqi94vuchk%40group.calendar.google.com&amp;color=%235A6986&amp;src=gi8sa2psnbqbekm73joum1g7ei4ohq9a%40import.calendar.google.com&amp;color=%23333333&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+<p>The latest deadline schedule can also be viewed directly in <a href="{{ site.data.course.canvas }}">Canvas</a>.
+{% endcomment %}

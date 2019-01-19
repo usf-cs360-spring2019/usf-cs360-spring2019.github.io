@@ -1,0 +1,230 @@
+name: Data Visualization
+code: CS 360/560
+term: Spring 2019
+credits: 4
+
+github: https://github.com/usf-cs360-spring2019
+piazza: https://piazza.com/usfca/spring2019/cs360/home
+canvas: https://usfca.instructure.com/courses/1582982
+
+beg_date: 2019-01-22
+end_date: 2019-05-16
+
+lectures:
+  - label: CS 360-01 (CRN 21004)
+    items:
+      - text: Tuesdays, Thursdays
+        icon: fas fa-calendar-alt
+
+      - text: 12:45pm &ndash; 2:30pm
+        icon: fas fa-clock
+
+      - text: Lo Schiavo Science G12
+        icon: fas fa-map-marker-alt
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo
+
+  - label: CS 560-01 (CRN 21010)
+    items:
+      - text: Tuesdays, Thursdays
+        icon: fas fa-calendar-alt
+
+      - text: 12:45pm &ndash; 2:30pm
+        icon: fas fa-clock
+
+      - text: Lo Schiavo Science G12
+        icon: fas fa-map-marker-alt
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo
+
+instructor:
+  - label: Sophie Engle
+    image: /images/engle.png
+    items:
+      - text: Mondays, Thursdays
+        icon: fas fa-calendar-alt
+
+      - text: 2:45pm &ndash; 4:15pm
+        icon: fas fa-clock
+
+      - text: Harney Science 412B
+        icon: fas fa-map-marker-alt
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
+
+      - text: sjengle.cs.usfca.edu
+        icon: fas fa-globe
+        link: //sjengle.cs.usfca.edu
+
+assistants:
+  - label: Pending
+    image: false
+    items:
+      - text: Pending
+        icon: fas fa-calendar-alt
+
+      - text: Pending
+        icon: fas fa-clock
+
+      - text: Harney Science 411
+        icon: fas fa-map-marker-alt
+        link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
+
+      - text: Pending
+        icon: fas fa-clipboard
+
+important_dates:
+  # start/end dates
+  - text: Lectures Begin
+    icon: fas fa-chalkboard-teacher
+    date: 2019-01-22
+
+  - text: Lectures End
+    icon: fas fa-chalkboard-teacher
+    date: 2019-05-09
+
+  # registration deadlines
+  - text: Add Deadline
+    icon: fas fa-calendar-plus
+    date: 2019-01-28
+
+  - text: Drop Deadline
+    icon: fas fa-calendar-minus
+    link: https://myusf.usfca.edu/registration/fall-registration-calendar
+    date: 2019-02-08
+    info: |
+      This is the last day students can drop the class with 100% refund and avoid a W on their transcript.
+
+  - text: Withdraw Deadline
+    icon: fas fa-calendar-minus
+    link: https://myusf.usfca.edu/registration/fall-registration-calendar
+    date: 2019-04-08
+    type: 'danger'
+    info: |
+      This is the last day students can withdraw and receive a W on their transcript.
+
+  # holidays
+  - text: President's Day
+    icon: fas fa-umbrella-beach
+    date: 2019-02-18
+    info: |
+      Office hours will be canceled during this holiday.
+
+  - text: Spring Break
+    icon: fas fa-umbrella-beach
+    date: 2019-03-11
+    stop: 2019-03-15
+    info: |
+      Lectures, labs, office hours, and code reviews will be canceled during this holiday.
+
+  - text: Easter Holiday
+    icon: fas fa-rabbit
+    date: 2019-04-18
+    stop: 2019-04-19
+    info: |
+      The holiday begins at 4:00pm 04/18.
+
+  # course deadlines
+  - text: Midterm Project
+    icon: fas fa-tasks
+    date: 2019-03-19
+    type: 'danger'
+    info: |
+      The final release of the midterm project is due before class on this day.
+
+  - text: Midterm Presentations
+    icon: fas fa-presentation
+    date: 2019-03-19
+    stop: 2019-03-21
+    info: |
+      Students will present their midterm projects this week.
+
+  - text: Final Project
+    icon: fas fa-tasks
+    date: 2019-05-16
+    type: 'danger'
+    info: |
+      The final release of the final project is due before the final project presentations begin.
+
+  - text: Final Presentations
+    icon: fas fa-presentation
+    date: 2019-05-16
+    info: |
+      Students will present their final projects in lieu of a final exam from 12:30pm to 3:30pm.
+
+learning_outcomes:
+  - Understand basic principles of data visualization
+  - Understand how to evaluate existing visualizations
+  - Understand how to design and prototype standard visualization techniques
+
+
+grade_breakdown:
+  - text:  Participation
+    link:  '#participation'
+    value: 10
+
+  - text:  Presentations
+    link:  '#presentations'
+    value: 15
+
+  - text:  Homework
+    link:  '#homework'
+    value: 20
+
+  - text:  Midterm Project
+    link:  '#projects'
+    value: 25
+
+  - text:  Final Project
+    link:  '#projects'
+    value: 30
+
+grade_scale:
+  - letter: A+
+    cutoff: 97
+    points: 4.0
+
+  - letter: A
+    cutoff: 94
+    points: 4.0
+
+  - letter: A–
+    cutoff: 90
+    points: 3.7
+
+  - letter: B+
+    cutoff: 87
+    points: 3.3
+
+  - letter: B
+    cutoff: 84
+    points: 3.0
+
+  - letter: B–
+    cutoff: 80
+    points: 2.7
+
+  - letter: C+
+    cutoff: 77
+    points: 2.3
+
+  - letter: C
+    cutoff: 74
+    points: 2.0
+
+  - letter: C–
+    cutoff: 70
+    points: 1.7
+
+  - letter: D+
+    cutoff: 67
+    points: 1.3
+
+  - letter: D
+    cutoff: 64
+    points: 1.0
+
+  - letter: D–
+    cutoff: 60
+    points: 0.7
+
+  - letter: F
+    cutoff: 0
+    points: 0.0

@@ -1,0 +1,11 @@
+{% for item in include.items %}
+{% if item.icon %}
+<i class="fa-fw {{ item.icon }} {% if item.type %}has-text-{{ item.type }}{% endif %}"></i>
+{% endif %}
+{% if item.link %}
+<a class="{% if item.type %}has-text-{{ item.type }}{% endif %}" href="{{ item.link | relative_url }}">{{ item.text }}</a>
+{% else %}
+<span class="{% if item.type %}has-text-{{ item.type }}{% endif %}">{{ item.text }}</span>
+{% endif %}
+{% unless forloop.last %}<br/>{% endunless %}
+{% endfor %}

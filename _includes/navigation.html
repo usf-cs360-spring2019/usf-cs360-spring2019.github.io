@@ -1,0 +1,23 @@
+<nav class="level">
+  <div class="level-left">
+    {% for item in site.data.navigation.left %}
+    <div class="level-item">
+      <a class="button is-fullwidth is-dark is-inverted {% if page.navbar == item.name %} {% else %} is-inverted is-outlined {% endif %}" href="{{ item.link | relative_url }}">
+        <i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}
+      </a>
+    </div>
+
+    {% endfor %}
+  </div>
+
+  <div class="level-right">
+    {% for item in site.data.navigation.right %}
+    <div class="level-item">
+      <a class="button is-fullwidth is-dark is-inverted is-outlined" href="{{ item.link | relative_url }}">
+        <i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}
+      </a>
+    </div>
+
+    {% endfor %}
+  </div>
+</nav>
