@@ -4,9 +4,6 @@ navbar: Syllabus
 layout: default
 ---
 
-Pending
-
-{% comment %}
 <div class="columns">
   <div class="column">
     <p>This syllabus is similar to a contract between students and the instructor, and as such it is quite long (with many sections required by the university). A few key points from this syllabus are highlighted here:</p>
@@ -16,11 +13,9 @@ Pending
 
       <li>You should be stuck for an hour on a problem before seeking help, but you should definitely seek help if you have been stuck for an hour. (See: <a href="#{{ "Getting Help" | slugify }}">Getting Help</a>)
 
-      <li>Do not cheat. This includes working too closely with your classmates.
-      (See: <a href="#{{ "Cheating Policy" | slugify }}">Cheating Policy</a>)
+      <li>Do not cheat. This includes working too closely with your classmates, or copying code or designs without attribution. (See: <a href="#{{ "Cheating Policy" | slugify }}">Cheating Policy</a>)
 
-      <li>The work you do for this class is public, and can be very useful for finding employment. As such, the more time you put into this class the more you will get out of it.
-      (See: <a href="#{{ "Credit Hour Policy" | slugify }}">Credit Hour Policy</a>)
+      <li>The portolio of work you complete for this class is public, which can be very useful for finding employment. As such, the more time you put into this class the more you will get out of it. (See: <a href="#{{ "Credit Hour Policy" | slugify }}">Credit Hour Policy</a>)
     </ul>
 
     <p>Students are still required to read through the entire syllabus below.</p>
@@ -47,7 +42,25 @@ Pending
 <h3 class="title">{{ site.data.course.code }} {{ site.data.course.name }}</h3>
 <h4 class="subtitle has-text-weight-light">{{ site.data.course.term }} &bull; {{ site.data.course.credits }} Credits</h4>
 
-This course gives students experience with TODO.
+<p>This course introduces both CS 360 and CS 560 students to the fundamentals of data visualization. This includes discussion of perception, design, and evaluation. Students will also be introduced to a variety of visualization techniques for high-dimensional, temporal, hierarchical, network, and/or geospatial data. The course utilizes a variety of programming languages and environments, such as Tableau, JavaScript and D3, Vega, and others.</p>
+
+<p>Students enrolled in CS 560 will additionally read and present research papers in the area of data visualization.</p>
+
+<p>
+  <a href="https://www.usfca.edu/catalog/course/360-data-visualization" class="button is-link">
+    <span class="icon is-small">
+      <i class="fas fa-book"></i>
+    </span>
+    <span>CS 360 Course Catalog</span>
+  </a>
+  &nbsp;
+  <a href="https://www.usfca.edu/catalog/course/560-data-visualization" class="button is-link">
+    <span class="icon is-small">
+      <i class="fas fa-book"></i>
+    </span>
+    <span>CS 560 Course Catalog</span>
+  </a>
+</p>
 
 {% include section.html level="h3" name="Lecture Sections" %}
 
@@ -134,25 +147,36 @@ This course gives students experience with TODO.
 
 {% include section.html level="h3" name="Prerequisites" %}
 
-TODO
+<p>Students enrolled in CS 360 must have completed at least <strong>ONE</strong> of the following courses with a minimum grade of C before taking this class:</p>
 
-<p>Students must have completed <a href="https://www.usfca.edu/catalog/course/112-introduction-computer-science-ii">CS 112 Introduction to Computer Science II</a> with a grade of C or better before taking this class.</p>
+<ul>
+  <li>
+    <a href="https://www.usfca.edu/catalog/course/212-software-development">
+      CS 212 Software Development
+    </a>
+  </li>
+  <li>
+    <a href="https://www.usfca.edu/catalog/course/245-data-struct-algorithms">
+      CS 245 Data Structures and Algorithms</a>
+  </li>
+</ul>
 
-<article class="message is-warning">
-  <div class="message-body">
-    <i class="fas fa-exclamation-triangle"></i>&nbsp;Students are <strong>strongly</strong> encouraged to take CS 245 before taking CS 212.
-  </div>
-</article>
+<p>Students enrolled in CS 560 must have completed at least <strong>BOTH</strong> of the following courses with a minimum grade of B before taking this class:</p>
 
-<article class="message is-danger">
-  <div class="message-body">
-    <i class="fas fa-exclamation-triangle"></i>&nbsp;Students may <strong>not</strong> take CS 112 and CS 212 concurrently.
-  </div>
-</article>
+<ul>
+  <li>
+    <a href="https://www.usfca.edu/catalog/course/514-object-oriented-programming">
+      CS 514 Object-Oriented Programming
+    </a>
+  </li>
+  <li>
+    <a href="https://www.usfca.edu/catalog/course/501-discrete-math">
+      MATH 501 Discrete Math
+    </a>
+  </li>
+</ul>
 
 {% include section.html level="h3" name="Learning Outcomes" %}
-
-TODO
 
 <p>At the end of this course, students should be able to:</p>
 
@@ -162,11 +186,11 @@ TODO
   {% endfor %}
 </ul>
 
-<p>Assessment of these outcomes will be done by a combination of quizzes, exams, homework, projects, and code review. See <a href="#{{ "Course Requirements" | slugify }}">Course Requirements</a> below for details.</p>
+<p>Assessment of these outcomes will be done by a combination of participation assignments, presentations, homework, and projects. See <a href="#{{ "Course Requirements" | slugify }}">Course Requirements</a> below for details.</p>
 
 {% include section.html level="h3" name="Required Materials" %}
 
-<p>This course utilizies freely-available resources and software. Students will need to create a <a href="https://github.com/join">free Github account</a> for this course. There are no required books.</p>
+<p>This course utilizies freely-available resources and software. Students will need to create a <a href="https://github.com/join">free Github account</a> for this course. There are no required books, but several will be recommended throughout the course of the semester.</p>
 
 {% include section.html level="h3" name="Important Dates" %}
 
@@ -231,7 +255,7 @@ TODO
 
 {% include section.html level="h3" name="Grade Breakdown" %}
 
-<p>If the <a href="#{{ "Pass Requirements" | slugify }}">pass requirements</a> are met, then the final grade will be calculated as follows:</p>
+<p>The final grade for this course will be calculated as follows:</p>
 
 <table class="table is-hover" style="width: auto;">
   <thead>
@@ -262,72 +286,55 @@ TODO
 
 {% include section.html level="h4" name="Participation" %}
 
-<p>Participation includes pass/fail assignments such as participating in surveys, discussions on Piazza, in-class exercises, attending labs, lab exercises, and participating in other on-campus or off-campus CS events.</p>
+<p>Participation includes pass/fail assignments such as peer feedback and grading for homework, participating in surveys, discussions on Piazza or Canvas, in-class exercises, occasional lab exercises, and participating in other on-campus or off-campus CS events.</p>
+
+<p>All feedback and discussions must be professional, substantive, constructive, and follow the <a href="#behavioral-expectations">Student Conduct Code</a> for the university.</p>
 
 <article class="message is-warning">
   <div class="message-body">
-    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted for participation assignments.
+    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted.
   </div>
 </article>
 
-{% include section.html level="h4" name="Quizzes" %}
+{% include section.html level="h4" name="Presentations" %}
 
-<p>Quizzes are sometimes given unannounced at the start of class, but students will often be given an opportunity to retake those quizzes. Quizzes will be conducted on <a href="{{ site.data.course.canvas }}">Canvas</a>, and the answers will automatically be released after the quiz deadline. Because of this, late submissions are not accepted for quizzes.</p>
+<p>Students are expected to give several in class presentations, as well as prepare demonstration videos to be shown in class. This includes a 10 minute in-class data visualization talk, in-class midterm project group presentation, and a pre-recorded final project demonstration video that will be shown during the final exam slot for this class.</p>
 
-<article class="message is-warning">
-  <div class="message-body">
-    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted for quizzes.
-  </div>
-</article>
-
-{% include section.html level="h4" name="Exams" %}
-
-<p>There will be two exams. The exams are <em>not</em> comprehensive. Each exam will have a retake opportunity where students may earn back a small fraction of the points missed on the original attempt. See <a href="#{{ "Important Dates" | slugify }}">Important Dates</a> for the exact exam and exam retake dates.</p>
-
-<p>Instead of a final exam, students will have a final project graded during finals week. A signup sheet will be posted towards the end of the semester. If you have travel plans during finals week, please confirm your travel dates first with the instructor.</p>
+<p>Presentations will be graded on preparedness and organization, presentation materials, clarity and enthusiasm, and finally time management. Students are <strong>highly encouraged</strong> to use the <a href="https://myusf.usfca.edu/lwsc/speaking-center">Speaking Center</a> to help prepare for these presentations.</p>
 
 <article class="message is-warning">
   <div class="message-body">
-    <i class="fas fa-exclamation-triangle"></i>&nbsp;Students must receive a C letter grade or higher on at least one exam (including retakes). See the <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a> for more.
+    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted.
   </div>
 </article>
 
 {% include section.html level="h4" name="Homework" %}
 
-<p>Homework programming assignments are assigned on a semi-weekly basis, and usually due the following week. Students may work on these assignments during their lab session, allowing them to get immediate help from the teacher assistants.</p>
+<p>There are 4 homeworks that will be assigned throughout the semester, and usually due in two weeks. These assignments must be completed individually.</p>
 
-<p>Homework will receive a late deduction if submitted after the deadline as follows:</p>
-
-<ul>
-  <li>&ndash;10% deduction for homework submitted 15 minutes to 24 hours after the deadline</li>
-  <li>&ndash;20% deduction for homework submitted 24 hours to 48 hours after the deadline</li>
-</ul>
-
-<p>The lowest homework grade will be dropped at the end of the semester.</p>
+<p>Homework will be graded by functionality (not aesthetics) on a +/&ndash; letter scale via a mix of self-reported and peer-reported grades. The teacher assistants and instructor reserves the right to modify these grades as appropriate.</p>
 
 <article class="message is-warning">
   <div class="message-body">
-    <i class="fas fa-alarm-clock"></i>&nbsp;Homework submitted over 48 hours after the deadline will not be graded.
+    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted.
   </div>
 </article>
 
 {% include section.html level="h4" name="Projects" %}
 
-<p>Programming projects place an emphasis on code quality&mdash;it is not enough to achieve correct results. Each project must pass several functionality tests and then undergo multiple rigorous code reviews checking for specific criteria, such as proper encapsulation and generalization, efficiency, and maintainability.</p>
+<p>Instead of exams, students must complete a group midterm project and an individual final project. Students will be required to present these projects to the class. This includes preparing a project proposal, alpha release, beta release, and final release.</p>
 
-<p>We use a <strong>mastery learning</strong> approach with projects: students must perfect the current project before moving on to the next project. The final project grade will depend on when and how many projects are completed.</p>
-
-<p>Each project grade is split into two components: functionality (evaluated with automated software tests) and design (evaluated with one-on-one code reviews). The project functionality must be passed before the code review may be passed, students must pass code review for each project sequentially, and may only have one review appointment per week.</p>
+<p>The midterm and final projects make up the majority of the final grade. Project grades place an emphasis on the resulting interactive data visualization(s) and accompanying text, not on the underlying code quality. Projects will be graded by the instructor.</p>
 
 <article class="message is-warning">
   <div class="message-body">
-    <i class="fas fa-alarm-clock"></i>&nbsp;There are only 2 hard deadlines for projects: the project cutoff 1 deadline before the withdraw deadline, and the project cutoff 2 deadline at the end of the semester. See the <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a> for details.
+    <i class="fas fa-alarm-clock"></i>&nbsp;Late submissions are not accepted.
   </div>
 </article>
 
 {% include section.html level="h3" name="Grading Scale" %}
 
-<p>The following is the grading scale mapping percentage to letter grade and GPA for this course. Please keep in mind that the <a href="#{{ "Pass Requirements" | slugify }}">Pass Requirements</a> must be met to avoid an automatic F letter grade.</p>
+<p>The following is the grading scale mapping percentage to letter grade and GPA for this course:</p>
 
 <table class="table is-hover" style="width: auto;">
   <thead>
@@ -339,7 +346,7 @@ TODO
   <tbody>
     {% assign prior = 100 %}
     {% for element in site.data.course.grade_scale %}
-    <tr {% if element.points < 2.0 %}class="has-text-danger"{% endif %}>
+    <tr {% if element.points < 2.0 %}class="has-background-danger"{% elsif element.points < 3.0 %}class="has-background-warning"{% endif %}>
       <td class="has-text-right">{{ element.cutoff }}% &leq;</td>
       <td>{{ element.letter }}</td>
       <td>&lt; {{ prior }}%</td>
@@ -350,7 +357,9 @@ TODO
   </tbody>
 </table>
 
-<p>Non-passing grades are <span class="has-text-danger">highlighted in red</span>. See the <a href="https://www.usfca.edu/catalog/regulations/student">Undergraduate Regulations</a> for more about letter grades and GPA.</p>
+<p>Non-passing grades for undergraduate students are highlighted in <strong class="has-background-danger">&nbsp;red&nbsp;</strong>. See the <a href="https://www.usfca.edu/catalog/regulations/student">Undergraduate Regulations</a> for more about letter grades and GPA for undergraduate students.</p>
+
+<p>Non-passing grades for graduate students are highlighted in <strong class="has-background-warning">&nbsp;yellow&nbsp;</strong> or <strong class="has-background-danger">&nbsp;red&nbsp;</strong>. See the <a href="https://www.usfca.edu/catalog/regulations/gradstudent">Graduate Regulations</a> for more about letter grades and GPA for graduate students.</p>
 
 <hr>
 
@@ -374,11 +383,11 @@ TODO
   </li>
 
   <li>
-    <p>Do not post code on Piazza. If you have a question regarding your specific code, please commit and push your code to your GitHub repository and post a link. That ensures only those with access to your repository (instructor and teacher assistants) will see your code.</p>
+    <p>Do not post code on Piazza. If you have a question regarding your specific code, please commit and push your code to your GitHub repository and post a link.</p>
 
     <p><article class="message is-info">
       <div class="message-body">
-        <i class="fas fa-code"></i>&nbsp;Small code snippets (under 5 lines) are okay as long as they are not revealing a homework, quiz, or project solution. For example, it is okay to post a small snippet from lecture and ask for clarification. It is not okay to publicly post the exact 1 line regular expression code needed to answer a quiz question.
+        <i class="fas fa-code"></i>&nbsp;Small code snippets (under 5 lines) are okay as long as they are not revealing a homework or project solution. For example, it is okay to post a small snippet from lecture and ask for clarification. It is not okay to publicly post the exact lines code needed to satisfy a participation or homework assignment.
       </div>
     </article></p>
 
@@ -401,13 +410,11 @@ TODO
 
 {% include section.html level="h3" name="Announcements Policy" %}
 
-<p>All announcements will be posted on <a href="{{ site.data.course.piazza }}">Piazza</a>. All students are expected to enroll in Piazza and monitor the announcements in a timely manner. This includes any changes to the lecture, lab, office hour, or deadline schedule.</p>
+<p>All announcements will be posted on <a href="{{ site.data.course.piazza }}">Piazza</a>. All students are expected to enroll in Piazza and monitor the announcements in a timely manner. This includes any changes to the lecture, office hour, or deadline schedule.</p>
 
 {% include section.html level="h3" name="Attendance Policy" %}
 
-<p>Students are expected to be on-time to all classes to minimize disruption. Attendance is mandatory for all exams, quizzes, guest speakers, and in-class exercises. Exam dates will be posted on the course schedule.</p>
-
-<p>Attendance is mandatory for all one-on-one code review appointments. Students must be on-time to these appointments. If a student arrives more than 5 minutes late, the appointment will be canceled. Students risk a grade penalty for repeated canceled or missed appointments.</p>
+<p>Students are expected to be on-time to all classes to minimize disruption. Attendance is mandatory for all student presentations, guest speakers, and in-class exercises. Presentation dates will be posted on the course schedule.</p>
 
 {% include section.html level="h3" name="Credit Hour Policy" %}
 
@@ -417,11 +424,11 @@ TODO
 <i class="fas fa-quote-left fa-sm"></i> One unit of credit in lecture, seminar, and discussion work should approximate one hour of direct faculty instruction and a minimum of two hours of out-of-class student work per week through one 15-week semester. <i class="fas fa-quote-right fa-sm"></i>
 </blockquote>
 
-<p>As this is a 4 credit course, students must spend a <strong>minimum</strong> of 8 hours of out-of-class work per week to earn a passing (D&ndash; or higher) letter grade. To earn a C or higher letter grade (as required for the CS major), students should expect to spend closer to <strong>10 to 20 hours per week</strong> on projects, homework, and participation assignments.</p>
+<p>As this is a 4 credit course, students must spend a <strong>minimum</strong> of 8 hours of out-of-class work per week to earn a passing letter grade. To earn a higher letter grade, students should expect to spend closer to <strong>10 to 15 hours per week</strong> on assignments.</p>
 
 <article class="message is-info">
   <div class="message-body">
-    <i class="fas fa-briefcase"></i>&nbsp;Think of this class like a part-time job. If you do not put in the time, you will not make it to the final project. Many students do not pass due to poor time management!
+    <i class="fas fa-briefcase"></i>&nbsp;The portolio of work you complete for this class is public, which can be very useful for finding employment. As such, the more time you put into this class the more you will get out of it.
   </div>
 </article>
 
@@ -430,16 +437,15 @@ TODO
 <p>All students are expected to know and adhere to the University's Honor Code (<a href="#{{ "Academic Integrity" | slugify }}">see below</a>). In short, students must never represent another person's work as their own. Examples of honor code violations include (but are not limited to):</p>
 
 <ul>
-  <li>Copying and pasting code (especially without attribution) from the web
+  <li>Copying code or designs without attribution from the web
   <li>Copying from another student (past or current)
   <li>Having anyone other than yourself complete your work (including tutors)
   <li>Working too closely with others such that your code no longer represents an individual contribution
-  <li>Sharing your solutions with others (either directly or indirectly)
 </ul>
 
 <p><strong class="has-text-danger">Flagrant or repeat violations of the honor code will result in an F in the course, <a href="https://myusf.usfca.edu/academic-integrity/review-process">a report to the Academic Integrity Committee (AIC)</a>, and a report to the Dean.</strong> At the discretion of the instructor, a less severe penalty may be imposed for minor or first offenses. This is at the sole discretion of the instructor and any violation may result in an F in the course.</p>
 
-<p>There are other less tangible consequences as well. Most CS professors do not write letters of recommendation for students caught cheating (making it more challenging to get into graduate school or be competitive on the job market). Even if you are not caught cheating, it is unlikely you will do well in future exams, one-on-one code reviews, or technical interviews.</p>
+<p>There are other less tangible consequences as well. Most CS professors do not write letters of recommendation for students caught cheating (making it more challenging to get into graduate school or be competitive on the job market). Even if you are not caught cheating, it is unlikely you will do well in future technical interviews or on the job when cheating is not an option.</p>
 
 <article class="message is-danger">
   <div class="message-body">
@@ -466,9 +472,7 @@ TODO
 
   <li><p>Ask questions during the instructor office hours. Office hours are first-come first-serve and there is lots of seating (including power outlets for charging).</p></li>
 
-  <li><p>Ask the teacher assistants for help during lab sessions or their office hours. All of the teacher assistants for this course took CS 212 previously with Professor Engle.</p></li>
-
-  <li><p>Ask a CS tutor for help at the <a href="http://tutoringcenter.cs.usfca.edu/">CS Tutoring Center</a>. Many of the tutors took CS 212 previously (and many of them also took it with Professor Engle). However, even tutors that did not take CS 212 may be able to help. Sometimes, it just helps to talk about your code with someone (see <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber duck debugging</a>).</p></li>
+  <li><p>Ask the teacher assistants for help during their office hours, or a CS tutor for help at the <a href="http://tutoringcenter.cs.usfca.edu/">CS Tutoring Center</a>. While they may or may not have a background in data visualization and/or JavaScript, it often helps to just talk about your code with someone (see <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber duck debugging</a>).</p></li>
 
   <li><p>Ask your classmates for high-level help or hints, but be careful! To avoid violating the <a href="#{{ "Cheating Policy" | slugify }}">cheating policy</a> and <a href="#{{ "Academic Integrity" | slugify }}">academic integrity policy</a>, make sure you never share code with your classmates or look at the code of your classmates.</p></li>
 
@@ -486,7 +490,7 @@ TODO
 
 {% include section.html level="h2" name="University Policies" %}
 
-<p>This section includes standard statements on University policies and resources, including disclaimers on confidentiality, mandatory reporting, sexual assault; statements regarding USF's Honor Code and Academic Integrity and behavioral expectations; important campus resources for student health, safety, and wellbeing.</p>
+<p>This section includes standard statements on University policies and resources, including: disclaimers on confidentiality, mandatory reporting, sexual assault; statements regarding USF's Honor Code and Academic Integrity and behavioral expectations; important campus resources for student health, safety, and wellbeing.</p>
 
 {% include section.html level="h3" name="Behavioral Expectations" %}
 
@@ -537,4 +541,3 @@ TODO
 
   <li><p>For an off-campus resource, contact San Francisco Women Against Rape (SFWAR) (415) 647-7273 (<a href="//sfwar.org">sfwar.org</a>).</p></li>
 </ul>
-{% endcomment %}
