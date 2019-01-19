@@ -129,12 +129,12 @@ important_dates:
     info: |
       The final release of the midterm project is due before class on this day.
 
-  - text: Midterm Presentations
+  - text: Midterm Project Presentations
     icon: fas fa-presentation
     date: 2019-03-19
     stop: 2019-03-21
     info: |
-      Students will present their midterm projects this week.
+      Students will present their midterm projects in-class this week.
 
   - text: Final Project
     icon: fas fa-tasks
@@ -143,17 +143,16 @@ important_dates:
     info: |
       The final release of the final project is due before the final project presentations begin.
 
-  - text: Final Presentations
+  - text: Final Project Demonstration Videos
     icon: fas fa-presentation
     date: 2019-05-16
     info: |
-      Students will present their final projects in lieu of a final exam from 12:30pm to 3:30pm.
+      Students will show their pre-recorded final project demonstration videos in lieu of a final exam from 12:30pm to 3:30pm.
 
 learning_outcomes:
-  - Understand basic principles of data visualization
-  - Understand how to evaluate existing visualizations
-  - Understand how to design and prototype standard visualization techniques
-
+  - Understand basic fundamentals of designing and evaluating data visualizations
+  - Understand how to interpret and design standard data visualization techniques for high-dimensional, temporal, hierarchical, network, and geospatial data
+  - Understand how to use cutting-edge tools to prototype interactive data visualizations
 
 grade_breakdown:
   - text:  Participation
