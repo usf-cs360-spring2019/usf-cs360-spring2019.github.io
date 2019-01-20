@@ -22,6 +22,11 @@ hr {
   border-bottom: 1px solid #dbdbdb;
 }
 
+strong,
+em {
+  color: inherit;
+}
+
 .schedule .week {
   display: inline-flex;
   overflow: hidden;
