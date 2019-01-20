@@ -51,6 +51,107 @@ assignments:
       link: https://usfca.instructure.com/courses/1582982/assignments/6821944
       date: 2019-02-14
 
+  - homework2: &homework2
+      text: Homework 2
+      icon: *icon_homework
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821957
+      date: 2019-02-28
+
+  - homework3: &homework3
+      text: Homework 3
+      icon: *icon_homework
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821958
+      date: 2019-04-11
+
+  - homework4: &homework4
+      text: Homework 4
+      icon: *icon_homework
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821959
+      date: 2019-04-25
+
+  - feedback1: &feedback1
+      text: Homework 1 Feedback
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821944
+      date: 2019-02-21
+
+  - feedback2: &feedback2
+      text: Homework 2 Feedback
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821957
+      date: 2019-03-07
+
+  - feedback3: &feedback3
+      text: Homework 3 Feedback
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821958
+      date: 2019-04-18
+
+  - feedback4: &feedback4
+      text: Homework 4 Feedback
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821959
+      date: 2019-05-02
+
+  - vistalks: &vistalks
+      text: Data Vis Talks
+      icon: *icon_presentation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821960
+
+  - midterm_groups: &midterm_groups
+      text: Midterm Groups
+      icon: *icon_survey
+      date: 2019-02-05
+      type: success
+
+  - midterm_alpha: &midterm_alpha
+      text: Midterm Alpha Release
+      icon: *icon_project
+      date: 2019-02-19
+      type: success
+
+  - midterm_beta: &midterm_beta
+      text: Midterm Beta Release
+      icon: *icon_project
+      date: 2019-03-05
+      type: success
+
+  - midterm_project: &midterm_project
+      text: Midterm Project
+      icon: *icon_project
+      date: 2019-03-19
+      type: success
+
+  - final_proposal: &final_proposal
+      text: Final Proposal
+      icon: *icon_project
+      date: 2019-04-02
+      type: success
+
+  - final_alpha: &final_alpha
+      text: Final Alpha Release
+      icon: *icon_project
+      date: 2019-04-16
+      type: success
+
+  - final_beta: &final_beta
+      text: Final Beta Release
+      icon: *icon_project
+      date: 2019-04-30
+      type: success
+
+  - final_demo: &final_demo
+      text: Final Demo Video
+      icon: *icon_project
+      date: 2019-05-15
+      type: success
+
+  - final_project: &final_project
+      text: Final Project
+      icon: *icon_project
+      date: 2019-05-16
+      type: success
+
 # schedule
 weeks:
 - week: 1
@@ -58,6 +159,10 @@ weeks:
     - type: Lecture
       date: 2019-01-22
       resources:
+      - text: Introduction
+        icon: *icon_pending
+        type: grey
+
       - text: Course Syllabus
         link: /syllabus.html
         icon: *icon_website
@@ -65,7 +170,7 @@ weeks:
     - type: Lecture
       date: 2019-01-24
       resources:
-      - text: Pending
+      - text: Perception
         icon: *icon_pending
         type: grey
 
@@ -74,9 +179,12 @@ weeks:
     - type: Lecture
       date: 2019-01-29
       resources:
-      - text: Pending
+      - text: Tabular Data
         icon: *icon_pending
         type: grey
+
+      - <<: *midterm_project
+        bump: true
 
       deadlines:
       - text: Add Deadline
@@ -87,23 +195,28 @@ weeks:
     - type: Lecture
       date: 2019-01-31
       resources:
-      - text: Pending
+      - text: Tabular Data
         icon: *icon_pending
         type: grey
+      - <<: *homework1
+        bump: true
 
 - week: 3
   days:
     - type: Lecture
       date: 2019-02-05
       resources:
-      - text: Pending
+      - text: Temporal Data
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *midterm_groups
 
     - type: Lecture
       date: 2019-02-07
       resources:
-      - text: Pending
+      - text: Interactivity
         icon: *icon_pending
         type: grey
 
@@ -113,75 +226,102 @@ weeks:
     - type: Lecture
       date: 2019-02-12
       resources:
-      - text: Pending
+      - text: Multivariate Data
         icon: *icon_pending
         type: grey
 
     - type: Lecture
       date: 2019-02-14
       resources:
-      - text: Pending
+      - text: Multivariate Data
         icon: *icon_pending
         type: grey
+
+      - <<: *homework2
+        bump: true
+
+      deadlines:
+      - <<: *homework1
+        type: info
 
 - week: 5
   days:
     - type: Lecture
       date: 2019-02-19
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+      - <<: *vistalks
+
+      deadlines:
+      - <<: *midterm_alpha
+
     - type: Lecture
       date: 2019-02-21
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+      - <<: *vistalks
+
+      deadlines:
+      - <<: *feedback1
+        type: info
 
 - week: 6
   days:
     - type: Lecture
       date: 2019-02-26
       resources:
-      - text: Pending
+      - text: Design
         icon: *icon_pending
         type: grey
+
     - type: Lecture
       date: 2019-02-28
       resources:
-      - text: Pending
+      - text: Evaluation
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *homework2
+        type: info
 
 - week: 7
   days:
     - type: Lecture
       date: 2019-03-05
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
-    - type: Lecture
-      date: 2019-03-07
-      resources:
-      - text: Pending
+      - text: Prototype Exercises
         icon: *icon_pending
         type: grey
 
-- week: 8
-  days:
+      deadlines:
+      - <<: *midterm_beta
+
     - type: Lecture
-      date: 2019-03-12
+      date: 2019-03-07
       resources:
-      - text: Pending
+      - text: Prototype Exercises
         icon: *icon_pending
         type: grey
-    - type: Lecture
+
+      deadlines:
+      - <<: *feedback2
+        type: info
+
+- week: 8
+  days:
+    - type: No Class
+      date: 2019-03-12
+      resources:
+      - text: Spring Break
+        icon:
+          class: far fa-umbrella-beach
+        type: grey
+
+    - type: No Class
       date: 2019-03-14
       resources:
-      - text: Pending
-        icon: *icon_pending
+      - text: Spring Break
+        icon:
+          class: far fa-umbrella-beach
         type: grey
 
 - week: 9
@@ -192,6 +332,10 @@ weeks:
       - text: Pending
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *midterm_project
+
     - type: Lecture
       date: 2019-03-21
       resources:
@@ -204,90 +348,122 @@ weeks:
     - type: Lecture
       date: 2019-03-26
       resources:
-      - text: Pending
+      - text: Geospatial Data
         icon: *icon_pending
         type: grey
+
+      - <<: *final_project
+        bump: true
+
     - type: Lecture
       date: 2019-03-28
       resources:
-      - text: Pending
+      - text: Geospatial Data
         icon: *icon_pending
         type: grey
+
+      - <<: *homework3
+        bump: true
 
 - week: 11
   days:
     - type: Lecture
       date: 2019-04-02
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+      - <<: *vistalks
+
+      deadlines:
+      - <<: *final_proposal
+
     - type: Lecture
       date: 2019-04-04
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+      - <<: *vistalks
 
 - week: 12
   days:
     - type: Lecture
       date: 2019-04-09
       resources:
-      - text: Pending
+      - text: Hierarchical Data
         icon: *icon_pending
         type: grey
+
     - type: Lecture
       date: 2019-04-11
       resources:
-      - text: Pending
+      - text: Hierarchical Data
         icon: *icon_pending
         type: grey
+
+      - <<: *homework4
+        bump: true
+
+      deadlines:
+      - <<: *homework3
+        type: info
 
 - week: 13
   days:
     - type: Lecture
       date: 2019-04-16
       resources:
-      - text: Pending
+      - text: Network Data
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *final_alpha
+
     - type: Lecture
       date: 2019-04-18
       resources:
-      - text: Pending
+      - text: Network Data
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *feedback3
+        type: info
 
 - week: 14
   days:
     - type: Lecture
       date: 2019-04-23
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+      - <<: *vistalks
+
     - type: Lecture
       date: 2019-04-25
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+      - <<: *vistalks
+
+      deadlines:
+      - <<: *homework4
+        type: info
 
 - week: 15
   days:
     - type: Lecture
       date: 2019-04-30
       resources:
-      - text: Pending
+      - text: Prototype Exercises
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *final_beta
+
     - type: Lecture
       date: 2019-05-02
       resources:
-      - text: Pending
+      - text: Prototype Exercises
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *feedback4
+        type: info
 
 - week: 16
   days:
@@ -297,22 +473,24 @@ weeks:
       - text: Pending
         icon: *icon_pending
         type: grey
+
     - type: Lecture
       date: 2019-05-09
       resources:
-      - text: Pending
+      - text: Formal Evaluation
+        icon: *icon_pending
+        type: grey
+
+      - text: Visualization Research
         icon: *icon_pending
         type: grey
 
 - text: Finals
   days:
-    - type: Finals Week
-      resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
-    - type: Finals Week
-      resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+    - type: ''
+
+    - type: Final Demos
+      date: 2019-05-16
+      deadlines:
+      - <<: *final_demo
+      - <<: *final_project
