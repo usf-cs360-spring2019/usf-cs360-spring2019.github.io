@@ -1,0 +1,20 @@
+datasets:
+  - text: Pew Research Center
+    link: http://www.pewresearch.org/download-datasets/
+    info: |
+      Pew Research Center makes its data available to the public for secondary analysis after a period of time. Most datasets are in SPSS format. Requires free account to download.
+
+  - text: Five Thirty Eight
+    link: https://data.fivethirtyeight.com/
+    info: |
+      Five Thirty Eight shares the data and code behind some of their articles and graphics. Most datasets are in CSV format.
+
+# http://www.amelia.mn/sds220/project#places_to_find_data
+# https://www.washingtonpost.com/graphics/2019/business/contractors-shutdown/?utm_term=.592ad632ae11
+
+tools:
+  - text: Tableau Desktop
+    link: https://www.tableau.com/academic/students
+    info: |
+      With Tableau's drag-and-drop interface, you'll analyze and present with ease. Students at accredited academic institutions worldwide are eligible for a free one-year license to activate Tableau Desktop and Tableau Prep.
+  
