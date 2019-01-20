@@ -45,6 +45,24 @@ icons_special:
 
 # reusable assignments
 assignments:
+  - gitsetup: &gitsetup
+      text: Github Setup
+      icon: *icon_survey
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821997
+      date: 2019-01-29
+
+  - csevent1: &csevent1
+      text: CS Event 1
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821998
+      date: 2019-03-15
+
+  - csevent2: &csevent2
+      text: CS Event 2
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821996
+      date: 2019-05-10
+
   - homework1: &homework1
       text: Homework 1
       icon: *icon_homework
@@ -103,24 +121,33 @@ assignments:
       icon: *icon_survey
       date: 2019-02-05
       type: success
+      link: https://usfca.instructure.com/courses/1582982/assignments/6822050
 
   - midterm_alpha: &midterm_alpha
       text: Midterm Alpha Release
       icon: *icon_project
       date: 2019-02-19
       type: success
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821963
 
   - midterm_beta: &midterm_beta
       text: Midterm Beta Release
       icon: *icon_project
       date: 2019-03-05
       type: success
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821964
+
+  - midterm_prototype: &midterm_prototype
+      text: Prototype Exercises
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6822053
 
   - midterm_project: &midterm_project
       text: Midterm Project
       icon: *icon_project
       date: 2019-03-19
       type: success
+      link: https://usfca.instructure.com/courses/1582982/assignments/6821965
 
   - final_proposal: &final_proposal
       text: Final Proposal
@@ -163,9 +190,23 @@ weeks:
         icon: *icon_pending
         type: grey
 
+      - text: Terminology
+        icon: *icon_pending
+        type: grey
+
       - text: Course Syllabus
         link: /syllabus.html
         icon: *icon_website
+        bump: true
+
+      - <<: *csevent1
+
+      - text: Historic Events
+        icon: *icon_survey
+        link: https://usfca.instructure.com/courses/1582982/assignments/6822109
+        bump: true
+
+      - <<: *gitsetup
 
     - type: Lecture
       date: 2019-01-24
@@ -173,6 +214,25 @@ weeks:
       - text: Perception
         icon: *icon_pending
         type: grey
+
+      - text: Optional Illusions
+        icon: *icon_pending
+        type: grey
+
+      - text: HTML and JavaScript
+        icon: *icon_website
+        bump: true
+
+      - text: Tableau Desktop
+        icon:
+          class: far fa-download
+        link: https://www.tableau.com/academic/students
+
+      deadlines:
+      - text: Historic Events
+        icon: *icon_survey
+        date: 2019-01-24
+        link: https://usfca.instructure.com/courses/1582982/assignments/6822109
 
 - week: 2
   days:
@@ -185,12 +245,16 @@ weeks:
 
       - <<: *midterm_project
         bump: true
+      - <<: *midterm_groups
 
       deadlines:
       - text: Add Deadline
         icon:
           class: far fa-calendar-plus
         date: 2019-01-28
+
+      - <<: *gitsetup
+        bump: true
 
     - type: Lecture
       date: 2019-01-31
@@ -288,9 +352,7 @@ weeks:
     - type: Lecture
       date: 2019-03-05
       resources:
-      - text: Prototype Exercises
-        icon: *icon_pending
-        type: grey
+      - <<: *midterm_prototype
 
       deadlines:
       - <<: *midterm_beta
@@ -298,9 +360,7 @@ weeks:
     - type: Lecture
       date: 2019-03-07
       resources:
-      - text: Prototype Exercises
-        icon: *icon_pending
-        type: grey
+      - <<: *midterm_prototype
 
       deadlines:
       - <<: *feedback2
@@ -324,6 +384,9 @@ weeks:
           class: far fa-umbrella-beach
         type: grey
 
+      deadlines:
+      - <<: *csevent1
+
 - week: 9
   days:
     - type: Lecture
@@ -332,6 +395,10 @@ weeks:
       - text: Pending
         icon: *icon_pending
         type: grey
+
+      - <<: *csevent2
+        bump: true
+
 
       deadlines:
       - <<: *midterm_project
@@ -484,6 +551,9 @@ weeks:
       - text: Visualization Research
         icon: *icon_pending
         type: grey
+
+      deadlines:
+      - <<: *csevent2
 
 - text: Finals
   days:
