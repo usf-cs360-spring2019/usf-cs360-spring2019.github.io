@@ -46,6 +46,16 @@ a:hover {
   border-bottom-style: solid;
 }
 
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
+
+  body {
+    font-size: 8pt;
+  }
+}
+
 .schedule .week {
   display: inline-flex;
   overflow: hidden;
