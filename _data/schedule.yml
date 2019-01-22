@@ -54,6 +54,12 @@ assignments:
       link: https://usfca.instructure.com/courses/1582982/assignments/6821997
       date: 2019-01-29
 
+  - gitsetup: &talksignup
+      text: Talk Signup
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6825261
+      date: 2019-01-29
+
   - csevent1: &csevent1
       text: CS Event 1
       icon: *icon_participation
@@ -223,6 +229,7 @@ weeks:
         bump: true
 
       - <<: *gitsetup
+      - <<: *talksignup
 
     - type: Lecture
       date: 2019-01-24
@@ -271,6 +278,7 @@ weeks:
 
       - <<: *gitsetup
         bump: true
+      - <<: *talksignup
 
     - type: Lecture
       date: 2019-01-31
