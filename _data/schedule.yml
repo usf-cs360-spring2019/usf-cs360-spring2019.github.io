@@ -24,6 +24,9 @@ icons:
   presentation: &icon_presentation
     label: Presentation
     class: far fa-presentation
+  speaker: &icon_speaker
+    label: Guest Speaker
+    class: far fa-user-chart
   quiz: &icon_survey
     label: Survey
     class: far fa-edit
@@ -55,13 +58,25 @@ assignments:
       text: CS Event 1
       icon: *icon_participation
       link: https://usfca.instructure.com/courses/1582982/assignments/6821998
-      date: 2019-03-15
+      date: 2019-03-09
 
   - csevent2: &csevent2
       text: CS Event 2
       icon: *icon_participation
       link: https://usfca.instructure.com/courses/1582982/assignments/6821996
       date: 2019-05-10
+
+  - piazza1: &piazza1
+      text: Piazza Post 1
+      icon: *icon_participation
+      date: 2019-03-08
+      link: https://usfca.instructure.com/courses/1582982/assignments/6823823
+
+  - piazza2: &piazza2
+      text: Piazza Post 2
+      icon: *icon_participation
+      date: 2019-05-10
+      link: https://usfca.instructure.com/courses/1582982/assignments/6823824
 
   - homework1: &homework1
       text: Homework 1
@@ -186,13 +201,13 @@ weeks:
     - type: Lecture
       date: 2019-01-22
       resources:
-      - text: Introduction
-        icon: *icon_pending
-        type: grey
+      - text: Motivation
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upeWVkazNlemx3T1k
 
       - text: Terminology
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upMVQyUmpoYk1lNVk
 
       - text: Course Syllabus
         link: /syllabus.html
@@ -200,6 +215,7 @@ weeks:
         bump: true
 
       - <<: *csevent1
+      - <<: *piazza1
 
       - text: Historic Events
         icon: *icon_survey
@@ -280,9 +296,14 @@ weeks:
     - type: Lecture
       date: 2019-02-07
       resources:
+      - text: Guest AMA
+        icon: *icon_speaker
+        type: primary has-text-weight-bold
+
       - text: Interactivity
         icon: *icon_pending
         type: grey
+        bump: true
 
 
 - week: 4
@@ -290,16 +311,26 @@ weeks:
     - type: Lecture
       date: 2019-02-12
       resources:
+      - text: Guest AMA
+        icon: *icon_speaker
+        type: primary has-text-weight-bold
+
       - text: Multivariate Data
         icon: *icon_pending
         type: grey
+        bump: true
 
     - type: Lecture
       date: 2019-02-14
       resources:
+      - text: Guest AMA
+        icon: *icon_speaker
+        type: primary has-text-weight-bold
+
       - text: Multivariate Data
         icon: *icon_pending
         type: grey
+        bump: true
 
       - <<: *homework2
         bump: true
@@ -366,6 +397,10 @@ weeks:
       - <<: *feedback2
         type: info
 
+      - <<: *csevent1
+        bump: true
+      - <<: *piazza1
+
 - week: 8
   days:
     - type: No Class
@@ -383,9 +418,6 @@ weeks:
         icon:
           class: far fa-umbrella-beach
         type: grey
-
-      deadlines:
-      - <<: *csevent1
 
 - week: 9
   days:
@@ -435,7 +467,9 @@ weeks:
     - type: Lecture
       date: 2019-04-02
       resources:
-      - <<: *vistalks
+      - text: Guest Speaker
+        icon: *icon_speaker
+        type: primary has-text-weight-bold
 
       deadlines:
       - <<: *final_proposal
@@ -535,9 +569,7 @@ weeks:
     - type: Lecture
       date: 2019-05-07
       resources:
-      - text: Pending
-        icon: *icon_pending
-        type: grey
+      - <<: *vistalks
 
     - type: Lecture
       date: 2019-05-09
@@ -552,6 +584,7 @@ weeks:
 
       deadlines:
       - <<: *csevent2
+      - <<: *piazza2
 
 - text: Finals
   days:
