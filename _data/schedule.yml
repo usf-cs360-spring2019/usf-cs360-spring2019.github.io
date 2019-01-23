@@ -220,8 +220,13 @@ weeks:
         icon: *icon_website
         bump: true
 
-      - <<: *csevent1
+      - text: Piazza Setup
+        link: https://usfca.instructure.com/courses/1582982/assignments/6823825
+        icon: *icon_participation
+        bump: true
+
       - <<: *piazza1
+      - <<: *csevent1
 
       - text: Historic Events
         icon: *icon_survey
@@ -278,6 +283,12 @@ weeks:
 
       - <<: *gitsetup
         bump: true
+        
+      - text: Piazza Setup
+        link: https://usfca.instructure.com/courses/1582982/assignments/6823825
+        icon: *icon_participation
+        date: 2019-01-28
+
       - <<: *talksignup
 
     - type: Lecture
