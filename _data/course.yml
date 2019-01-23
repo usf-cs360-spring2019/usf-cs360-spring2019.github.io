@@ -68,7 +68,7 @@ assistants:
         icon: fas fa-map-marker-alt
         link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
-      - text: Pending
+      - text: Piazza Help, Homework Grading
         icon: fas fa-clipboard
 
   - label: Gordon Li
@@ -84,7 +84,7 @@ assistants:
         icon: fas fa-map-marker-alt
         link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
-      - text: Pending
+      - text: Piazza Help, Office Hours
         icon: fas fa-clipboard
 
 important_dates:
