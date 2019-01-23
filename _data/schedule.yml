@@ -298,8 +298,14 @@ weeks:
       - text: Tabular Data
         icon: *icon_pending
         type: grey
+
       - <<: *homework1
         bump: true
+
+      - text: 'AMA Questions (Susie)'
+        date: 2019-02-07
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790184
 
 - week: 3
   days:
@@ -322,15 +328,21 @@ weeks:
     - type: Lecture
       date: 2019-02-07
       resources:
-      - text: Guest AMA
+      - text: 'AMA: Susie Lu'
         icon: *icon_speaker
         type: primary has-text-weight-bold
+        link: https://www.susielu.com/
 
       - text: Interactivity
         icon: *icon_pending
         type: grey
         bump: true
 
+      deadlines:
+      - text: 'AMA Questions'
+        date: 2019-02-07
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790184
 
 - week: 4
   days:
