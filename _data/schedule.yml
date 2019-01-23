@@ -206,6 +206,7 @@ weeks:
   days:
     - type: Lecture
       date: 2019-01-22
+      zoom: https://usfca.zoom.us/recording/share/aPRwaRmuI0ZN8sbrdYP84sa9GV5WR7x9jom6HwZJ5kywIumekTziMw
       resources:
       - text: Motivation
         icon: *icon_slides
@@ -283,7 +284,7 @@ weeks:
 
       - <<: *gitsetup
         bump: true
-        
+
       - text: Piazza Setup
         link: https://usfca.instructure.com/courses/1582982/assignments/6823825
         icon: *icon_participation

@@ -19,10 +19,16 @@
       <div class="tile is-parent is-vertical">
         <div class="tile is-child">
           <div class="heading">
+            {%- if day.zoom %}
+            <a href="{{ day.zoom }}">
+            {%- endif %}
             {%- if day.date %}
             {{ day.date | date: "%A %m/%d" }} {{ day.type }}
             {%- else %}
             {{ day.type }}
+            {%- endif %}
+            {%- if day.zoom %}
+            <i class="fas fa-video"></i></a>
             {%- endif %}
           </div>
 
