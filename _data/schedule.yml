@@ -310,6 +310,12 @@ weeks:
         icon: *icon_pending
         type: grey
 
+      - text: 'AMA Questions (Krist)'
+        date: 2019-02-12
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790183
+        bump: true
+
       deadlines:
       - <<: *midterm_groups
 
@@ -331,14 +337,21 @@ weeks:
     - type: Lecture
       date: 2019-02-12
       resources:
-      - text: Guest AMA
+      - text: 'AMA: Krist Wongsuphasawat'
         icon: *icon_speaker
+        link: http://kristw.yellowpigz.com/
         type: primary has-text-weight-bold
 
       - text: Multivariate Data
         icon: *icon_pending
         type: grey
         bump: true
+
+      deadlines:
+      - text: 'AMA Questions'
+        date: 2019-02-12
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790183
 
     - type: Lecture
       date: 2019-02-14
