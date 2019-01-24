@@ -17,29 +17,22 @@ layout: default
 
 <p>Here is the upcoming course schedule, which includes links to lecture material, assignments, and more:</p>
 
-{%- assign today = 'now' | date: '%s' -%}
-{%- assign beg_date = site.data.course.beg_date | date: '%s' -%}
+{%- assign today_date = 'now' | date: '%Y-%m-%d' -%}
+{%- assign today = today_date | date: '%s'| abs -%}
+{%- assign beg_date = site.data.course.beg_date | date: '%s' | abs -%}
+{%- assign beg_index = 0 -%}
 
-{%- if today < beg_date -%}
-  {%- assign beg_index = 0 -%}
-{%- else -%}
-  {%- assign beg_index = site.data.schedule.weeks | size | minus: 2 -%}
-  {%- assign found = false -%}
-  {%- for week in site.data.schedule.weeks limit:beg_index -%}
-    {%- for day in week.days -%}
-      {%- if day.date -%}
-        {%- assign as_seconds = day.date | date: '%s' -%}
-        {%- if today <= as_seconds -%}
-          {%- assign found = true -%}
-          {%- break -%}
-        {%- endif -%}
+{%- if today > beg_date -%}
+  {%- assign end_index = site.data.schedule.weeks | size | minus: 2 -%}
+  {%- for week in site.data.schedule.weeks limit:end_index -%}
+    {%- assign first_day = week.days | first -%}
+    {%- if first_day.date -%}
+      {%- assign as_seconds = first_day.date | date: '%s' | abs -%}
+      {%- if as_seconds > today -%}
+        {%- break -%}
       {%- endif -%}
-    {%- endfor -%}
-
-    {%- if found and forloop.index0 < beg_index -%}
-      {%- assign beg_index = forloop.index0 -%}
-      {%- break -%}
     {%- endif -%}
+    {%- assign beg_index = forloop.index0 -%}
   {%- endfor -%}
 {%- endif -%}
 
