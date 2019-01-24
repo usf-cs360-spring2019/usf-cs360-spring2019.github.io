@@ -1,0 +1,23 @@
+---
+title: General Guides
+navbar: Guides
+layout: default
+---
+
+{%- assign pages = site.collections | where: 'label', page.collection | first -%}
+
+<ul>
+
+{%- for item in pages.docs %}
+{%- unless item.path contains 'index' %}
+<li>
+  <p>
+    <a href="{{ item.url }}">
+      {{ item.title }}
+    </a>
+  </p>
+</li>
+{% endunless -%}
+{% endfor -%}
+
+</ul>

@@ -3,3 +3,19 @@ name: "Sophie Engle"
 repository: "usf-cs360-spring2019/usf-cs360-spring2019.github.io"
 timezone: "America/Los_Angeles"
 permalink: /guides/:title:output_ext
+
+collections:
+  general:
+    title: General Guides
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
+  homework:
+    title: Homework Guides
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
+  projects:
+    title: Project Guides
+    output: true
+    permalink: /guides/:collection/:name:output_ext
