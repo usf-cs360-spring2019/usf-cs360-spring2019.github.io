@@ -240,13 +240,17 @@ weeks:
     - type: Lecture
       date: 2019-01-24
       resources:
+      - text: The Dress
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upaXJuSDdMaXJKSm8
+
       - text: Perception
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upREVRSWFNRHlEcEE
 
       - text: Optional Illusions
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upc0xCb2ptR3MzQ2c
 
       - text: HTML and JavaScript
         icon: *icon_website
