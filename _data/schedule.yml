@@ -372,10 +372,6 @@ weeks:
     - type: Lecture
       date: 2019-02-14
       resources:
-      - text: Guest AMA
-        icon: *icon_speaker
-        type: primary has-text-weight-bold
-
       - text: Multivariate Data
         icon: *icon_pending
         type: grey
@@ -419,6 +415,10 @@ weeks:
     - type: Lecture
       date: 2019-02-28
       resources:
+      - text: Guest AMA
+        icon: *icon_speaker
+        type: primary has-text-weight-bold
+
       - text: Evaluation
         icon: *icon_pending
         type: grey
