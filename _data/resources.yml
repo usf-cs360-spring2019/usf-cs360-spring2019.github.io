@@ -9,6 +9,11 @@ datasets:
     info: |
       Five Thirty Eight shares the data and code behind some of their articles and graphics. Most datasets are in CSV format.
 
+  - text: Observable Datasets
+    link: https://github.com/observablehq/datasets
+    info: |
+      Common datasets used in Observable notebooks.
+
 # http://www.amelia.mn/sds220/project#places_to_find_data
 # https://www.washingtonpost.com/graphics/2019/business/contractors-shutdown/?utm_term=.592ad632ae11
 
@@ -17,4 +22,16 @@ tools:
     link: https://www.tableau.com/academic/students
     info: |
       With Tableau's drag-and-drop interface, you'll analyze and present with ease. Students at accredited academic institutions worldwide are eligible for a free one-year license to activate Tableau Desktop and Tableau Prep.
-  
+
+blogs:
+  - text: Multiple Views: Visualization Research Explained
+    link: https://medium.com/multiple-views-visualization-research-explained
+    info: |
+      A blog about visualization research, for anyone, by the people who do it.
+
+# https://commercialtools.dbvis.de/home
+# https://github.com/vega/vega-datasets
+# https://medium.com/@Elijah_Meeks/what-charts-say-6e31cbba2047
+# https://benfry.com/specious/
+# https://projects.propublica.org/miseducation/
+# https://github.com/the-pudding/data
