@@ -239,6 +239,8 @@ weeks:
 
     - type: Lecture
       date: 2019-01-24
+      zoom: https://usfca.zoom.us/recording/share/i6NXCZGOAGTG6dGTKExvux22ix81Vs6fY5njN0HnJeGwIumekTziMw
+      
       resources:
       - text: The Dress
         icon: *icon_slides
