@@ -142,33 +142,33 @@ assignments:
       icon: *icon_survey
       date: 2019-02-05
       type: success
-      link: https://usfca.instructure.com/courses/1582982/assignments/6822050
+      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-groups.html
 
   - midterm_alpha: &midterm_alpha
       text: Midterm Alpha Release
       icon: *icon_project
       date: 2019-02-19
       type: success
-      link: https://usfca.instructure.com/courses/1582982/assignments/6821963
+      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-prototypes.html
 
   - midterm_beta: &midterm_beta
       text: Midterm Beta Release
       icon: *icon_project
       date: 2019-03-05
       type: success
-      link: https://usfca.instructure.com/courses/1582982/assignments/6821964
+      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-prototypes.html
 
   - midterm_prototype: &midterm_prototype
       text: Prototype Exercises
       icon: *icon_participation
-      link: https://usfca.instructure.com/courses/1582982/assignments/6822053
+      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-prototypes.html
 
   - midterm_project: &midterm_project
       text: Midterm Project
       icon: *icon_project
       date: 2019-03-19
       type: success
-      link: https://usfca.instructure.com/courses/1582982/assignments/6821965
+      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-project.html
 
   - final_proposal: &final_proposal
       text: Final Proposal
@@ -240,7 +240,7 @@ weeks:
     - type: Lecture
       date: 2019-01-24
       zoom: https://usfca.zoom.us/recording/share/i6NXCZGOAGTG6dGTKExvux22ix81Vs6fY5njN0HnJeGwIumekTziMw
-      
+
       resources:
       - text: The Dress
         icon: *icon_slides

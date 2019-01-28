@@ -5,4 +5,48 @@ layout: default
 key: 1
 ---
 
-Pending.
+Instead of a midterm exam, all students must complete a midterm group project. This guide details all of the associated requirements for this project.
+
+{% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "While all of these requirements listed here are related to the midterm project, the associated assignments may belong to other categories (such as participation or presentations)." %}
+
+## Groups
+
+The midterm project will be completed in groups of 2 to 4 people from the same section (meaning undergraduate and graduate students may not join the same group). The exact requirements for the midterm project will depend on the number of students in each group.
+
+For details on how to form the groups and submit a group name, see the [Midterm Groups](/guides/projects/midterm-groups.html) guide.
+
+## Dataset
+
+All groups must visualize the following dataset:
+
+  - Pending
+
+However, each group must decide on a subset (or multiple subsets) of this dataset that will be more manageable in size. There is no exact size requirement; the subset must be big enough to warrant several unique visualizations but not too large to load in the browser or Tableau.
+
+The subset can be selected by focusing on specific categories or aggregating the data. However, it should **support a cohesive theme** that the entire group will integrate into their individual visualizations. This theme could be an overall story that each visualization will support, or a broad question that each visualization will help answer.
+
+Groups are also welcome to find related datasets to the one above that can help augment their visualizations as well.
+
+## Requirements
+
+Pending
+
+These visualizations must be showcased on a professional project website. See the [Midterm Website](/guides/projects/midterm-website.html) guide for additional details.
+
+## Prototypes
+
+Each group must submit several prototypes before their final release of their projects. This includes an alpha and beta release. Groups will give each other feedback on the prototypes in the beta release on Tuesday 3/5 and Thursday 3/7.
+
+See the [Midterm Prototypes](/guides/projects/midterm-prototypes.html) guide for additional details.
+
+## Website
+
+Each group must [submit a final release](https://usfca.instructure.com/courses/1582982/assignments/6821965) of their professional project website showcasing their visualizations before class on Tuesday 03/19. All groups must meet this deadline regardless of when they are presenting.
+
+See the [Midterm Website](/guides/projects/midterm-website.html) guide for additional details.
+
+## Presentation
+
+Each group must present their midterm project in class on week 9 (Tuesday 3/19 and Thursday 3/21). The presentation date is based on the group number; the first 6 groups will present on Tuesday and the last 6 groups will present on Thursday.
+
+See the [Midterm Presentations](/guides/projects/midterm-presentations.html) guide for additional details.
