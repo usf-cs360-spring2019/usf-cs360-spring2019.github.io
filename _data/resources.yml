@@ -1,37 +1,237 @@
-datasets:
-  - text: Pew Research Center
-    link: http://www.pewresearch.org/download-datasets/
-    info: |
-      Pew Research Center makes its data available to the public for secondary analysis after a period of time. Most datasets are in SPSS format. Requires free account to download.
+- label: 'General Resources'
+  order: 'text'
+  items:
+    - text: 'Data Visualization Catalogue'
+      link: 'https://datavizcatalogue.com/resources.html'
 
-  - text: Five Thirty Eight
-    link: https://data.fivethirtyeight.com/
-    info: |
-      Five Thirty Eight shares the data and code behind some of their articles and graphics. Most datasets are in CSV format.
+    - text: 'Resources from Visualising Data'
+      link: 'http://www.visualisingdata.com/resources/'
 
-  - text: Observable Datasets
-    link: https://github.com/observablehq/datasets
-    info: |
-      Common datasets used in Observable notebooks.
+    - text: 'Commercial Visual Analytics Tools Survey'
+      link: 'https://commercialtools.dbvis.de/home'
 
-# http://www.amelia.mn/sds220/project#places_to_find_data
-# https://www.washingtonpost.com/graphics/2019/business/contractors-shutdown/?utm_term=.592ad632ae11
+- label: 'Datasets'
+  order: 'text'
+  items:
+    - text: 'DataSF'
+      link: 'https://datasf.org/'
+      icon: 'fas fa-star has-text-primary'
 
-tools:
-  - text: Tableau Desktop
-    link: https://www.tableau.com/academic/students
-    info: |
-      With Tableau's drag-and-drop interface, you'll analyze and present with ease. Students at accredited academic institutions worldwide are eligible for a free one-year license to activate Tableau Desktop and Tableau Prep.
+    - text: 'Pew Research Center'
+      link: 'http://www.pewresearch.org/download-datasets/'
 
-blogs:
-  - text: 'Multiple Views: Visualization Research Explained'
-    link: https://medium.com/multiple-views-visualization-research-explained
-    info: |
-      A blog about visualization research, for anyone, by the people who do it.
+    - text: 'Five Thirty Eight'
+      link: 'https://data.fivethirtyeight.com/'
 
-# https://commercialtools.dbvis.de/home
-# https://github.com/vega/vega-datasets
-# https://medium.com/@Elijah_Meeks/what-charts-say-6e31cbba2047
-# https://benfry.com/specious/
-# https://projects.propublica.org/miseducation/
-# https://github.com/the-pudding/data
+    - text: 'Observable'
+      link: 'https://github.com/observablehq/datasets'
+
+    - text: 'Data.gov'
+      link: 'https://www.data.gov/'
+
+    - text: 'Bureau of Labor Statistics'
+      link: 'https://www.bls.gov/'
+
+    - text: 'United States Census Bureau'
+      link: 'https://www.census.gov/'
+
+    - text: 'Gapminder'
+      link: 'https://www.gapminder.org/data/'
+
+    - text: 'World Health Organization (WHO)'
+      link: 'https://www.who.int/gho/en/'
+
+    - text: 'Organisation for Economic Cooperation and Development (OECD)'
+      link: 'https://data.oecd.org/'
+
+    - text: 'The Pudding'
+      link: 'https://github.com/the-pudding/data'
+
+    - text: 'Vega and Vega-Lite'
+      link: 'https://github.com/vega/vega-datasets'
+
+- label: 'Software, Libraries, and Other Tools'
+  order: 'text'
+  items:
+    - text: 'Tableau Desktop'
+      link: 'https://www.tableau.com/academic/students'
+
+    - text: 'Datawrapper'
+      link: 'https://www.datawrapper.de/'
+
+    - text: 'Semiotic'
+      link: 'https://emeeks.github.io/semiotic/'
+
+    - text: 'Vega and Vega-Lite'
+      link: 'http://vega.github.io/'
+
+- label: 'Blogs'
+  order: 'text'
+  extra: true
+  items:
+    - text: 'Multiple Views: Visualization Research Explained'
+      link: 'https://medium.com/multiple-views-visualization-research-explained'
+      name: 'Editors: Jessica Hullman, Danielle Szafir, Robert Kosara, and Enrico Bertini'
+
+    - text: 'Chartable'
+      link: 'https://blog.datawrapper.de/'
+      name: 'Datawrapper'
+
+    - text: 'Visualising Data'
+      link: 'http://www.visualisingdata.com/'
+      name: 'Andy Kirk'
+
+    - text: 'FlowingData'
+      link: 'https://flowingdata.com/'
+      name: 'Nathan Yau'
+
+    - text: 'EagerEyes'
+      link: 'https://eagereyes.org/'
+      name: 'Robert Kosara'
+
+- label: 'Research Labs'
+  order: 'text'
+  extra: true
+  items:
+    - text: 'Interactive Data Lab'
+      link: 'https://idl.cs.washington.edu/'
+      name: 'University of Washington'
+
+    - text: 'Urban Data Visualization Lab'
+      link: 'http://udv.lab.uic.edu/'
+      name: 'University of Illinois at Chicago'
+
+    - text: 'Visualization Lab'
+      link: 'http://vis.gatech.edu/'
+      name: 'Georgia Tech'
+
+    - text: 'Visualization Design Lab'
+      link: 'http://vdl.sci.utah.edu/'
+      name: 'University of Utah'
+
+    - text: 'Visualization Imaging and Data Analysis Center'
+      link: 'https://vida.engineering.nyu.edu/'
+      name: 'New York University'
+
+    - text: 'Visualization & Interface Design and Innovation (VIDI)'
+      link: 'https://vidi.cs.ucdavis.edu/'
+      name: 'University of California, Davis'
+
+- label: 'Academic Conferences'
+  order: 'text'
+  items:
+    - text: 'IEEE VIS'
+      link: 'http://ieeevis.org/'
+
+    - text: 'ACM CHI'
+      link: 'https://sigchi.org/conferences/conference-history/chi/'
+
+    - text: 'EuroVis'
+      link: 'https://www.eurovis.org/'
+
+    - text: 'PacificVis'
+      link: 'http://research.cbs.chula.ac.th/pvis2019/home.aspx'
+
+    - text: 'Visualization in Data Science (VDS)'
+      link: 'http://www.visualdatascience.org/2018/index.html'
+
+    - text: 'Open Access VIS'
+      link: 'http://oavis.steveharoz.com/'
+      icon: 'fas fa-star has-text-primary'
+
+- label: 'Other Conferences'
+  order: 'text'
+  items:
+    - text: 'Visualizing Biological Data (VIZBI)'
+      link: 'http://vizbi.org/'
+
+    - text: 'Information+'
+      link: 'http://informationplusconference.com/'
+
+    - text: 'OpenVis Conf'
+      link: 'http://www.openvisconf.com/'
+
+- label: 'Tutorials and Guides'
+  order: 'text'
+  items:
+    - text: 'Guides from Flowing Data'
+      link: 'https://flowingdata.com/category/guides/'
+      name: 'Nathan Yau'
+
+- label: 'Articles and Papers'
+  order: 'date'
+  extra: true
+  items:
+    - text: 'An alternative to pink &amp; blue: Colors for gender data'
+      link: 'https://blog.datawrapper.de/gendercolor/'
+      name: 'Lisa Charlotte Rost'
+      date: 2018-07-10
+
+    - text: 'A tour through the visualization zoo'
+      link: 'https://homes.cs.washington.edu/~jheer/files/zoo/'
+      name: 'Jeffrey Heer, Michael Bostock, and Vadim Ogievetsky'
+      date: 2010-05-13
+
+    - text: 'The list of 2018 visualization lists'
+      link: 'http://www.maartenlambrechts.com/2018/12/31/the-list-of-2018-visualization-lists.html'
+      name: 'Maarten Lambrechts'
+      date: 2018-12-31
+
+    - text: 'Data visualization, fast and slow'
+      link: 'https://medium.com/@Elijah_Meeks/data-visualization-fast-and-slow-d2653d4850b0'
+      name: 'Elijah Meeks'
+      date: 2018-05-07
+
+- label: 'Design Groups'
+  order: 'text'
+  items:
+    - text: 'Stamen Design'
+      link: 'https://stamen.com/'
+
+    - text: 'Density Design'
+      link: 'https://densitydesign.org/'
+
+    - text: 'The Pudding'
+      link: 'https://pudding.cool/'
+
+    - text: 'Data Sketches'
+      link: 'http://www.datasketch.es/'
+      name: 'Nadieh Bremer and Shirley Wu'
+
+    - text: 'Fathom.info'
+      link: 'https://fathom.info/'
+
+- label: 'Freelancers, Consultants, Practitioners'
+  order: 'last'
+  items:
+    - text: 'Maarten Lambrechts'
+      link: 'http://www.maartenlambrechts.com/'
+      last: 'Lambrechts'
+
+    - text: 'Susie Lu'
+      link: 'https://www.susielu.com/'
+      last: 'Lu'
+
+    - text: 'Shirley Wu'
+      link: 'http://sxywu.com/'
+      last: 'Wu'
+
+    - text: 'Ben Fry'
+      link: 'https://benfry.com/'
+      last: 'Fry'
+
+- label: 'Random Examples'
+  order: 'date'
+  extra: true
+  items:
+    - text: 'Miseducation: Is there racial inequality at your school?'
+      link: 'https://projects.propublica.org/miseducation/'
+      date: 2018-10-16
+      name: 'Lena V. Groeger, Annie Waldman and David Eads'
+      info: 'ProPublica'
+
+    - text: 'Nearly 10,000 companies contract with shutdown-affected agencies, putting $200 million a week at risk'
+      link: 'https://www.washingtonpost.com/graphics/2019/business/contractors-shutdown/'
+      date: 2019-01-16
+      name: 'By Ted Mellnik and Aaron Gregg; Graphics by Kate Rabinowitz and Lauren Tierney'
+      info: 'The Washington Post'

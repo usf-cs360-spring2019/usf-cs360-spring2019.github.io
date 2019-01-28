@@ -2,6 +2,7 @@
 title: Learning Git and Github
 navbar: Guides
 layout: default
+key: 3
 ---
 
 If you do not yet have a free Github account, you need to create one:

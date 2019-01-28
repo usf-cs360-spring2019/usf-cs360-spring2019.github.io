@@ -1,0 +1,43 @@
+---
+title: Data Visualization Resources
+navbar: Guides
+layout: default
+key: 1
+tags:
+  - text: 'New'
+    type: 'is-primary'
+---
+
+<p>You can find an <em>incomplete and in-progress</em> list of data visualization resources here. These will be useful for deciding on talk topics and project datasets. I recommend you start with the general resources, which have their own lists of datasets, tools, blogs, galleries, and so on.</p>
+
+{% for group in site.data.resources %}
+
+{% include section.html level="h3" name=group.label %}
+
+{% assign items = group.items | sort: group.order %}
+
+<div class="columns is-multiline is-2 is-variable">
+  {% for item in items %}
+  <div class="column is-one-third-tablet is-one-quarter-desktop">
+    <p class="box" style="height: 100%;">
+    {%- if item.icon %}
+    <i class="{{ item.icon }}"></i>
+    {% endif -%}
+    <a href="{{ item.link }}">{{ item.text}}</a>
+    {%- if group.extra %}
+    <br/>
+    <small class="has-text-grey">
+      <em>
+        {{ item.name }}
+        {%- if item.info %}, {{ item.info }}{% endif -%}
+        {%- if item.date %}, {{ item.date | date: "%b %Y" }}{% endif -%}
+      </em>
+
+    </small>
+    {% endif -%}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+{% endfor %}

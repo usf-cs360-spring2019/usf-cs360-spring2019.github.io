@@ -6,22 +6,9 @@ layout: default
 {%- assign ordered = 'general,homework,projects' | split: ',' -%}
 {%- for name in ordered %}
 {%- assign collection = site.collections | where: 'label', name | first %}
+{%- assign items = collection.docs | sort: 'key' -%}
 
 <h3>{{ collection.title }} <a href="/guides/{{ collection.label }}/" class="has-text-grey-light" style="border-bottom: 0px;"><i class="fas fa-link"></i></a></h3>
 
-<ul>
-
-{%- for item in collection.docs %}
-{%- unless item.path contains 'index' %}
-<li>
-  <p>
-    <a href="{{ item.url }}">
-      {{ item.title }}
-    </a>
-  </p>
-</li>
-{% endunless -%}
-{% endfor -%}
-
-</ul>
+{%- include guide.html items = items %}
 {% endfor -%}

@@ -1,0 +1,16 @@
+<ul>
+
+{%- for item in include.items %}
+{%- unless item.path contains 'index' %}
+<li>
+  <p {% if item.bump %} class="bump"{% endif %}>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    {%- for tag in item.tags %}
+    &nbsp;<span class="tag {{ tag.type }}">{{ tag.text }}</span>
+    {% endfor -%}
+  </p>
+</li>
+{% endunless -%}
+{% endfor -%}
+
+</ul>

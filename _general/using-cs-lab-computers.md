@@ -2,6 +2,8 @@
 title: Using CS Lab Computers
 navbar: Guides
 layout: default
+key: 2
+bump: true
 ---
 
 You must use your CS account and CS lab computers (remotely or locally) to verify homework and projects.
