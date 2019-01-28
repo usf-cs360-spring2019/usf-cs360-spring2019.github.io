@@ -68,23 +68,23 @@ assistants:
         icon: fas fa-map-marker-alt
         link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
-      - text: Piazza Help, Homework Grading
+      - text: Homework Grading
         icon: fas fa-clipboard
 
   - label: Gordon Li
     image: /images/li.jpg
     items:
-      - text: Pending
+      - text: Mondays, Fridays
         icon: fas fa-calendar-alt
 
-      - text: Pending
+      - text: 1:40pm &ndash; 2:40pm
         icon: fas fa-clock
 
       - text: Harney Science 411
         icon: fas fa-map-marker-alt
         link: https://www.usfca.edu/campus-buildings-services/main-campus/harney-science
 
-      - text: Piazza Help, Office Hours
+      - text: Office Hours
         icon: fas fa-clipboard
 
 important_dates:
