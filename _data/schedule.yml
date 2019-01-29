@@ -410,7 +410,7 @@ weeks:
       - <<: *vistalks
 
       - text: AMA Questions (Shirley)
-        icon: icon_participation
+        icon: *icon_participation
         date: 2019-02-28
         link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790809
         bump: true
@@ -442,7 +442,7 @@ weeks:
 
       deadlines:
       - text: AMA Questions
-        icon: icon_participation
+        icon: *icon_participation
         date: 2019-02-28
         link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790809
 
