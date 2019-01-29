@@ -35,6 +35,8 @@ The visualization techniques can include any of the basic, time series, or multi
 
 Group communication and coordination will be key. While each visualization page will be worked on individually, the visualizations should complement each other and **support a cohesive theme**. Beyond having a cohesive story or question, the encodings and styles should also be kept as consistent as possible across visualizations. For example, use the same color encoding for categories throughout the entire project.
 
+Keep the required screenspace to view your visualizations within 1440 x 900 pixels. These are just maximums; your visualizations do *not* need to take up that entire space and do *not* need to have that aspect ratio. Your visualizations do *not* need to be responsive to the browser size.
+
 This is in addition to the other pages required for the midterm project website. This includes a dataset page, which will also include simple visualizations. See the [Midterm Website](/guides/projects/midterm-website.html) guide for additional details.
 
 ## Prototypes
