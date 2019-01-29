@@ -29,9 +29,13 @@ Groups are also welcome to find related datasets to the one above that can help 
 
 ## Requirements
 
-Pending
+Each group must produce *at least* one unique interactive multi-component visualization page per person. The individual components on the visualization page should have their interactivity linked. For example, highlighting a category in one component should highlight  that same category in all components.
 
-These visualizations must be showcased on a professional project website. See the [Midterm Website](/guides/projects/midterm-website.html) guide for additional details.
+The visualization techniques can include any of the basic, time series, or multivariate visualization techniques we have discussed thus far in class. This includes: <i class="fas fa-table"></i> **tables** (normal or Bertin-style), <i class="fas fa-grip-horizontal"></i> **heatmaps** (rectangular or circular), <i class="fas fa-chart-bar"></i> **bar charts** (normal, grouped, stacked, 100% stacked, horizontal or vertical, small multiples), <i class="fas fa-chart-line"></i> **line charts** (normal, multi-series, small multiple, slope graphs, rectangular or circular, small multiples), <i class="fas fa-chart-area"></i> **area charts** (normal, stacked, 100% stacked, small multiples, **streamgraphs**, rectangular or circular, **horizon charts**, joyplots), <i class="fas fa-chart-pie"></i> **pie charts** (normal, small multiples, ~~donut charts~~), <i class="fas fa-chart-scatter"></i> **scatterplots** (normal, hexbinning, bubble charts, scatterplot matrices), **parallel coordinates** (rectangular or circular), or **distribution plots** (histograms, boxplots, violin plots, density plots, beeswarm plots, small multiples).
+
+Group communication and coordination will be key. While each visualization page will be worked on individually, the visualizations should complement each other and **support a cohesive theme**. Beyond having a cohesive story or question, the encodings and styles should also be kept as consistent as possible across visualizations. For example, use the same color encoding for categories throughout the entire project.
+
+This is in addition to the other pages required for the midterm project website. This includes a dataset page, which will also include simple visualizations. See the [Midterm Website](/guides/projects/midterm-website.html) guide for additional details.
 
 ## Prototypes
 
