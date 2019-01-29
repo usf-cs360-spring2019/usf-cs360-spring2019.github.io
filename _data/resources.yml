@@ -158,6 +158,10 @@
       link: 'https://flowingdata.com/category/guides/'
       name: 'Nathan Yau'
 
+    - text: 'D3 in Depth'
+      link: 'https://d3indepth.com/'
+      name: 'Peter Cook'
+
 - label: 'Articles and Papers'
   order: 'date'
   extra: true
