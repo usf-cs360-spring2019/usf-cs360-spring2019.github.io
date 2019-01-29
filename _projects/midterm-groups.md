@@ -30,8 +30,6 @@ To officially join a group, visit the [People](https://usfca.instructure.com/cou
 
 **This is a required step for each student!**
 
-{% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "When forming groups, pay attention to the group number. The first 6 groups will present their midterm projects on Tuesday 03/19 and the last 6 groups will present on Thursday 03/21." %}
-
 ## Group Names
 
 After a group is officially created on Canvas (see above), one member of each group must submit their group name in the following assignment:

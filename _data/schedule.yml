@@ -294,7 +294,7 @@ weeks:
       - text: Piazza Setup
         link: https://usfca.instructure.com/courses/1582982/assignments/6823825
         icon: *icon_participation
-        date: 2019-01-28
+        date: 2019-01-29
 
       - <<: *talksignup
 
@@ -477,6 +477,7 @@ weeks:
       resources:
       - text: Midterm Presentations
         icon: *icon_presentation
+        link: /guides/projects/midterm-presentations.html
 
       - <<: *csevent2
         bump: true
@@ -484,12 +485,14 @@ weeks:
 
       deadlines:
       - <<: *midterm_project
+        text: Midterm Website
 
     - type: Lecture
       date: 2019-03-21
       resources:
       - text: Midterm Presentations
         icon: *icon_presentation
+        link: /guides/projects/midterm-presentations.html
 
 - week: 10
   days:

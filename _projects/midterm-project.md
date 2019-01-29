@@ -39,11 +39,13 @@ This is in addition to the other pages required for the midterm project website.
 
 ## Prototypes
 
-Each group must submit several prototypes before their final release of their projects. This includes an alpha and beta release. Groups will give each other feedback on the prototypes in the beta release on Tuesday 3/5 and Thursday 3/7.
+Each group must submit several prototypes before their final release of their projects. This includes an [alpha release](https://usfca.instructure.com/courses/1582982/assignments/6821963) and [beta release](https://usfca.instructure.com/courses/1582982/assignments/6821964). Groups will give each other feedback on the prototypes in the beta release on Tuesday 3/5 and Thursday 3/7.
 
 See the [Midterm Prototypes](/guides/projects/midterm-prototypes.html) guide for additional details.
 
 ## Website
+
+The midterm project websites must include a rich page describing the data subset selected (and any processing performed), a team page with photos and bios of each team member, a prototypes page illustrating the development of the final visualizations, and one visualization page per team member (as described in the requirements section).
 
 Each group must [submit a final release](https://usfca.instructure.com/courses/1582982/assignments/6821965) of their professional project website showcasing their visualizations before class on Tuesday 03/19. All groups must meet this deadline regardless of when they are presenting.
 
@@ -51,6 +53,6 @@ See the [Midterm Website](/guides/projects/midterm-website.html) guide for addit
 
 ## Presentation
 
-Each group must present their midterm project in class on week 9 (Tuesday 3/19 and Thursday 3/21). The presentation date is based on the group number; the first 6 groups will present on Tuesday and the last 6 groups will present on Thursday.
+Each group must present their midterm project in class on week 9 (Tuesday 3/19 and Thursday 3/21). The presentation length must be 5 minutes per person; a 3 person group must present for 15 minutes and a 4 person group must present for 20 minutes. The presentation dates will be semi-randomly assigned by the instructor (taking into account the size of groups and length of presentations).
 
 See the [Midterm Presentations](/guides/projects/midterm-presentations.html) guide for additional details.
