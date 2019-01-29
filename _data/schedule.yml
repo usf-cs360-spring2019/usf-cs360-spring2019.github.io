@@ -274,9 +274,17 @@ weeks:
     - type: Lecture
       date: 2019-01-29
       resources:
-      - text: Tabular Data
+      - text: Basic Charts in Tableau
         icon: *icon_pending
-        type: grey
+        link: https://gist.github.com/sjengle/9089263aedcdf8125091626302c77023
+
+      - text: Basic Charts in Vega-Lite
+        icon: *icon_code
+        link: https://beta.observablehq.com/d/38c6cd86da4fed7d
+
+      - text: The Data Visualisation Catalogue
+        icon: *icon_website
+        link: https://datavizcatalogue.com/
 
       - <<: *midterm_project
         bump: true
