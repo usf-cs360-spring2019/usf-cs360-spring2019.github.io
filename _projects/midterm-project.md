@@ -58,3 +58,17 @@ See the [Midterm Website](/guides/projects/midterm-website.html) guide for addit
 Each group must present their midterm project in class on week 9 (Tuesday 3/19 and Thursday 3/21). The presentation length must be 5 minutes per person; a 3 person group must present for 15 minutes and a 4 person group must present for 20 minutes. The presentation dates will be semi-randomly assigned by the instructor (taking into account the size of groups and length of presentations).
 
 See the [Midterm Presentations](/guides/projects/midterm-presentations.html) guide for additional details.
+
+{% include section.html level="h2" name="Grading" %}
+
+The instructor will grade the final release of the midterm project websites. The midterm group project will be graded not just on whether you meet the core requirements, but also how well you meet or exceed those requirements. Specifically:
+
+| Letter | Description |
+|:------:|:------------|
+| F | Reserved for projects that do not meet the minimum requirements. |
+| D | Reserved for projects that meet the minimum requirements, but fail to deliver informative visualizations and a professional website. |
+| C | Reserved for those projects that meet the minimum requirements, and deliver informative visualizations and a professional website. |
+| B | Reserved for those projects that exceed the minimum requirements, and deliver informative visualizations and a professional website. |
+| A | Reserved only for those projects that go above and beyond the minimum requirements, and deliver a highly effective visualizations and a well-written professional website. |
+
+Keep in mind the **entire website** will be considered, not just the visualizations. Be as wary of irregular punctuation and poor writing as a misplaced tick mark in your visualizations!
