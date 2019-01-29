@@ -409,6 +409,12 @@ weeks:
       resources:
       - <<: *vistalks
 
+      - text: AMA Questions (Shirley)
+        icon: icon_participation
+        date: 2019-02-28
+        link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790809
+        bump: true
+
       deadlines:
       - <<: *feedback1
         type: info
@@ -425,15 +431,21 @@ weeks:
     - type: Lecture
       date: 2019-02-28
       resources:
-      - text: Guest AMA
+      - text: AMA: Shirley Wu
         icon: *icon_speaker
         type: primary has-text-weight-bold
+        link: http://sxywu.com/
 
       - text: Evaluation
         icon: *icon_pending
         type: grey
 
       deadlines:
+      - text: AMA Questions
+        icon: icon_participation
+        date: 2019-02-28
+        link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790809
+
       - <<: *homework2
         type: info
 
