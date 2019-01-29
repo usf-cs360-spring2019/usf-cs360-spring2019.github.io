@@ -9,13 +9,13 @@ Instead of a midterm exam, all students must complete a midterm group project. T
 
 {% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "While all of these requirements listed here are related to the midterm project, the associated assignments may belong to other categories (such as participation or presentations)." %}
 
-## Groups
+{% include section.html level="h2" name="Groups" %}
 
 The midterm project will be completed in groups of 2 to 4 people from the same section (meaning undergraduate and graduate students may not join the same group). The exact requirements for the midterm project will depend on the number of students in each group.
 
 For details on how to form the groups and submit a group name, see the [Midterm Groups](/guides/projects/midterm-groups.html) guide.
 
-## Dataset
+{% include section.html level="h2" name="Dataset" %}
 
 All groups must visualize the following dataset:
 
@@ -27,7 +27,7 @@ The subset can be selected by focusing on specific categories or aggregating the
 
 Groups are also welcome to find related datasets to the one above that can help augment their visualizations as well.
 
-## Requirements
+{% include section.html level="h2" name="Requirements" %}
 
 Each group must produce *at least* one unique interactive multi-component visualization page per person. The individual components on the visualization page should have their interactivity linked. For example, highlighting a category in one component should highlight  that same category in all components.
 
@@ -39,13 +39,13 @@ Keep the required screenspace to view your visualizations within 1440 x 900 pixe
 
 This is in addition to the other pages required for the midterm project website. This includes a dataset page, which will also include simple visualizations. See the [Midterm Website](/guides/projects/midterm-website.html) guide for additional details.
 
-## Prototypes
+{% include section.html level="h2" name="Prototypes" %}
 
 Each group must submit several prototypes before their final release of their projects. This includes an [alpha release](https://usfca.instructure.com/courses/1582982/assignments/6821963) and [beta release](https://usfca.instructure.com/courses/1582982/assignments/6821964). Groups will give each other feedback on the prototypes in the beta release on Tuesday 3/5 and Thursday 3/7.
 
 See the [Midterm Prototypes](/guides/projects/midterm-prototypes.html) guide for additional details.
 
-## Website
+{% include section.html level="h2" name="Website" %}
 
 The midterm project websites must include a rich page describing the data subset selected (and any processing performed), a team page with photos and bios of each team member, a prototypes page illustrating the development of the final visualizations, and one visualization page per team member (as described in the requirements section).
 
@@ -53,7 +53,7 @@ Each group must [submit a final release](https://usfca.instructure.com/courses/1
 
 See the [Midterm Website](/guides/projects/midterm-website.html) guide for additional details.
 
-## Presentation
+{% include section.html level="h2" name="Presentation" %}
 
 Each group must present their midterm project in class on week 9 (Tuesday 3/19 and Thursday 3/21). The presentation length must be 5 minutes per person; a 3 person group must present for 15 minutes and a 4 person group must present for 20 minutes. The presentation dates will be semi-randomly assigned by the instructor (taking into account the size of groups and length of presentations).
 
