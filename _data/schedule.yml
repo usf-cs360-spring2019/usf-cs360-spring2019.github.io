@@ -431,7 +431,7 @@ weeks:
     - type: Lecture
       date: 2019-02-28
       resources:
-      - text: AMA: Shirley Wu
+      - text: 'AMA: Shirley Wu'
         icon: *icon_speaker
         type: primary has-text-weight-bold
         link: http://sxywu.com/
