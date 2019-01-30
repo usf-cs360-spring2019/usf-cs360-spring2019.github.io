@@ -208,6 +208,11 @@
 - label: 'Freelancers, Consultants, Practitioners'
   order: 'last'
   items:
+    - text: 'Data Viz Freelancers'
+      link: 'https://twitter.com/visualisingdata/lists/data-viz-freelancers/members'
+      name: 'Twitter List by Andy Kirk'
+      last: 'Aaaa'
+
     - text: 'Maarten Lambrechts'
       link: 'http://www.maartenlambrechts.com/'
       last: 'Lambrechts'
