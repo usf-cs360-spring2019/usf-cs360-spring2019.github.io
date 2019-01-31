@@ -10,6 +10,11 @@ collections:
     output: true
     permalink: /guides/:collection/:name:output_ext
 
+  presentations:
+    title: Presentation Guides
+    output: true
+    permalink: /guides/:collection/:name:output_ext
+
   homework:
     title: Homework Guides
     output: true

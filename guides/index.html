@@ -3,7 +3,7 @@ title: Guides
 navbar: Guides
 layout: default
 ---
-{%- assign ordered = 'general,homework,projects' | split: ',' -%}
+{%- assign ordered = 'general,presentations,homework,projects' | split: ',' -%}
 {%- for name in ordered %}
 {%- assign collection = site.collections | where: 'label', name | first %}
 {%- assign items = collection.docs | sort: 'key' -%}

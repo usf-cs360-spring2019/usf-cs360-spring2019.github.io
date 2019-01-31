@@ -1,0 +1,13 @@
+{%- if page.assignments %}
+<p>
+  <span class="heading">Associated Assignments</span>
+  {%- for item in page.assignments %}
+  {%- if item.link %}
+  <a href="{{ item.link }}">{{ item.text }}</a> {{ item.info }}
+  {% else %}
+  <span class="has-text-grey">{{ item.text }} {{ item.info }}</span>
+  {% endif -%}
+  {%- unless forloop.last %}<br/>{% endunless -%}
+  {% endfor -%}
+</p>
+{% endif -%}
