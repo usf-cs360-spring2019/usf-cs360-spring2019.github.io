@@ -1,7 +1,7 @@
 ---
 title: Learning Git and Github
 navbar: Guides
-layout: default
+layout: guides
 key: 3
 ---
 

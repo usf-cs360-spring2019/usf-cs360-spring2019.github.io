@@ -1,7 +1,7 @@
 ---
 title: Homework Submission
 navbar: Guides
-layout: default
+layout: guides
 key: 1.1
 ---
 

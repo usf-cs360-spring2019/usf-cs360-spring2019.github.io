@@ -22,17 +22,37 @@
 
 <section class="section">
 <div class="container">
-<div class="content">
 
+{%- assign category = site.collections | where: 'label', page.collection | first -%}
 <nav class="breadcrumb is-small" aria-label="breadcrumbs">
   <ul>
     <li><a href="/guides/">Guides</a></li>
-    <li><a href="#">{{ page.collection.title }}</a></li>
+    <li><a href="/guides/{{ category.label }}/">{{ category.title }}</a></li>
     <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
   </ul>
 </nav>
 
+<div class="content">
+
 <h1>{{ page.title }}</h1>
+
+{%- if page.blurb %}
+{{ page.blurb }}
+{% endif -%}
+
+{%- if page.assignments %}
+<p>
+  <span class="heading">Associated Assignments</span>
+  {%- for item in page.assignments %}
+  {%- if item.link %}
+  <a href="{{ item.link }}">{{ item.text }}</a> {{ item.info }}
+  {% else %}
+  <span class="has-text-grey">{{ item.text }} {{ item.info }}</span>
+  {% endif -%}
+  {%- unless forloop.last %}<br/>{% endunless -%}
+  {% endfor -%}
+</p>
+{% endif -%}
 
 {{ content }}
 

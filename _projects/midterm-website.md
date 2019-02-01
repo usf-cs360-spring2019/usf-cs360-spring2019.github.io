@@ -1,11 +1,28 @@
 ---
 title: Midterm Website
 navbar: Guides
-layout: default
+layout: guides
 key: 4
----
 
-Instead of a midterm exam, all students must complete a midterm group project. This guide explains the requirements for the midterm project website. See the [Midterm Project](/guides/projects/midterm-project.html) page for more details on other requirements.
+blurb: |
+  <p>
+    Instead of a midterm exam, all students must complete a midterm group project. This guide explains the requirements for the midterm project website. See the <a href="/guides/projects/midterm-project.html">Midterm Project</a> page for more details on other requirements.
+  </p>
+
+assignments:
+  - text: Midterm Alpha Release
+    info: (Canvas Assignment)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821963
+
+  - text: Midterm Beta Release
+    info: (Canvas Assignment)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821964
+
+  - text: Midterm Final Release
+    info: (Canvas Assignment)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821965
+
+---
 
 {% include section.html level="h2" name="Website Content" %}
 

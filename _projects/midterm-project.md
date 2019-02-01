@@ -1,11 +1,44 @@
 ---
 title: Midterm Project
 navbar: Guides
-layout: default
+layout: guides
 key: 1
----
 
-Instead of a midterm exam, all students must complete a midterm group project. This guide details all of the associated requirements for this project.
+blurb: |
+  <p>
+    Instead of a midterm exam, all students must complete a midterm group project. This guide details all of the associated requirements for this project.
+  </p>
+
+assignments:
+  - text: Midterm Project Group
+    info: (Canvas Assignment)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6822050
+
+  - text: Midterm Alpha Release
+    info: (Canvas Assignment)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821963
+
+  - text: Midterm Beta Release
+    info: (Canvas Assignment)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821964
+
+  - text: Midterm Prototype Demonstration
+    info: (No Submission)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6822053
+
+  - text: Midterm Prototype Feedback
+    info: (No Submission)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821971
+
+  - text: Midterm Final Release
+    info: (Canvas Assignment)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821965
+
+  - text: Midterm Presentation
+    info: (No Submission)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821961
+
+---
 
 {% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "While all of these requirements listed here are related to the midterm project, the associated assignments may belong to other categories (such as participation or presentations)." %}
 

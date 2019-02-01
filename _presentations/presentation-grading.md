@@ -1,7 +1,7 @@
 ---
 title: Presentation Grading
 navbar: Guides
-layout: default
+layout: guides
 key: 1.1
 
 assignments:
@@ -21,11 +21,11 @@ assignments:
     info: (Optional Canvas Assignment)
     link: https://usfca.instructure.com/courses/1582982/assignments/6823754
 
+blurb: |
+  <p>
+    All students must give several presentations throughout the semester. This guide focuses on the general grading criteria for presentations. See the <a href="./">individual guides</a> on each presentation for <strong>speaker</strong> requirements.
+  </p>
 ---
-
-All students must give several presentations throughout the semester. This guide focuses on the general grading criteria for presentations. See the [individual guides](./) on each presentation for other requirements.
-
-{% include assignments.html %}
 
 {% include section.html level="h2" name="Grading" %}
 

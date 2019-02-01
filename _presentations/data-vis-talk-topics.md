@@ -1,7 +1,7 @@
 ---
 title: Data Vis Talk Topics
 navbar: Guides
-layout: default
+layout: guides
 key: 3.1
 
 assignments:
@@ -12,11 +12,12 @@ assignments:
 tags:
   - text: 'New'
     type: 'is-primary'
+
+blurb: |
+  <p>
+    All students must give a 10 to 15 minute talk on a topic in data visualization. This guide explains the talk topic requirements. See the general <a href="/guide/presentations/data-vis-talks.html">Data Vis Talks</a> guide for more details on other requirements.
+  </p>
 ---
-
-All students must give a 10 to 15 minute talk on a topic in data visualization. This guide explains the talk topic requirements. See the general [Data Vis Talks](/guide/presentations/data-vis-talks.html) guide for more details on other requirements.
-
-{% include assignments.html %}
 
 {% include section.html level="h2" name="Approved Topics" %}
 

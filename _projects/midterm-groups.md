@@ -1,14 +1,25 @@
 ---
 title: Midterm Groups
 navbar: Guides
-layout: default
+layout: guides
 key: 2
 tags:
   - text: 'Due 2/05'
     type: 'is-danger'
+
+
+assignments:
+  - text: Midterm Project Group
+    info: (Canvas Assignment)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6822050
+
+blurb: |
+  <p>
+    Instead of a midterm exam, all students must complete a midterm group project. This guide explains the requirements for the midterm project groups. See the <a href="/guides/projects/midterm-project.html">Midterm Project</a> page for more details on other requirements.
+  </p>
 ---
 
-Instead of a midterm exam, all students must complete a midterm group project. This guide explains the requirements for the midterm project groups. See the [Midterm Project](/guides/projects/midterm-project.html) page for more details on other requirements.
+
 
 {% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "FYI: The group requirements recently changed due to the increased enrollment in this class." %}
 

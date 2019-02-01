@@ -1,7 +1,7 @@
 ---
 title: Homework Feedback
 navbar: Guides
-layout: default
+layout: guides
 key: 1.2
 ---
 

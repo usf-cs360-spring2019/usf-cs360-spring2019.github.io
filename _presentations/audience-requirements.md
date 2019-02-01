@@ -1,7 +1,7 @@
 ---
 title: Audience Requirements
 navbar: Guides
-layout: default
+layout: guides
 key: 2.0
 bump: true
 
@@ -17,11 +17,12 @@ assignments:
   - text: Final Demonstration Feedback
     info: (Pending)
 
+blurb: |
+  <p>
+    All students must give several presentations throughout the semester. This guide focuses on the <strong>audience</strong> requirements for these presentations. See the <a href="./">individual guides</a> on each presentation for <strong>speaker</strong> requirements.
+  </p>
+
 ---
-
-All students must give several presentations throughout the semester. This guide focuses on the **audience** requirements for these presentations. See the [individual guides](./) on each presentation for **speaker** requirements.
-
-{% include assignments.html %}
 
 ## Requirements
 

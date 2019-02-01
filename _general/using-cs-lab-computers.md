@@ -1,7 +1,7 @@
 ---
 title: Using CS Lab Computers
 navbar: Guides
-layout: default
+layout: guides
 key: 2
 bump: true
 ---

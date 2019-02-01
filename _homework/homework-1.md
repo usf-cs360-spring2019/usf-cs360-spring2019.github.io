@@ -1,18 +1,26 @@
 ---
 title: Homework 1
 navbar: Guides
-layout: default
+layout: guides
 key: 2.1
 bump: true
 
 tags:
   - text: 'Due 2/14'
     type: 'is-danger'
+
+assignments:
+  - text: Homework 1 Basic Charts
+
+blurb: |
+  <p>
+    For this homework assignment, you must visualize the <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783">SFPD Incidents</a> dataset using various basic visualization techniques using <a href="https://www.tableau.com/academic/students">Tableau Desktop</a> and <a href="https://d3js.org/">D3.js</a>.
+  </p>
+
+  <p>
+    This guide details the requirements for this homework assignment. See the <a href="homework-submission.html">Homework Submission</a> and <a href="homework-feedback.html">Homework Feedback</a> guides for other requirements.
+  </p>
 ---
-
-For this homework assignment, you must visualize the ???? dataset using various basic visualization techniques using [Tableau Desktop](https://www.tableau.com/academic/students) and [D3.js](https://d3js.org/).
-
-This guide details the requirements for this homework assignment. See the [Homework Submission](homework-submission.html) and [Homework Feedback](homework-feedback.html) guides for other requirements.
 
 {% include section.html level="h2" name="Dataset" %}
 

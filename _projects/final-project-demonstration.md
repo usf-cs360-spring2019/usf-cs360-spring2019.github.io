@@ -1,7 +1,7 @@
 ---
 title: Final Project Demonstration
 navbar: Guides
-layout: default
+layout: guides
 key: 7
 tags:
   - text: 'Pending'

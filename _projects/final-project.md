@@ -1,7 +1,7 @@
 ---
 title: Final Project
 navbar: Guides
-layout: default
+layout: guides
 key: 6
 bump: true
 tags:

@@ -1,11 +1,19 @@
 ---
 title: Midterm Presentation
 navbar: Guides
-layout: default
+layout: guides
 key: 5
----
 
-Instead of a midterm exam, all students must complete a midterm group project. This guide explains the requirements for the midterm group presentations. See the [Midterm Project](/guides/projects/midterm-project.html) page for more details on other requirements.
+assignments:
+  - text: Midterm Presentation
+    info: (No Submission)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821961
+
+blurb: |
+  <p>
+    Instead of a midterm exam, all students must complete a midterm group project. This guide explains the requirements for the midterm group presentations. See the <a href="/guides/projects/midterm-project.html">Midterm Project</a> page for more details on other requirements.
+  </p>
+---
 
 {% include section.html level="h2" name="Speaker Requirements" %}
 
