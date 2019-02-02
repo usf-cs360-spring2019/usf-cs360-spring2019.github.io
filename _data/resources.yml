@@ -10,6 +10,9 @@
     - text: 'Commercial Visual Analytics Tools Survey'
       link: 'https://commercialtools.dbvis.de/home'
 
+    - text: 'D3 Tutorials'
+      link: 'https://github.com/d3/d3/wiki/Tutorials'
+
 - label: 'Datasets'
   order: 'text'
   items:
@@ -65,6 +68,9 @@
     - text: 'Vega and Vega-Lite'
       link: 'http://vega.github.io/'
 
+    - text: 'D3.js'
+      link: 'https://d3js.org/'
+
 - label: 'Blogs'
   order: 'text'
   extra: true
@@ -88,6 +94,30 @@
     - text: 'EagerEyes'
       link: 'https://eagereyes.org/'
       name: 'Robert Kosara'
+
+    - text: 'Jim Vallandingham'
+      link: 'http://vallandingham.me/'
+      name: 'Jim Vallandingham'
+
+    - text: 'TULP Interactive'
+      link: 'http://tulpinteractive.com/'
+      name: 'Jan Willem Tulp '
+
+- label: 'Books'
+  order: 'text'
+  extra: true
+  items:
+    - text: 'Interactive Data Visualization for the Web'
+      link: 'https://www.oreilly.com/library/view/interactive-data-visualization/9781491921296/'
+      name: 'Scott Murray'
+
+    - text: 'D3.js in Action'
+      link: 'https://www.manning.com/books/d3js-in-action-second-edition'
+      name: 'Elijah Meeks'
+
+    - text: 'D3 in Depth'
+      link: 'https://d3indepth.com/'
+      name: 'Peter Cook'
 
 - label: 'Research Labs'
   order: 'text'
