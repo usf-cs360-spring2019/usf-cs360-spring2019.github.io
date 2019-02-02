@@ -70,6 +70,10 @@
 
     - text: 'D3.js'
       link: 'https://d3js.org/'
+      icon: 'fas fa-star has-text-primary'
+
+    - text: 'Observable Notebooks'
+      link: 'https://beta.observablehq.com/'
 
 - label: 'Blogs'
   order: 'text'
@@ -114,10 +118,6 @@
     - text: 'D3.js in Action'
       link: 'https://www.manning.com/books/d3js-in-action-second-edition'
       name: 'Elijah Meeks'
-
-    - text: 'D3 in Depth'
-      link: 'https://d3indepth.com/'
-      name: 'Peter Cook'
 
 - label: 'Research Labs'
   order: 'text'
@@ -191,6 +191,10 @@
     - text: 'D3 in Depth'
       link: 'https://d3indepth.com/'
       name: 'Peter Cook'
+
+    - text: 'Introduction to the Data Visualization with D3'
+      link: 'https://learn.freecodecamp.org/data-visualization/data-visualization-with-d3/'
+      name: 'freeCodeCamp'
 
 - label: 'Articles and Papers'
   order: 'date'
