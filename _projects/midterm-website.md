@@ -10,6 +10,10 @@ blurb: |
   </p>
 
 assignments:
+  - text: Midterm Website Link
+    info: (In Class Lab)
+    link: https://usfca.instructure.com/courses/1582982/assignments/6829968
+
   - text: Midterm Alpha Release
     info: (Canvas Assignment)
     link: https://usfca.instructure.com/courses/1582982/assignments/6821963
@@ -65,7 +69,7 @@ These requirements are for the **final release** of the project website. Groups 
 
 The midterm group project websites will be hosted using [Github Pages](https://pages.github.com/). This is a little tricky to setup with Github Classroom, so please follow these instructions very carefully!
 
-  1. ONE pre-designated member from each group must first click on the Github Classroom link posted on Piazza.
+  1. ONE pre-designated member from each group must first click on the Github Classroom link posted on the [Midterm Website](https://usfca.instructure.com/courses/1582982/assignments/6829968) assignment.
 
   2. When prompted **create a new team** using the group name already entered on Canvas. When done, let the other group members know they can move forward.
 
