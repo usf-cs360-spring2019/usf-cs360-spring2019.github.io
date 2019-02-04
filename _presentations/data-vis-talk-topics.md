@@ -17,11 +17,128 @@ blurb: |
   <p>
     All students must give a 10 to 15 minute talk on a topic in data visualization. This guide explains the talk topic requirements. See the general <a href="/guide/presentations/data-vis-talks.html">Data Vis Talks</a> guide for more details on other requirements.
   </p>
+
+weeks:
+  - week: 5
+    tues: 2019-02-19
+    thur: 2019-02-21
+    slots:
+    - time: '12:50p'
+      thur: 'Visualizing the vocabulary of hip-hop'
+    - time: '1:10p'
+    - time: '1:30p'
+    - time: '1:50p'
+    - time: '2:10p'
+
+  - week: 11
+    tues: false
+    thur: 2019-04-04
+    slots:
+    - time: '12:50p'
+    - time: '1:10p'
+    - time: '1:30p'
+    - time: '1:50p'
+    - time: '2:10p'
+
+  - week: 14
+    tues: 2019-04-23
+    thur: 2019-04-25
+    slots:
+    - time: '12:50p'
+    - time: '1:10p'
+    - time: '1:30p'
+    - time: '1:50p'
+    - time: '2:10p'
+
+  - week: 16
+    tues: 2019-05-07
+    thur: false
+    slots:
+    - time: '12:50p'
+    - time: '1:10p'
+    - time: '1:30p'
+    - time: '1:50p'
+
 ---
 
 {% include section.html level="h2" name="Approved Topics" %}
 
-Pending
+<table class="table is-narrow">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Time</th>
+      <th width="50%">Tuesday</th>
+
+      <th>Date</th>
+      <th>Time</th>
+      <th width="50%">Thursday</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {%- for week in page.weeks %}
+    {%- for slot in week.slots %}
+    <tr>
+      {%- if week.tues %}
+      {%- if forloop.first %}
+      <th nowrap rowspan="{{ week.slots | size }}">
+        {{ week.tues | date: "%m/%d" }}
+      </th>
+      {% endif -%}
+
+      <td nowrap class="has-text-right">
+        {{ slot.time }}
+      </td>
+
+      <td>
+        {%- if slot.tues %}
+        {{ slot.tues }}
+        {%- else -%}
+        <em class="has-text-grey">Pending</em>
+        {% endif -%}
+      </td>
+
+      {%- else -%}
+      {%- if forloop.first %}
+      <td colspan="3" rowspan="{{ week.slots | size }}"></td>
+      {% endif -%}
+      {% endif -%}
+
+      {%- if week.thur %}
+      {%- if forloop.first %}
+      <th nowrap rowspan="{{ week.slots | size }}">
+        {{ week.thur | date: "%m/%d" }}
+      </th>
+      {% endif -%}
+
+      <td nowrap class="has-text-right">
+        {{ slot.time }}
+      </td>
+
+      <td>
+        {%- if slot.thur %}
+        {{ slot.thur }}
+        {%- else -%}
+        <em class="has-text-grey">Pending</em>
+        {% endif -%}
+      </td>
+
+      {%- else -%}
+      {%- if forloop.first %}
+      <td colspan="3" rowspan="{{ week.slots | size }}"></td>
+      {% endif -%}
+      {% endif -%}
+    </tr>
+    {% endfor -%}
+    {% endfor -%}
+    <tr>
+      <td colspan="6"></td>
+    </tr>
+  </tbody>
+
+
+</table>
 
 {% include section.html level="h2" name="Selecting Topics" %}
 
