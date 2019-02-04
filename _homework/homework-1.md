@@ -45,11 +45,7 @@ The grade for this homework will be broken down as follows:
 | `B` | Implement **2** of the Tableau prototypes in D3. |
 | `A` | Implement **3** of the Tableau prototypes in D3. |
 
-The teacher assistants have leeway to assign a `+` or `-` grade depending on whether the assignment was submitted properly and how well students completed the required functionality. For example, if a student completes `B` level functionality, the TAs will determine whether that student earned a `B-`, `B`, or `B+` letter grade.
-
-{% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "In general, homework assignments are designed such that achieving a <code>D-</code> to <code>D+</code> requires minimal effort, <code>C-</code> to <code>C+</code> requires some effort, <code>B-</code> to <code>B+</code> requires moderate effort, and <code>A-</code> to <code>A+</code> requires significant effort." %}
-
-{% include notice.html type = "is-danger" icon = "fas fa-exclamation-triangle" text = "You may not earn credit for higher letter grades unless you have 100% completed the requirements for the lower letter grades first!" %}
+See the requirements below and the [Homework Grading](homework-submission.html#grading) section for more details.
 
 {% include section.html level="h2" name="Requirements" %}
 
@@ -59,16 +55,53 @@ See below for the detailed requirements for each letter grade level.
 
 {% include section.html level="h3" name="D Level Functionality" %}
 
-Pending
+Prototype three different basic visualizations of the dataset using Tableau. Specifically:
+
+  - Create at least **three different visualizations**. This means you need three different sheets in Tableau, and need to export three different images to include on your website.
+
+  - Use at least **two different encodings** from the following list.
+
+      - Encode data using points (e.g. scatter or bubble plot).
+      - Encode data using bars (e.g. horizontal bar charts, vertical bars, stacked bars, grouped bars, small multiple bars, and histograms).
+      - Encode data using lines (e.g. line charts, multi-series lines, small multiple lines, and slope graphs).
+      - Encode data using area (e.g. area chart, stacked area, small multiple area).
+      - Encode data using heatmaps or pie charts.
+
+    Encodings belonging to the same item above do not count as different. For example, you may try both a stacked bar and a grouped bar chart, but these do not count as two different encodings in the list above. Therefore the third visualization may *not* use bars to encode data.
+
+    Other encodings must be pre-approved in a **public** [Piazza]({{ site.data.course.piazza }}) post.
+
+  - Use at least **two different perspectives** of the data. This can be achieved by grouping, filtering, or aggregating the data differently. For example, one visualization can use data grouped by weekday and another uses data grouped by category instead.
+
+  - Use **color to encode data** in at least one visualization. This visualization *must* include a color legend in the static image export.
+
+  - Use **titles and axis labels** where appropriate to make sure the encoding is clear. For example, include enough labels so that viewers can tell that category is listed on one axis and count is listed on the other.
+
+  - For each visualization, **include a caption** that includes your name and a brief summary of what you can learn about the data using the visualization.
+
+
+Export your Tableau visualizations as **static images** and include them on your homework submission website under the "Prototypes" heading. None of the visualizations for this homework assignment need to be interactive.
+
+Use the "Dashboards" feature in Tableau to make sure your images will fit within 960 by 500 pixels and the legend and caption are clearly visible.
 
 {% include section.html level="h3" name="C Level Functionality" %}
 
-Pending
+Implement one of your Tableau prototypes in D3. Specifically:
+
+  - Use the same visualization technique and data encoding as one of your Tableau Visualizations. <span class="tag is-primary is-rounded">Required</span>
+
+  - Match as much of the design from your Tableau prototype as possible. This includes colors for non-data elements, style of grid lines, tick labels, sort order, and so on. <span class="tag is-rounded is-light">Optional</span>
+
+  - Include the captions, titles, and legends found in your Tableau prototype in your D3 implementation. <span class="tag is-rounded is-light">Optional</span>
+
+You only have to complete the required functionality to satisfy this grade level requirements, but **you must meet the optional requirements before moving on** to the next grade level.
 
 {% include section.html level="h3" name="B Level Functionality" %}
 
-Pending
+This level has the same requirements as the C level functionality, except for a second Tableau prototype.
+
+As before, you only have to complete the required functionality to satisfy this grade level requirements but **you must meet the optional requirements before moving on** to the next grade level.
 
 {% include section.html level="h3" name="A Level Functionality" %}
 
-Pending
+This level has the same requirements as the C level functionality, except for a third Tableau prototype.
