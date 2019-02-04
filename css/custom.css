@@ -59,7 +59,8 @@ pre.highlight {
   margin-bottom: 1em;
 }
 
-.bump {
+.bump,
+.content li.bump {
   margin-top: 1em;
 }
 
