@@ -55,18 +55,20 @@ Speakers will be rated (see below) in several different categories. These catego
 
 | Category | Rating | Description |
 |:---------|:------:|:------------|
-| **Content** | `S` | Pending |
-|             | `E` | Pending |
-|             | `U` | Failure to meet *all* of the requirements for the `S` rating will result in an `U` rating for this category. |
-| **Timing** | `S` | The presentation is no more than 25% under the required time. |
-|            | `E` | The presentation is no more than 10% under or over the required time. |
-|            | `U` | The presentation is more than 25% under the required time or more than 10% of the required time. |
-| **Materials** | `S` | Pending |
-|               | `E` | Pending |
-|               | `U` | Failure to meet *all* of the requirements for the `S` rating will result in an `U` rating for this category. |
-| **Delivery** | `S` | Pending |
-|              | `E` | Pending |
-|              | `U` | Failure to meet *all* of the requirements for the `S` rating will result in an `U` rating for this category. |
+| **Content** | `S` | Must not have any required content missing from presentation. Required content is provided in the [individual guides](index.html) for each presentation. |
+|             | `E` | Must not have any required content missing and no more than 1 optional content item missing from presentation. Optional content includes: an introduction to the speaker(s), an introduction (and/or background/motivation) section, a clear outline or strong organization, a conclusion with additional references to learn more if appropriate, and finally an invitation to the audience to ask questions. |
+|             | `U` | Failure to meet the requirements for the `S` rating will result in an `U` rating for this category. |
+| **Timing** | `S` | The presentation is no more than 25% under the required time. The presentation time may count up to 3 questions or 5 minutes (whichever comes first) from the Q&A session or an audience exercise. |
+|            | `E` | The presentation is no more than 10% under or over the required time. The type of content that may be included in the presentation time is the same as above. |
+|            | `U` | The presentation is more than 25% under the required time or more than 10% of the required time. The type of content that may be included in the presentation time is the same as above. |
+| **Materials** | `S` | Must include basic visual aids to support the presentation; may not refer to content not currently being shown more than twice. Live presentations must not include more than 50% of pre-recorded content from the speaker (e.g. narrated demo video of a tool), and no more than 25% of other pre-recorded content not prepared by the speaker (e.g. excerpt a TED talk). |
+|               | `E` | Must include rich, primarily speaker-created visual aids to support the presentation; may not refer to content not currently being shown more than once. Same requirements as above for pre-recorded content. |
+|               | `U` | Failure to meet the requirements for the `S` rating will result in an `U` rating for this category. |
+| **Delivery** | `S` | Must not have more than 3 issues with delivery. This includes: **volume** (i.e. speaking loud enough for entire room to hear), **eye contact** (i.e. not reading off notes entire time, maintaining eye contact with entire room), **energy** (i.e. not speaking in a monotonous tone, showing enthusiasm for topic), **speed** (i.e. not speaking too slow or too fast), and **clarity** (i.e. not mumbling, pronunciation is understandable). |
+|              | `E` | Must not have more than 1 issue with delivery. (See above list.) |
+|              | `U` | Failure to meet the requirements for the `S` rating will result in an `U` rating for this category. |
+
+While the requirements above list hard cutoffs (e.g. no more than 25% over time, no more than 50% of pre-recorded content), the grading will conducted *during the presentation* and will necessarily rely on estimates.
 
 Note that running overtime may have consequences for other categories. For example, it may prevent some of the required content from being covered and hurt the overall delivery of the presentation.
 

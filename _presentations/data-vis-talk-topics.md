@@ -15,7 +15,7 @@ tags:
 
 blurb: |
   <p>
-    All students must give a 10 to 15 minute talk on a topic in data visualization. This guide explains the talk topic requirements. See the general <a href="/guide/presentations/data-vis-talks.html">Data Vis Talks</a> guide for more details on other requirements.
+    All students must give a 15 minute talk on a topic in data visualization. This guide explains the talk topic requirements. See the general <a href="data-vis-talks.html">Data Vis Talks</a> guide for more details on other requirements.
   </p>
 
 weeks:
