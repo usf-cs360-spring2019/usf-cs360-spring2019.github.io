@@ -87,7 +87,7 @@ assignments:
   - homework1: &homework1
       text: Homework 1
       icon: *icon_homework
-      link: https://usfca.instructure.com/courses/1582982/assignments/6821944
+      link: /guides/homework/homework-1.html
       date: 2019-02-14
 
   - homework2: &homework2
@@ -142,33 +142,33 @@ assignments:
       icon: *icon_survey
       date: 2019-02-05
       type: success
-      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-groups.html
+      link: /guides/projects/midterm-groups.html
 
   - midterm_alpha: &midterm_alpha
       text: Midterm Alpha Release
       icon: *icon_project
       date: 2019-02-19
       type: success
-      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-prototypes.html
+      link: /guides/projects/midterm-prototypes.html
 
   - midterm_beta: &midterm_beta
       text: Midterm Beta Release
       icon: *icon_project
       date: 2019-03-05
       type: success
-      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-prototypes.html
+      link: /guides/projects/midterm-prototypes.html
 
   - midterm_prototype: &midterm_prototype
       text: Prototype Exercises
       icon: *icon_participation
-      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-prototypes.html
+      link: /guides/projects/midterm-prototypes.html
 
   - midterm_project: &midterm_project
       text: Midterm Project
       icon: *icon_project
       date: 2019-03-19
       type: success
-      link: https://usf-cs360-spring2019.github.io/guides/projects/midterm-project.html
+      link: /guides/projects/midterm-project.html
 
   - final_proposal: &final_proposal
       text: Final Proposal
@@ -254,14 +254,11 @@ weeks:
         icon: *icon_slides
         link: https://drive.google.com/open?id=0BxYofk0iB_upc0xCb2ptR3MzQ2c
 
-      - text: HTML and JavaScript
-        icon: *icon_website
-        bump: true
-
       - text: Tableau Desktop
         icon:
           class: far fa-download
         link: https://www.tableau.com/academic/students
+        bump: true
 
       deadlines:
       - text: Historic Events
@@ -309,10 +306,19 @@ weeks:
 
     - type: Lecture
       date: 2019-01-31
+      zoom: https://echo360.org/media/f0d8c291-0bff-44d3-885d-e5b3475dfa65/public
       resources:
-      - text: Tabular Data
-        icon: *icon_pending
-        type: grey
+      - text: Getting Started in D3.js
+        link: /guides/general/getting-started-with-d3js.html
+        icon: *icon_website
+
+      - text: Introduction to D3.js (Observable)
+        link: https://beta.observablehq.com/d/28ba93f58fb82f49
+        icon: *icon_code
+
+      - text: Letter Count Bar Chart (Blockbuilder)
+        link: https://blockbuilder.org/sjengle/1e23258249638a508426470a48ff2924
+        icon: *icon_code
 
       - <<: *homework1
         bump: true
@@ -331,6 +337,17 @@ weeks:
         icon: *icon_pending
         type: grey
 
+      - text: Homework Submission
+        icon: *icon_website
+        link: /guides/homework/homework-submission.html
+        bump: true
+
+      - <<: *homework1
+
+      - text: 'Lab: Homework 1 Website'
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/assignments/6829967
+
       - text: 'AMA Questions (Krist)'
         date: 2019-02-12
         icon: *icon_participation
@@ -339,6 +356,11 @@ weeks:
 
       deadlines:
       - <<: *midterm_groups
+
+      - text: 'Homework 1 Website'
+        date: 2019-02-05
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/assignments/6829967
 
     - type: Lecture
       date: 2019-02-07
@@ -353,11 +375,21 @@ weeks:
         type: grey
         bump: true
 
+      - text: 'Lab: Midterm Website'
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/assignments/6829968
+        bump: true
+
       deadlines:
       - text: 'AMA Questions'
         date: 2019-02-07
         icon: *icon_participation
         link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790184
+
+      - text: Midterm Website
+        date: 2019-02-07
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/assignments/6829968
 
 - week: 4
   days:
