@@ -58,15 +58,17 @@ Speakers will be rated (see below) in several different categories. These catego
 | **Content** | `S` | Pending |
 |             | `E` | Pending |
 |             | `U` | Failure to meet *all* of the requirements for the `S` rating will result in an `U` rating for this category. |
-| **Timing** | `S` | Pending |
-|            | `E` | Pending |
-|            | `U` | Pending |
+| **Timing** | `S` | The presentation is no more than 25% under the required time. |
+|            | `E` | The presentation is no more than 10% under or over the required time. |
+|            | `U` | The presentation is more than 25% under the required time or more than 10% of the required time. |
 | **Materials** | `S` | Pending |
 |               | `E` | Pending |
 |               | `U` | Failure to meet *all* of the requirements for the `S` rating will result in an `U` rating for this category. |
 | **Delivery** | `S` | Pending |
 |              | `E` | Pending |
 |              | `U` | Failure to meet *all* of the requirements for the `S` rating will result in an `U` rating for this category. |
+
+Note that running overtime may have consequences for other categories. For example, it may prevent some of the required content from being covered and hurt the overall delivery of the presentation.
 
 {% comment %}
 **Content:**  To receive a S rating, the presentation must include a brief introduction to the speaker (including name and major) and must be organized well enough that the audience can state the presentation topic without confusion. To receive a E rating, the presentation must be clearly organized into a discernible introduction to the topic,  
