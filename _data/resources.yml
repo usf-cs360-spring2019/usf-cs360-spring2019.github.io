@@ -53,6 +53,9 @@
     - text: 'Vega and Vega-Lite'
       link: 'https://github.com/vega/vega-datasets'
 
+    - text: 'Zillow Research'
+      link: 'https://www.zillow.com/research/data/'
+
 - label: 'Software, Libraries, and Other Tools'
   order: 'text'
   items:
