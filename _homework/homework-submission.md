@@ -6,20 +6,20 @@ key: 1.1
 
 assignments:
   - text: Homework 1
-    info: (Canvas Submission)
-    link: https://usfca.instructure.com/courses/1582982/assignments/6821944
+    info: (Writeup)
+    link: homework-1.html
 
   - text: Homework 2
-    info: (Canvas Submission)
-    link: https://usfca.instructure.com/courses/1582982/assignments/6821957
+    info: (Writeup)
+    link: homework-2.html
 
   - text: Homework 3
-    info: (Canvas Submission)
-    link: https://usfca.instructure.com/courses/1582982/assignments/6821958
+    info: (Writeup)
+    link: homework-3.html
 
   - text: Homework 4
-    info: (Canvas Submission)
-    link: https://usfca.instructure.com/courses/1582982/assignments/6821959
+    info: (Writeup)
+    link: homework-4.html
 
 blurb: |
   <p>All homework assignments will follow the same process for submission. See also the <a href="homework-feedback.html">Homework Feedback</a> guide.</p>
