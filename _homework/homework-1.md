@@ -11,6 +11,10 @@ tags:
 
 assignments:
   - text: Homework 1 Basic Charts
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821944
+
+  - text: Homework 1 Feedback
+    link: https://usfca.instructure.com/courses/1582982/assignments/6821976
 
 blurb: |
   <p>
