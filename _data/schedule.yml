@@ -334,8 +334,8 @@ weeks:
       date: 2019-02-05
       resources:
       - text: Temporal Data
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upVFlFUmt6bE90aTQ
 
       - text: Homework Submission
         icon: *icon_website
