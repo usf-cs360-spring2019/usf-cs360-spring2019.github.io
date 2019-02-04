@@ -47,6 +47,10 @@ a:hover:not(.button) {
   text-decoration: currentColor underline solid;
 }
 
+li p {
+  margin-bottom: 1em;
+}
+
 figure.highlight {
   text-align: inherit !important;
 }
