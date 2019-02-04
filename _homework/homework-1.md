@@ -28,9 +28,12 @@ blurb: |
 
 {% include section.html level="h2" name="Dataset" %}
 
-Students must visualize the [SFPD Incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783) dataset for the month of December 2018. The exact dataset (with the date filter already applied) can be accessed and downloaded at:
+Students must visualize the [SFPD Incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783) dataset for the month of December 2018. The exact filter should be on the `Incident Datetime` column with `is between` as the condition and `2018/12/01 12:00:00 AM` and `2019/01/01 12:00:00 AM` as the dates:
 
-<https://data.sfgov.org/Public-Safety/December-2018/fuj3-tves>
+<figure>
+<img src="/images/homework-1-filter.png" class="image" width="388">
+</figure>
+
 
 There are 12,214 records in this dataset. Students are encouraged to apply different filters and aggregations to focus on a subset of this data. See the ["Columns in this Dataset"](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783) section of the dataset page for descriptions of the columns.
 
@@ -105,3 +108,15 @@ As before, you only have to complete the required functionality to satisfy this 
 {% include section.html level="h3" name="A Level Functionality" %}
 
 This level has the same requirements as the C level functionality, except for a third Tableau prototype.
+
+{% include section.html level="h2" name="Hints" %}
+
+  - In Tableau, you can group together categories. Just click the categories you want to group, and select the paperclip icon to group them together. This will create a "Column Name (group)" dimension, and you can click that to edit the groupings and group names. This is especially helpful if there are many categories with very few items.
+
+  - In Tableau, you can export the data specific to each worksheet. I recommend you use that data for each of your D3 visualizations to make things easier. For example, if you group by weekday in one of your Tableau worksheets, you can export a dataset grouped by weekday to use in your D3 visualization.
+
+  - Keep in mind that showing data grouped by district may be misleading, since the districts do not have equal populations or areas. (I was not able to find population numbers or number or police officers per district/station.) It is still interesting to see, but you cannot conclude crime is more or less likely in one district versus the other without knowing more ground truth.
+
+  - The visualization should be your unique take on the dataset. However, there are a lot of D3 examples on the web that you are welcome to reference. Just be sure to properly cite your references and avoid copying/pasting large chunks of code without attribution.
+
+  - DO NOT VISUALIZE THIS ON A MAP. We'll get to map visualizations later.
