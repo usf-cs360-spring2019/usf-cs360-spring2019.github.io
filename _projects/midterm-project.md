@@ -52,7 +52,7 @@ For details on how to form the groups and submit a group name, see the [Midterm 
 
 All groups must visualize the following dataset:
 
-  - Pending
+  - [SF Fire Department Calls for Service](https://data.sfgov.org/Public-Safety/Fire-Department-Calls-for-Service/nuek-vuh3)
 
 However, each group must decide on a subset (or multiple subsets) of this dataset that will be more manageable in size. There is no exact size requirement; the subset must be big enough to warrant several unique visualizations but not too large to load in the browser or Tableau.
 
