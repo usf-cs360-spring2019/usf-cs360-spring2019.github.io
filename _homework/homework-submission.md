@@ -25,7 +25,7 @@ blurb: |
   <p>All homework assignments will follow the same process for submission. See also the <a href="homework-feedback.html">Homework Feedback</a> guide.</p>
 ---
 
-{% include section.html level="h2" name="Repository Setup" %}
+{% include section.html level="h2" name="Setup" %}
 
 Homework websites **must** be created by using the Github Classroom links provided. Websites hosted anywhere else or created in any other way will not be accepted.
 
@@ -53,7 +53,7 @@ To setup the repository initially:
 
 See the [Getting Started with D3.js](/guides/general/getting-started-with-d3js.html) guide for more details on using Github Pages.
 
-{% include section.html level="h2" name="Website Submission" %}
+{% include section.html level="h2" name="Submission" %}
 
 Once you have created your homework website, you should **immediately** submit a link to your homework website on [Canvas]({{ site.data.course.canvas }}).
 
@@ -67,7 +67,7 @@ Late homework website submissions are not accepted. Your homework will still be 
 
 Do **NOT** commit to your `gh-pages` branch after the deadline. If you want to keep working on your visualizations for personal gain (not course credit), do so in a fork or different branch. Only commits to your repository **before** the deadline will be considered when grading the homework assignment, and any commits made after the deadline may result in heavy point deductions (up to 100% of the homework grade).
 
-{% include section.html level="h2" name="Homework Grading" %}
+{% include section.html level="h2" name="Grading" %}
 
 Each homework assignment has a letter grade breakdown detailing the functionality required for a `D`, `C`, `B`, and `A` letter grade. In general, homework assignments are designed such that achieving a `D-` to `D+` requires minimal effort, `C-` to `C+` requires some effort, `B-` to `B+` requires moderate effort, and `A-` to `A+` requires significant effort.
 
@@ -76,25 +76,3 @@ Credit for higher letter grades cannot be earned until all of the functionality 
 The teacher assistants have leeway to assign a `+` or `-` grade depending on whether the assignment was submitted properly and how well students completed the required functionality. For example, if a student completes `B` level functionality, the TAs will determine whether that student earned a `B-`, `B`, or `B+` letter grade. In some cases, specific items will be proposed for earning a `+` grade for a specific letter grade.
 
 Keep in mind that the final grade in this class must be a `D` or above to receive credit for most non-major undergraduate students, must be `C` or above for undergraduate students in CS, and must be `B` or above for graduate students in CS.
-
-{% comment %}
-Each homework will follow the basic steps for submission:
-
-    Click the GitHub Classroom link to have a private repository with a gh-pages branch created for you in the usf-cs360-2017 organization. Your repository will be located at:
-
-https://github.com/usf-cs360-2017/homework#-username
-
-Replace # with the homework number (1, 2, 3, or 4) and username with your GitHub username. Your GitHub Pages website (where your classmates can view your visualizations) will be located at:
-
-https://usf-cs360-2017.github.io/homework#-username
-
-    Commit and push your code to your homework repository and verify your visualizations work on your GitHub pages website.
-
-    Submit your GitHub pages website in Canvas by 2:00pm on Monday.
-
-:warning: Late homework is not accepted. This is true even if you did the work but forgot the link. We cannot
-
-    Canvas will automatically assign you three other homework submissions to provide peer feedback. You can find those assignments on the same page you submitted your homework, under the "Peer Review" link.
-
-    Submit your peer feedback by 11:59pm on Friday. See the next section for more details.
-{% endcomment %}
