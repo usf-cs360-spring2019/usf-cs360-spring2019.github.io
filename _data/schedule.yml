@@ -337,6 +337,10 @@ weeks:
         icon: *icon_slides
         link: https://drive.google.com/open?id=0BxYofk0iB_upVFlFUmt6bE90aTQ
 
+      - text: Heatmap Demo
+        icon: *icon_code
+        link: https://beta.observablehq.com/@sjengle/zillow-affordability-heatmap
+
       - text: Homework Submission
         icon: *icon_website
         link: /guides/homework/homework-submission.html
