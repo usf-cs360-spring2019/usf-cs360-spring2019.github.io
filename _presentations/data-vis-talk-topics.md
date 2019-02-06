@@ -24,6 +24,7 @@ weeks:
     thur: 2019-02-21
     slots:
     - time: '12:50p'
+      tues: 'Animated representations help ambiguous data'
       thur: 'Visualizing the vocabulary of hip-hop'
     - time: '1:10p'
     - time: '1:30p'
