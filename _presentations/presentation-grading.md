@@ -72,18 +72,6 @@ While the requirements above list hard cutoffs (e.g. no more than 25% over time,
 
 Note that running overtime may have consequences for other categories. For example, it may prevent some of the required content from being covered and hurt the overall delivery of the presentation.
 
-{% comment %}
-**Content:**  To receive a S rating, the presentation must include a brief introduction to the speaker (including name and major) and must be organized well enough that the audience can state the presentation topic without confusion. To receive a E rating, the presentation must be clearly organized into a discernible introduction to the topic,  
-
-Content. (organization, required sections)
-
-Timing. (10-13 E, +/-2 S 8-10, 13-15, >2, < 8, > 15, U)
-
-Materials. visual aids. powerpoint or something else.
-
-Delivery. (Loud, eye contact, timing, engagement, clarity)
-{% endcomment %}
-
 See the [individual guides](./) on each presentation for specific requirements for these categories.
 
 {% include section.html level="h2" name="Extra Credit" %}

@@ -17,46 +17,42 @@ blurb: |
 
 {% include section.html level="h2" name="Speaker Requirements" %}
 
-Pending
+All members of the midterm group must participate in the presentation of the project. It is up to the group to decide how to split the time between group members, but each person must speak for roughly equal time.
 
-{% comment %}
 {% include section.html level="h3" name="Content" %}
 
-Pending
+The required content for this talk includes:
+
+  - The presentation must discuss the group theme.
+
+  - The presentation must include all of the primary visualizations (one per group member), but the visualizations do *not* have to be presented by its creator.
+
+  - All visual aids must be properly sourced (e.g. attributed to the content creator).
+
+See the [Presentation Grading](presentation-grading.html) guide for details on optional content.
 
 {% include section.html level="h3" name="Timing" %}
 
 The group presentation should be 5 minutes per group member. Therefore, a 2 person group must present for 10 minutes, a 3 person group must present for 15 minutes, and a 4 person group must present for 20 minutes.
 
-Presentations that are no more than 2 minutes short will receive an `E` rating. Presentations that are no more than 3 minutes short will receive an `S` rating. Presentations that are more than 3 minutes short will receive an `U` rating.
-
-Presentations that exceed the time limit will be cut off, potentially affecting whether the necessary content was covered.
-
-The presentation timing does *not* include the question/answer session at the end of the presentation.
-
 {% include section.html level="h3" name="Grading" %}
 
-The midterm group presentations will be graded using the same metrics as the [Data Vis Talks](/guides/homework/data-vis-talks.html#grading) on a letter grade scale.
+All presentations use the same grading rubric, and have the opportunity for extra credit. See the [Presentation Grading](presentation-grading.html) guide for details, and the [Presentation Advice](presentation-advice.html) for additional help.
 
-{% include section.html level="h3" name="Dates" %}
+{% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "The presentation grade depends on both the entire group performance and individual performance, and will be assigned individually (versus a single group grade)." %}
 
-Each group must present their midterm project in class on week 9 (Tuesday 3/19 or Thursday 3/21). The presentation dates will be semi-randomly assigned by the instructor, taking into account the size of groups and length of presentations. The dates will be announced shortly after the midterm groups are formed.
+{% include section.html level="h2" name="Schedule" %}
 
-{% include section.html level="h3" name="Advice" %}
+Each group must present their midterm project in class on week 9 (Tuesday 3/19 or Thursday 3/21). The presentation dates were semi-randomly assigned by the instructor, taking into account the size of groups and length of presentations. The presentation schedule is as follows:
 
-Each person should have *flexible* presentation content to allow for adjustments in timing. If the presentation is running long, everyone should
-
-Help each other out during the presentation. While one person speaks, another group member could be interact with the website or slides, or be keeping an eye on time. Have a pre-specified signal to give to each other if timing looks too short or too long.
-
-Practice your presentation (individually and as a group), and pay attention to your pacing. Both practice and nerves can sometimes reduce the amount of time a presentation takes, requiring speakers to intentionally slow down the pace during the actual presentation. Build in pause breaks if necessary to help with pacing and transition between speakers.
+| Start  | End   | Tuesday 3/19   | Thursday 3/21    |
+|-------:|------:|:---------------|:-----------------|
+| 12:50p | 1:10p | Dukes of Data  | Sigegoubi        |
+|  1:15p | 1:25p | Team ColorIn   | Loop Troup       |
+|  1:30p | 1:45p | Boom Graph R&D | The Data Vizards |
+|  1:50p | 2:05p | Group0         | The Rad Grads    |
+|  2:10p | 2:25p | Magic Mirror   | Tony and Friends |
 
 {% include section.html level="h2" name="Audience Requirements" %}
 
-Students are expected to be engaged audience members for every presentation. This includes asking questions after the presentation and providing the speaker(s) 1 to 2 sentences of constructive and substantive feedback. Feedback will be given through graded pass/fail discussion assignments on [Canvas]({{ site.data.course.canvas }}).
-
-Example feedback includes constructively encouraging the speaker(s) to speak louder or slower, asking followup questions about the topic, expressing interest in specific aspects of the talk, or complementing specific aspects of the presentation. Simple statements such as "Good job" or "Interesting topic" do not qualify.
-
-Students, remember that you will be the one up there presenting at some point! Try to avoid doing things that you would not like to see during your presentation. For example, make eye contact with the speaker(s), no yawning or scowling, no chatting with friends on your laptop instead of paying attention, and help the speaker(s) avoid an awkward silence after the presentation by asking a friendly question. **Your engagement as an audience member is what will make this a positive experience as a speaker.**
-
-{% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "Groups that are scheduled to present will have their feedback requirement waived for the entire class time, allowing presenting groups to focus on setup and preparation as needed." %}
-{% endcomment %}
+Students that are not presenting are expected to be engaged audience members for every presentation, and provide speaker feedback. See the [Audience Requirements](audience-requirements.html) for more information.

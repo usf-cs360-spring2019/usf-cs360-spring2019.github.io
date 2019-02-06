@@ -44,7 +44,7 @@ See the [Presentation Grading](presentation-grading.html) guide for details on o
 
 ## Timing
 
-The data vis talk should last for **15 minutes** including Q&A. No more than 3 questions may be taken during the Q&A session to fill time. If there are no questions, the speaker should be prepared to fill the time with bonus material.
+The data vis talk should last for **15 minutes**. The presentation time may count up to 3 questions or 5 minutes (whichever comes first) from the Q&A session or an audience exercise. If there are no questions, the speaker should be prepared to fill the time with bonus material.
 
 ## Audience Requirements
 
