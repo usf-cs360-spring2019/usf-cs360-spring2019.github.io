@@ -24,9 +24,10 @@ weeks:
     thur: 2019-02-21
     slots:
     - time: '12:50p'
-      tues: 'Animated representations help ambiguous data'
-      thur: 'Visualizing the vocabulary of hip-hop'
+      tues: 'Animated Representations Help Ambiguous Data'
+      thur: 'Visualizing the Vocabulary of Hip-Hop'
     - time: '1:10p'
+      thur: 'Tracking Soccer Movement'
     - time: '1:30p'
     - time: '1:50p'
     - time: '2:10p'
