@@ -135,7 +135,7 @@ assignments:
   - vistalks: &vistalks
       text: Data Vis Talks
       icon: *icon_presentation
-      link: https://usfca.instructure.com/courses/1582982/assignments/6821960
+      link: /guides/presentations/data-vis-talk-topics.html
 
   - midterm_groups: &midterm_groups
       text: Midterm Groups
@@ -337,9 +337,9 @@ weeks:
         icon: *icon_slides
         link: https://drive.google.com/open?id=0BxYofk0iB_upVFlFUmt6bE90aTQ
 
-      - text: Heatmap Demo
+      - text: Letter Count Bar Chart (Blockbuilder)
+        link: https://blockbuilder.org/sjengle/1e23258249638a508426470a48ff2924
         icon: *icon_code
-        link: https://beta.observablehq.com/@sjengle/zillow-affordability-heatmap
 
       - text: Homework Submission
         icon: *icon_website
@@ -378,6 +378,10 @@ weeks:
         icon: *icon_pending
         type: grey
         bump: true
+
+      - text: Heatmap Demo
+        icon: *icon_code
+        link: https://beta.observablehq.com/@sjengle/zillow-affordability-heatmap
 
       - text: 'Lab: Midterm Website'
         icon: *icon_participation
