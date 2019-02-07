@@ -369,6 +369,7 @@ weeks:
 
     - type: Lecture
       date: 2019-02-07
+      zoom: https://usfca.zoom.us/recording/share/9uWBcRrKcgeqg2xbULfFa892Jk43WYc7TZADGRlg-aewIumekTziMw
       resources:
       - text: 'AMA: Susie Lu'
         icon: *icon_speaker
