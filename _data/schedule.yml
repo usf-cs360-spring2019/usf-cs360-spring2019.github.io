@@ -394,11 +394,6 @@ weeks:
         icon: *icon_participation
         link: https://usfca.instructure.com/courses/1582982/discussion_topics/7790184
 
-      - text: Midterm Website
-        date: 2019-02-07
-        icon: *icon_participation
-        link: https://usfca.instructure.com/courses/1582982/assignments/6829968
-
 - week: 4
   days:
     - type: Lecture
@@ -434,6 +429,12 @@ weeks:
       deadlines:
       - <<: *homework1
         type: info
+
+      - text: Midterm Website
+        date: 2019-02-14
+        icon: *icon_participation
+        link: https://usfca.instructure.com/courses/1582982/assignments/6829968
+
 
 - week: 5
   days:
