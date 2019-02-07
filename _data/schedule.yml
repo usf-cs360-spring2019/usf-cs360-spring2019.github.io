@@ -374,11 +374,6 @@ weeks:
         type: primary has-text-weight-bold
         link: https://www.susielu.com/
 
-      - text: Interactivity
-        icon: *icon_pending
-        type: grey
-        bump: true
-
       - text: Heatmap Demo
         icon: *icon_code
         link: https://beta.observablehq.com/@sjengle/zillow-affordability-heatmap
