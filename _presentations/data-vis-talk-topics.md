@@ -30,6 +30,7 @@ weeks:
       tues: 'A New Way to Make Charts: Charticulator'
       thur: 'Tracking Soccer Movement'
     - time: '1:30p'
+      tues: 'A Declarative Rendering Model for Multiclass Density Maps'
     - time: '1:50p'
     - time: '2:10p'
 
