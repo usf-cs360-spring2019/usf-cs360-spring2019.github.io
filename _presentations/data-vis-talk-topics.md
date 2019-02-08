@@ -27,6 +27,7 @@ weeks:
       tues: 'Animated Representations Help Ambiguous Data'
       thur: 'Visualizing the Vocabulary of Hip-Hop'
     - time: '1:10p'
+      tues: 'A New Way to Make Charts: Charticulator'
       thur: 'Tracking Soccer Movement'
     - time: '1:30p'
     - time: '1:50p'
