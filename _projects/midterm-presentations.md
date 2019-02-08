@@ -48,7 +48,7 @@ Each group must present their midterm project in class on week 9 (Tuesday 3/19 o
 | Start  | End   | Tuesday 3/19   | Thursday 3/21    |
 |-------:|------:|:---------------|:-----------------|
 | 12:50p | 1:10p | Dukes of Data  | Sigegoubi        |
-|  1:15p | 1:25p | Team ColorIn   | Loop Troup       |
+|  1:15p | 1:25p | Team ColorIn   | Git Gang         |
 |  1:30p | 1:45p | Boom Graph R&D | The Data Vizards |
 |  1:50p | 2:05p | Group0         | The Rad Grads    |
 |  2:10p | 2:25p | Magic Mirror   | Tony and Friends |
