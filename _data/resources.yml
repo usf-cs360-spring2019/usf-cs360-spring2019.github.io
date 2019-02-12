@@ -62,6 +62,9 @@
     - text: 'Zillow Research'
       link: 'https://www.zillow.com/research/data/'
 
+    - text: 'Opportunity Insights'
+      link: 'https://opportunityinsights.org/data/'
+
 - label: 'Software, Libraries, and Other Tools'
   order: 'text'
   items:
