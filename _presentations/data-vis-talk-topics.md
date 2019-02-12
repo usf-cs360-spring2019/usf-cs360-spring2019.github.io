@@ -36,11 +36,11 @@ weeks:
       thur: 'Data Visualization for Traveling in Avalanche Terrain' # Enrique B.
 
     - time: '1:50p'
-      tues: '' # Xue F.
+      tues: 'T-SNE: Visualize High-Dimensional Data' # Xue F.
       thur: "Where's My Data? Evaluating Visualizations with Missing Data" # Gudbrand S.
 
     - time: '2:10p'
-      tues: '' # Rock G.
+      tues: 'Data Visualization in Medical Research' # Rock G.
       thur: '' # Sameer Isaq
 
   - week: 11
@@ -58,6 +58,7 @@ weeks:
     thur: 2019-04-25
     slots:
     - time: '12:50p'
+      tues: 'The Forgotten Horrors: Non Combat Casualties of American Servicemen' # David M.
     - time: '1:10p'
     - time: '1:30p'
     - time: '1:50p'
