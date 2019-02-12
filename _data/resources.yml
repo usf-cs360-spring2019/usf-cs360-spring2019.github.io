@@ -223,6 +223,11 @@
       name: 'Elijah Meeks'
       date: 2018-05-07
 
+    - text: 'How to Read a Visualization Research Paper: Extracting the Essentials'
+      link: 'http://cs.swan.ac.uk/~csbob/research/how2read/laramee09how2read.pdf'
+      name: 'Robert S. Laramee'
+      date: 2011-04-21
+
 - label: 'Design Groups'
   order: 'text'
   items:
