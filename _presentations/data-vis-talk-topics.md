@@ -24,15 +24,24 @@ weeks:
     thur: 2019-02-21
     slots:
     - time: '12:50p'
-      tues: 'Animated Representations Help Ambiguous Data'
-      thur: 'Visualizing the Vocabulary of Hip-Hop'
+      tues: 'Animated Representations Help Ambiguous Data' # Jordan A.
+      thur: 'Visualizing the Vocabulary of Hip-Hop' # Emmit P.
+
     - time: '1:10p'
-      tues: 'A New Way to Make Charts: Charticulator'
-      thur: 'Tracking Soccer Movement'
+      tues: 'A New Way to Make Charts: Charticulator' # Jiadong W.
+      thur: 'Tracking Soccer Movement' # Cristina M.C.
+
     - time: '1:30p'
-      tues: 'A Declarative Rendering Model for Multiclass Density Maps'
+      tues: 'A Declarative Rendering Model for Multiclass Density Maps' # Tong W.
+      thur: 'Data Visualization for Traveling in Avalanche Terrain' # Enrique B.
+
     - time: '1:50p'
+      tues: '' # Xue F.
+      thur: "Where's My Data? Evaluating Visualizations with Missing Data" # Gudbrand S.
+
     - time: '2:10p'
+      tues: '' # Rock G.
+      thur: '' # Sameer Isaq
 
   - week: 11
     tues: false
