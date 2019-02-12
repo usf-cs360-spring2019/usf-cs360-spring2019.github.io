@@ -13,6 +13,12 @@
     - text: 'D3 Tutorials'
       link: 'https://github.com/d3/d3/wiki/Tutorials'
 
+    - text: 'Data Vis Project'
+      link: 'https://datavizproject.com/'
+
+    - text: 'From Data to Viz'
+      link: 'https://www.data-to-viz.com/'
+
 - label: 'Datasets'
   order: 'text'
   items:
