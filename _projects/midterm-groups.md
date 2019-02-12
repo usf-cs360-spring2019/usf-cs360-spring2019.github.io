@@ -3,11 +3,6 @@ title: Midterm Groups
 navbar: Guides
 layout: guides
 key: 2
-tags:
-  - text: 'Due 2/05'
-    type: 'is-danger'
-
-
 assignments:
   - text: Midterm Project Group
     info: (Canvas Assignment)
@@ -18,8 +13,6 @@ blurb: |
     Instead of a midterm exam, all students must complete a midterm group project. This guide explains the requirements for the midterm project groups. See the <a href="/guides/projects/midterm-project.html">Midterm Project</a> page for more details on other requirements.
   </p>
 ---
-
-
 
 {% include notice.html type = "is-info" icon = "fas fa-info-circle" text = "FYI: The group requirements recently changed due to the increased enrollment in this class." %}
 
