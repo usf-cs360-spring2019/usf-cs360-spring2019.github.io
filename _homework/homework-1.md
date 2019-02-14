@@ -7,7 +7,7 @@ bump: true
 
 tags:
   - text: 'Due 2/14'
-    type: 'is-danger'
+    type: 'is-pending'
 
 assignments:
   - text: Homework 1 Basic Charts
