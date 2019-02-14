@@ -41,7 +41,7 @@ weeks:
 
     - time: '2:10p'
       tues: 'Data Visualization in Medical Research' # Rock G.
-      thur: '' # Sameer Isaq
+      thur: 'The Psychology of Data Visualization' # Sameer I.
 
   - week: 11
     tues: false
