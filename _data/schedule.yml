@@ -395,6 +395,7 @@ weeks:
   days:
     - type: Lecture
       date: 2019-02-12
+      zoom: https://usfca.zoom.us/recording/share/5Kq_-62Dfq3Lb8YXU7Tr9ns6NVZNfOSdfaj4DcnlnwGwIumekTziMw
       resources:
       - text: 'AMA: Krist Wongsuphasawat'
         icon: *icon_speaker
