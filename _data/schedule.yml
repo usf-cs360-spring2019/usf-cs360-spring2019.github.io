@@ -414,11 +414,11 @@ weeks:
 
     - type: Lecture
       date: 2019-02-14
+      zoom: https://usfca.zoom.us/recording/share/6Pv6VVFaesBqJFUCCoTXiRsBVVtHAUMjNZedR8eb2AOwIumekTziMw
       resources:
-      - text: Multivariate Data
-        icon: *icon_pending
-        type: grey
-        bump: true
+      - text: Mobility Bubble Chart
+        icon: *icon_code
+        link: https://blockbuilder.org/sjengle/0f3caca5c7329733cb8ed912d84807ed
 
       - <<: *homework2
         bump: true
