@@ -50,7 +50,7 @@ The following must be complete on your [midterm project website](midterm-website
 
 The content you include does not need to be the final version! You **may** continue to make modifications to the content later as your team works on the midterm project.
 
-Once complete, your team must [creating a release](midterm-website.html#creating-releases) of your Github repository by the deadline and [submit a link]((https://usfca.instructure.com/courses/1582982/assignments/6821963)) to that release on Canvas.
+Once complete, your team must [create a release](midterm-website.html#creating-releases) of your Github repository by the deadline and [submit a link]((https://usfca.instructure.com/courses/1582982/assignments/6821963)) to that release on Canvas.
 
 {% include section.html level="h2" name="Beta Release" %}
 

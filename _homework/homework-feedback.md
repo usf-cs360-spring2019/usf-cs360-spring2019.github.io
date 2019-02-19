@@ -41,7 +41,7 @@ See the "[How do I submit a peer review to an assignment](https://guides.instruc
 
 The goal of this assignment is to provide **subjective** feedback. However, your feedback must be professional, substantive, and constructive. Here are some general guidelines:
 
-  - Aim for 3 to 5 sentences per visualization and 20 minutes per assignment at a minimum. For example, "Good job!" alone does not qualify.
+  - Aim for 3 to 5 sentences per visualization and 20 minutes per assignment overall. For example, "Good job!" alone does not qualify.
 
   - If there is something you like about the visualization, be specific about why you liked it (for example, did it help you learn something) and use appropriate visualization terminology. For example:
 
@@ -122,7 +122,7 @@ Try your best to figure out the correct link. For example, you can usually figur
 
 If you are unable to figure out the correct link, state as much in the "Website" feedback comments and enter "N/A" in the other comment boxes. You will not receive a point deduction for the feedback assignment.
 
-{% include section.html level="h5" name="What do I did not complete the homework but still want to complete the feedback assignment" %}
+{% include section.html level="h5" name="What if I did not complete the homework but still want to complete the feedback assignment" %}
 
 To participate in the feedback exercise, you must still submit a link to your homework website even if most of it is incomplete. Students will attempt to peer review what they can on your website, and you will still be able to review other submissions.
 
