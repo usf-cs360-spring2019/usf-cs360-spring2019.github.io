@@ -125,3 +125,9 @@ pre.highlight {
 .schedule ul.icons li a:hover {
   text-decoration: underline;
 }
+
+tr.narrow-row td, tr.narrow-row th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 0.75rem;
+}
