@@ -45,13 +45,130 @@ All presentations use the same grading rubric, and have the opportunity for extr
 
 Each group must present their midterm project in class on week 9 (Tuesday 3/19 or Thursday 3/21). The presentation dates were semi-randomly assigned by the instructor, taking into account the size of groups and length of presentations. The presentation schedule is as follows:
 
-| Start  | End   | Tuesday 3/19   | Thursday 3/21    |
-|-------:|------:|:---------------|:-----------------|
-| 12:50p | 1:10p | Dukes of Data  | Sigegoubi        |
-|  1:15p | 1:25p | Team ColorIn   | Git Gang         |
-|  1:30p | 1:45p | Boom Graph R&D | The Data Vizards |
-|  1:50p | 2:05p | Group0         | The Rad Grads    |
-|  2:10p | 2:25p | Magic Mirror   | Tony and Friends |
+<div class="columns">
+<div class="column">
+
+<h5>Tuesday 3/19</h5>
+
+<table class="table is-hoverable is-narrow">
+<thead>
+  <tr>
+    <th class="has-text-right">Start</th>
+    <th class="has-text-right">End</th>
+    <th class="has-text-centered">Min</th>
+    <th width="100%">Group</th>
+    <th class="has-text-centered"><i class="fa-fw fas fa-user"></i></th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td class="has-text-right">12:50p</td>
+    <td class="has-text-right"> 1:10p</td>
+    <td class="has-text-centered">20m</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-dukes-of-data/">Dukes of Data</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 1:15p</td>
+    <td class="has-text-right"> 1:25p</td>
+    <td class="has-text-centered">10m</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-colorin/">Team ColorIn</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 1:30p</td>
+    <td class="has-text-right"> 1:45p</td>
+    <td class="has-text-centered">15m</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 1:50p</td>
+    <td class="has-text-right"> 2:05p</td>
+    <td class="has-text-centered">15m</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-group0/">Group0</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 2:10p</td>
+    <td class="has-text-right"> 2:25p</td>
+    <td class="has-text-centered">15m</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-magic-mirror/">Magic Mirror</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>     
+</tbody>
+
+</table>
+
+</div>
+<div class="column">
+
+<h5>Thursday 3/21</h5>
+
+<table class="table is-hoverable is-narrow">
+<thead>
+  <tr>
+    <th class="has-text-right">Start</th>
+    <th class="has-text-right">End</th>
+    <th class="has-text-centered">Min</th>
+    <th width="100%">Group</th>
+    <th class="has-text-centered"><i class="fa-fw fas fa-user"></i></th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td class="has-text-right">12:50p</td>
+    <td class="has-text-right"> 1:05p</td>
+    <td class="has-text-centered">15m</td>
+    <td>Sigegoubi</td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 1:10p</td>
+    <td class="has-text-right"> 1:25p</td>
+    <td class="has-text-centered">15m</td>
+    <td>Git Gang</td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user has-text-grey"></i></td>
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 1:30p</td>
+    <td class="has-text-right"> 1:45p</td>
+    <td class="has-text-centered">15m</td>
+    <td>The Data Vizards</td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 1:50p</td>
+    <td class="has-text-right"> 2:05p</td>
+    <td class="has-text-centered">15m</td>
+    <td>The Rad Grads</td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 2:10p</td>
+    <td class="has-text-right"> 2:25p</td>
+    <td class="has-text-centered">15m</td>
+    <td>Tony and Friends</td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+  </tr>     
+</tbody>
+
+</table>
+
+
+</div>
+</div>
+
 
 {% include section.html level="h2" name="Audience Requirements" %}
 
