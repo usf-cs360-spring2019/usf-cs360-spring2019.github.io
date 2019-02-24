@@ -126,7 +126,7 @@ Each group must present their midterm project in class on week 9 (Tuesday 3/19 o
     <td class="has-text-right">12:50p</td>
     <td class="has-text-right"> 1:05p</td>
     <td class="has-text-centered">15m</td>
-    <td>Sigegoubi</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-sigegoubi/">Sigegoubi</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
   </tr>
 
@@ -134,7 +134,7 @@ Each group must present their midterm project in class on week 9 (Tuesday 3/19 o
     <td class="has-text-right"> 1:10p</td>
     <td class="has-text-right"> 1:25p</td>
     <td class="has-text-centered">15m</td>
-    <td>Git Gang</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user has-text-grey"></i></td>
   </tr>
 
@@ -142,7 +142,7 @@ Each group must present their midterm project in class on week 9 (Tuesday 3/19 o
     <td class="has-text-right"> 1:30p</td>
     <td class="has-text-right"> 1:45p</td>
     <td class="has-text-centered">15m</td>
-    <td>The Data Vizards</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-the-data-vizards/">The Data Vizards</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
   </tr>
 
@@ -150,7 +150,7 @@ Each group must present their midterm project in class on week 9 (Tuesday 3/19 o
     <td class="has-text-right"> 1:50p</td>
     <td class="has-text-right"> 2:05p</td>
     <td class="has-text-centered">15m</td>
-    <td>The Rad Grads</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-the-rad-grads/">The Rad Grads</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
   </tr>
 
@@ -158,7 +158,7 @@ Each group must present their midterm project in class on week 9 (Tuesday 3/19 o
     <td class="has-text-right"> 2:10p</td>
     <td class="has-text-right"> 2:25p</td>
     <td class="has-text-centered">15m</td>
-    <td>Tony and Friends</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-tony-and-friends/">Tony and Friends</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
   </tr>     
 </tbody>
