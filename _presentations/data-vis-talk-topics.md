@@ -9,10 +9,6 @@ assignments:
     info: (Canvas Assignment)
     link: https://usfca.instructure.com/courses/1582982/assignments/6829299
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
-
 blurb: |
   <p>
     All students must give a 15 minute talk on a topic in data visualization. This guide explains the talk topic requirements. See the general <a href="data-vis-talks.html">Data Vis Talks</a> guide for more details on other requirements.

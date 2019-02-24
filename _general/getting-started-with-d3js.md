@@ -3,9 +3,6 @@ title: Getting Started with D3.js
 navbar: Guides
 layout: guides
 key: 1.1
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 This guide provides a little background for getting started with [D3.js](https://d3js.org/). See the [Data Visualization Resources](resources.html) and the [Introduction to D3.js](https://beta.observablehq.com/d/28ba93f58fb82f49) Observable notebook for more.

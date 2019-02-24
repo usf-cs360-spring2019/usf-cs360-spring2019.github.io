@@ -5,10 +5,6 @@ layout: guides
 key: 2.1
 bump: true
 
-tags:
-  - text: 'Due 2/14'
-    type: 'is-pending'
-
 assignments:
   - text: Homework 1 Basic Charts
     link: https://usfca.instructure.com/courses/1582982/assignments/6821944

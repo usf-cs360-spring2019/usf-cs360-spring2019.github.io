@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 2.3
 
-tags:
-  - text: 'Pending'
-    type: 'is-light'
-
 assignments:
   - text: Homework 3
     link: https://usfca.instructure.com/courses/1582982/assignments/6821958
