@@ -55,6 +55,7 @@ weeks:
     slots:
     - time: '12:50p'
       tues: 'The Forgotten Horrors: Non Combat Casualties of American Servicemen' # David M.
+      thur: 'ATOM: A Grammar for Unit Visualizations' # Diana P.
     - time: '1:10p'
     - time: '1:30p'
     - time: '1:50p'
