@@ -464,9 +464,20 @@ weeks:
     - type: Lecture
       date: 2019-02-26
       resources:
-      - text: Design
-        icon: *icon_pending
-        type: grey
+      - <<: *midterm_beta
+
+      - text: Interactivity
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upWnFkc0VHM0oxNDA
+        bump: true
+
+      - text: Interactivity in D3
+        icon: *icon_code
+        link: https://beta.observablehq.com/@sjengle/interactivity
+
+      - text: Linked Views in D3
+        icon: *icon_code
+        link: https://blockbuilder.org/sjengle/211d72f01852aa649f4338f64bbab1a5
 
     - type: Lecture
       date: 2019-02-28
@@ -476,9 +487,22 @@ weeks:
         type: primary has-text-weight-bold
         link: http://sxywu.com/
 
-      - text: Evaluation
-        icon: *icon_pending
-        type: grey
+      - text: Design Principles
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upSm1QWVk2R2kzak0
+        bump: true
+
+      - text: Evaluation Principles
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upQVN6UVJuWDNBUEk
+
+      - text: Evaluation Excercise
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upN1NsRTBhWklzWFE
+
+      - text: Negative Space
+        icon: *icon_slides
+        link: https://drive.google.com/open?id=0BxYofk0iB_upMGFLWURxNUJXZGc
 
       deadlines:
       - text: AMA Questions
