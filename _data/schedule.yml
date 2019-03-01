@@ -463,6 +463,7 @@ weeks:
   days:
     - type: Lecture
       date: 2019-02-26
+      zoom: https://usfca.zoom.us/recording/share/qti6EzOmsi5FTdCshVFTUDNUicGhA_DAlo8ts2xho2ewIumekTziMw
       resources:
       - <<: *midterm_beta
 
@@ -481,6 +482,7 @@ weeks:
 
     - type: Lecture
       date: 2019-02-28
+      zoom: https://usfca.zoom.us/recording/share/fhHs4b6hZ0Zt6PxJK2iRjRhYA5ZVge0b36jCdeQwVVqwIumekTziMw
       resources:
       - text: 'AMA: Shirley Wu'
         icon: *icon_speaker
