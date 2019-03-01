@@ -118,14 +118,14 @@ Demonstrating groups should load their midterm project website on one of the lab
   <tr>
     <td nowrap>2</td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-colorin/">Team ColorIn</a></td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-magic-mirror/">Magic Mirror</a></td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-tony-and-friends/">Tony and Friends</a></td>
   </tr>
 
   <tr>
     <td nowrap>3</td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-the-data-vizards/">The Data Vizards</a></td>
     <td><em>Empty</em></td>
     <td><em>Empty</em></td>
@@ -170,19 +170,19 @@ At the start of class, the feedback groups should find their assigned group. Fee
       <td>Sigegoubi</td>
       <td><a href="https://usf-cs360-spring2019.github.io/midterm-dukes-of-data/">Dukes of Data</a></td>
       <td><a href="https://usf-cs360-spring2019.github.io/midterm-colorin/">Team ColorIn</a></td>
-      <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
+      <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
     </tr>
 
     <tr>
-      <td>Git Gang</td>
+      <td>Boom Graph R&D</td>
       <td><a href="https://usf-cs360-spring2019.github.io/midterm-colorin/">Team ColorIn</a></td>
-      <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
+      <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
       <td><a href="https://usf-cs360-spring2019.github.io/midterm-group0/">Group0</a></td>
     </tr>
 
     <tr>
       <td>The Data Vizards</td>
-      <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
+      <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
       <td><a href="https://usf-cs360-spring2019.github.io/midterm-group0/">Group0</a></td>
       <td><a href="https://usf-cs360-spring2019.github.io/midterm-magic-mirror/">Magic Mirror</a></td>
     </tr>
@@ -239,22 +239,22 @@ The **Thursday** feedback schedule is as follows:
   </tr>
 
   <tr>
-    <td>Boom Graph R&D</td>
+    <td>Git Gang</td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-tony-and-friends/">Tony and Friends</a></td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-sigegoubi/">Sigegoubi</a></td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
   </tr>
 
   <tr>
     <td>Group0</td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-sigegoubi/">Sigegoubi</a></td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-the-data-vizards/">The Data Vizards</a></td>
   </tr>
 
   <tr>
     <td>Magic Mirror</td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-the-data-vizards/">The Data Vizards</a></td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-the-rad-grads/">The Rad Grads</a></td>
   </tr>    
