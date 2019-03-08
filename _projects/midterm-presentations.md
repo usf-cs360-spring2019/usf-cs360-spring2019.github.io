@@ -78,29 +78,38 @@ Each group must present their midterm project in class on week 9 (Tuesday 3/19 o
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
   </tr>
 
+  <tr class="has-text-grey-light">
+    <td class="has-text-right"> 1:25p</td>
+    <td class="has-text-right"> 1:35p</td>
+    <td class="has-text-centered">10m</td>
+    <td colspan="2"><em>Break</em></td>
+  </tr>
+
   <tr>
-    <td class="has-text-right"> 1:30p</td>
+    <td class="has-text-right"> 1:35p</td>
     <td class="has-text-right"> 1:45p</td>
-    <td class="has-text-centered">15m</td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
-    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
+    <td class="has-text-centered">10m</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-group0/">Group0</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user-slash has-text-grey-lighter"></i></td>
   </tr>
 
   <tr>
     <td class="has-text-right"> 1:50p</td>
     <td class="has-text-right"> 2:05p</td>
     <td class="has-text-centered">15m</td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-group0/">Group0</a></td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-magic-mirror/">Magic Mirror</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
   </tr>
 
   <tr>
     <td class="has-text-right"> 2:10p</td>
-    <td class="has-text-right"> 2:25p</td>
-    <td class="has-text-centered">15m</td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-magic-mirror/">Magic Mirror</a></td>
-    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
-  </tr>     
+    <td class="has-text-right"> 2:20p</td>
+    <td class="has-text-centered">10m</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-boom-graph-r-d/">Boom Graph R&D</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user-slash has-text-grey-lighter"></i></td>
+  </tr>
+
+
 </tbody>
 
 </table>
@@ -126,41 +135,53 @@ Each group must present their midterm project in class on week 9 (Tuesday 3/19 o
     <td class="has-text-right">12:50p</td>
     <td class="has-text-right"> 1:05p</td>
     <td class="has-text-centered">15m</td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-sigegoubi/">Sigegoubi</a></td>
-    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
-  </tr>
-
-  <tr>
-    <td class="has-text-right"> 1:10p</td>
-    <td class="has-text-right"> 1:25p</td>
-    <td class="has-text-centered">15m</td>
-    <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
-    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user has-text-grey"></i></td>
-  </tr>
-
-  <tr>
-    <td class="has-text-right"> 1:30p</td>
-    <td class="has-text-right"> 1:45p</td>
-    <td class="has-text-centered">15m</td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-the-data-vizards/">The Data Vizards</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
   </tr>
 
   <tr>
-    <td class="has-text-right"> 1:50p</td>
-    <td class="has-text-right"> 2:05p</td>
+    <td class="has-text-right"> 1:10p</td>
+    <td class="has-text-right"> 2:25p</td>
     <td class="has-text-centered">15m</td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-the-rad-grads/">The Rad Grads</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
   </tr>
 
+  <tr class="has-text-grey-light">
+    <td class="has-text-right"> 1:25p</td>
+    <td class="has-text-right"> 1:35p</td>
+    <td class="has-text-centered">10m</td>
+    <td colspan="2"><em>Break</em></td>
+  </tr>
+
+
   <tr>
-    <td class="has-text-right"> 2:10p</td>
-    <td class="has-text-right"> 2:25p</td>
+    <td class="has-text-right"> 1:35p</td>
+    <td class="has-text-right"> 1:45p</td>
+    <td class="has-text-centered">10m</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-sigegoubi/">Sigegoubi</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user-slash has-text-grey-lighter"></i><i class="fa-fw fas fa-user-slash has-text-grey-lighter"></i></td>
+  </tr>
+
+
+
+
+  <tr>
+    <td class="has-text-right"> 1:50p</td>
+    <td class="has-text-right"> 2:05p</td>
     <td class="has-text-centered">15m</td>
     <td><a href="https://usf-cs360-spring2019.github.io/midterm-tony-and-friends/">Tony and Friends</a></td>
     <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i></td>
-  </tr>     
+  </tr>
+
+  <tr>
+    <td class="has-text-right"> 2:10p</td>
+    <td class="has-text-right"> 2:20p</td>
+    <td class="has-text-centered">10m*</td>
+    <td><a href="https://usf-cs360-spring2019.github.io/midterm-git-gang/">Git Gang</a></td>
+    <td nowrap><i class="fa-fw fas fa-user"></i><i class="fa-fw fas fa-user"></i><i class="fa-fw far fa-user"></i></td>
+  </tr>
+
 </tbody>
 
 </table>
