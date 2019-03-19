@@ -84,6 +84,12 @@ assignments:
       date: 2019-05-10
       link: https://usfca.instructure.com/courses/1582982/assignments/6823824
 
+  - piazzaec: &piazzaec
+      text: Piazza Extra Credit
+      icon: *icon_participation
+      date: 2019-05-10
+      link: https://usfca.instructure.com/courses/1582982/assignments/6836795
+
   - homework1: &homework1
       text: Homework 1
       icon: *icon_homework
@@ -567,6 +573,8 @@ weeks:
 
       - <<: *csevent2
         bump: true
+      - <<: *piazza2
+      - <<: *piazzaec
 
 
       deadlines:
@@ -725,6 +733,7 @@ weeks:
       deadlines:
       - <<: *csevent2
       - <<: *piazza2
+      - <<: *piazzaec
 
 - text: Finals
   days:
