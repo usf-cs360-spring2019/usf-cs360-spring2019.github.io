@@ -138,6 +138,18 @@ assignments:
       link: https://usfca.instructure.com/courses/1582982/assignments/6821959
       date: 2019-05-02
 
+  - feedbackec1: &feedbackec1
+      text: Feedback Extra Credit 1
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6836801
+      date: 2019-05-10
+
+  - feedbackec2: &feedbackec2
+      text: Feedback Extra Credit 2
+      icon: *icon_participation
+      link: https://usfca.instructure.com/courses/1582982/assignments/6836811
+      date: 2019-05-10
+
   - vistalks: &vistalks
       text: Data Vis Talks
       icon: *icon_presentation
@@ -575,7 +587,8 @@ weeks:
         bump: true
       - <<: *piazza2
       - <<: *piazzaec
-
+      - <<: *feedbackec1
+      - <<: *feedbackec2
 
       deadlines:
       - <<: *midterm_project
@@ -734,6 +747,8 @@ weeks:
       - <<: *csevent2
       - <<: *piazza2
       - <<: *piazzaec
+      - <<: *feedbackec1
+      - <<: *feedbackec2
 
 - text: Finals
   days:
