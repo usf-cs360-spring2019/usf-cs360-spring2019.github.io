@@ -623,6 +623,10 @@ weeks:
         link: 'https://drive.google.com/open?id=0BxYofk0iB_upOWdzaUtOVXBpcW8'
         bump: true
 
+      - text: Geospatial Visualization
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upeWFDNURXMFZsc28'
+
       - <<: *final_project
         bump: true
 
