@@ -44,6 +44,7 @@ weeks:
     thur: 2019-04-04
     slots:
     - time: '12:50p'
+      thur: 'Visualizing My Favorite TV Shows' # Corianna P.
     - time: '1:10p'
     - time: '1:30p'
     - time: '1:50p'
