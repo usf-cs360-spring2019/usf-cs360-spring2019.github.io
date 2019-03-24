@@ -520,7 +520,7 @@ weeks:
         icon: *icon_slides
         link: https://drive.google.com/open?id=0BxYofk0iB_upN1NsRTBhWklzWFE
 
-      - text: Negative Space
+      - text: "<del>Negative Space</del>"
         icon: *icon_slides
         link: https://drive.google.com/open?id=0BxYofk0iB_upMGFLWURxNUJXZGc
 
@@ -606,9 +606,22 @@ weeks:
     - type: Lecture
       date: 2019-03-26
       resources:
+      - text: Negative Space
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upMGFLWURxNUJXZGc'
+
+      - text: Trifacta Wrangler
+        icon: *icon_website
+        link: 'https://www.trifacta.com/products/wrangler-editions/'
+
+      - text: Tableau Remake
+        icon: *icon_website
+        link: 'https://public.tableau.com/views/StatewideMurderbyFirearm/OriginalRemake?:embed=y&:display_count=yes&publish=yes'
+
       - text: Geospatial Data
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upOWdzaUtOVXBpcW8'
+        bump: true
 
       - <<: *final_project
         bump: true
