@@ -3,9 +3,6 @@ title: Midterm Prototypes
 navbar: Guides
 layout: guides
 key: 3
-tags:
-  - text: 'Beta Due'
-    type: 'is-danger'
 
 assignments:
   - text: Midterm Alpha Release
