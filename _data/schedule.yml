@@ -193,30 +193,35 @@ assignments:
       icon: *icon_project
       date: 2019-04-02
       type: success
+      link: /guides/projects/final-project-proposal.html
 
   - final_alpha: &final_alpha
       text: Final Alpha Release
       icon: *icon_project
       date: 2019-04-16
       type: success
+      link: /guides/projects/final-project-alpha.html
 
   - final_beta: &final_beta
       text: Final Beta Release
       icon: *icon_project
       date: 2019-04-30
       type: success
+      link: /guides/projects/final-project-beta.html
 
   - final_demo: &final_demo
       text: Final Demo Video
       icon: *icon_project
       date: 2019-05-15
       type: success
+      link: /guides/projects/final-project-demonstration.html
 
   - final_project: &final_project
       text: Final Project
       icon: *icon_project
       date: 2019-05-16
       type: success
+      link: /guides/projects/final-project.html
 
 # schedule
 weeks:
