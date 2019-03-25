@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 2.2
 
-tags:
-  - text: 'Due 2/28'
-    type: 'is-danger'
-
 assignments:
   - text: Homework 2 Multivariate
     link: https://usfca.instructure.com/courses/1582982/assignments/6821957
