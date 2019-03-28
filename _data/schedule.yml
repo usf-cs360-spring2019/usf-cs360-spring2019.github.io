@@ -638,9 +638,13 @@ weeks:
     - type: Lecture
       date: 2019-03-28
       resources:
-      - text: Geospatial Data
-        icon: *icon_pending
-        type: grey
+      - text: Geospatial Visualization
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upeWFDNURXMFZsc28'
+
+      - text: SF Arrests Map
+        icon: *icon_code
+        link: https://bl.ocks.org/sjengle/2f6d4832397e3cdd78d735774cb5a4f2
 
       - <<: *homework3
         bump: true
