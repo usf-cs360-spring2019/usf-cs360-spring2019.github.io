@@ -11,6 +11,10 @@ assignments:
   - text: Homework 3 Feedback
     link: https://usfca.instructure.com/courses/1582982/assignments/6821978
 
+tags:
+  - text: 'Due 04/11'
+    type: 'is-danger'
+
 blurb: |
   <p>
     For this homework assignment, you must visualize data from the <a href="">SF Tree Maintenance March 2018 to March 2019</a> dataset using a geospatial data visualization technique in D3 <strong>version 5</strong>. The techniques allowed for this homework include: non-proportional symbol map, proportional symbol map, or choropleth map.
