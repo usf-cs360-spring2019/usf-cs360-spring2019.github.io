@@ -638,6 +638,7 @@ weeks:
 
     - type: Lecture
       date: 2019-03-28
+      zoom: https://usfca.zoom.us/recording/share/n_CLd53Miu2jFEkCplwrTMXE2x4ylQqBPd7m-psuGiuwIumekTziMw
       resources:
       - text: Geospatial Visualization
         icon: *icon_slides
