@@ -46,9 +46,13 @@ weeks:
     - time: '12:50p'
       thur: 'Visualizing My Favorite TV Shows' # Corianna P.
     - time: '1:10p'
+      thur: "Nike Vaporfly's: Do they work?" # Tony J.
     - time: '1:30p'
+      thur: 'Building a Connection with Data through Original Visualization' # Darianne L.
     - time: '1:50p'
+      thur: 'VR &amp; AR: The Future of Data Visualization' # Samuel E. O.
     - time: '2:10p'
+      thur: 'Visualizing the Data Revolution in Sports' # Nicolas O.
 
   - week: 14
     tues: 2019-04-23
@@ -68,6 +72,7 @@ weeks:
     thur: false
     slots:
     - time: '12:50p'
+      tues: "Major League Baseball Statistics" # John M.
     - time: '1:10p'
     - time: '1:30p'
     - time: '1:50p'
