@@ -85,7 +85,23 @@ Double-check all of the required content is included in your final release. See 
 
 {% include section.html level="h2" name="Visualization Guidelines" %}
 
-Pending.
+These are basic guidelines for the visualizations you should include with your project. You will have to choose what works best for your specific dataset. These guidelines can be summarized as follows:
+
+  > Make something *awesome*.
+
+This guideline can be broken down as follows:
+
+  - "Make" means you, individually, should come up with customized visualizations for your dataset. You can start with inspirations and posted examples, but the end result must represent customized individual contributions for your data!
+
+      To be explicit, plugging in your data into someone else's code without making any modifications DOES not qualify. This includes code provided as part of lecture.
+
+  - "Something" refers to at least one advanced visualization (e.g. multidimensional visualizations like parallel coordinates, heatmaps, or scatterplot matrices, geographic visualizations like choropleths and symbol maps, or graph visualizations) created in D3 version 5.
+
+      You may provide additional visualizations using any tool you prefer for additional awesomeness. Aim for *at least* 3 distinct perspectives of your data.
+
+  - "Awesome" refers to visualizations that are highly interactive (e.g. a mix of details on demand, linked views, brushing, filtering, sorting), have strong data encodings, lots of context, high data-ink ratio, high data density, low lie factor, and are well-designed and aesthetically pleasing.
+
+Your final project represents a multi-week iterative effort to produce something awesome. This should involve significantly more work than any individual homework assignment or presented in any individual lecture.
 
 {% include section.html level="h2" name="Grading" %}
 
