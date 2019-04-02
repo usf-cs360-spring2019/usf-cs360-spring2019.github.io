@@ -54,9 +54,9 @@ Students must create several releases of their project websites:
 
 | Release | Description |
 |--------:|:------------|
-| [Alpha Release](final-project-alpha.html) | Pending. The prototypes created for this release will be used in the instructor feedback exercise. |
-|  [Beta Release](final-project-beta.html)  | Pending. The prototypes created for this release will be used in the [in-class feedback exercise](final-project-feedback.html). |
-| [Final Release](final-project-final.html) | The final version of the website with all of the required content and visualizations. |
+| [Alpha Release](final-project-alpha.html) | Includes one visualization prototype of your dataset. The prototype created for this release will be used in the instructor feedback exercise. |
+|  [Beta Release](final-project-beta.html)  | Includes two visualization prototypes of your dataset (one from alpha release and one new prototype). The new prototype created for this release will be used in the [in-class feedback exercise](final-project-feedback.html). |
+| [Final Release](final-project-final.html) | Includes the final version of the project website with all of the required content and visualizations. |
 
 These releases must be submitted in Canvas by the deadline. See each section for additional details.
 
