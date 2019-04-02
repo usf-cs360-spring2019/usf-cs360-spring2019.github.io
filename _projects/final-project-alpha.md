@@ -39,9 +39,11 @@ You might end up moving the location of the prototype on your website, but you s
 
 {% include section.html level="h2" name="Feedback" %}
 
-Only half of the grade associated with this assignment is associated with the prototype itself; the other half of the grade comes from seeking instructor feedback on the prototype.
+Only half of the grade is associated with the prototype itself; the other half of the grade comes from seeking instructor feedback on the prototype.
 
-Additional details pending.
+To earn this credit, students must sign up for and attend a 15 minute one-on-one feedback appointment with the instructor. During this time, the instructor will provide verbal feedback on the prototype visualization. Written feedback will *not* be provided, but students are welcome to record the session.
+
+These appointments will be scheduled for **April 22nd through 24th** via the [Canvas Scheduler](https://community.canvaslms.com/docs/DOC-10580-4212716665). Appointments are scheduled back-to-back; students must come on-time and may be cutoff at the end of their appointment time.
 
 {% include section.html level="h2" name="Submission" %}
 
