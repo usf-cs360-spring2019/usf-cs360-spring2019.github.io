@@ -63,6 +63,7 @@ weeks:
       thur: 'ATOM: A Grammar for Unit Visualizations' # Diana P.
     - time: '1:10p'
       tues: 'Pioneers of Data Visualization: Fernanda Viégas' # Martha S.
+      thur: 'Feature Visualization' # Seyyed M. H.
     - time: '1:30p'
     - time: '1:50p'
     - time: '2:10p'
