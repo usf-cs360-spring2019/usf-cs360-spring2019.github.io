@@ -680,9 +680,13 @@ weeks:
     - type: Lecture
       date: 2019-04-11
       resources:
-      - text: Hierarchical Data
-        icon: *icon_pending
-        type: grey
+      - text: 'Java 11 API Hierarchy (Wrangling)'
+        icon: *icon_code
+        link: 'https://observablehq.com/@sjengle/java-11-api-hierarchy-data-wrangling'
+
+      - text: 'Java 11 API Hierarchy (Visualization)'
+        icon: *icon_code
+        link: 'https://observablehq.com/@sjengle/java-11-api-hierarchy-visualization'
 
       - <<: *homework4
         bump: true
