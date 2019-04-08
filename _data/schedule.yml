@@ -674,8 +674,8 @@ weeks:
       date: 2019-04-09
       resources:
       - text: Hierarchical Data
-        icon: *icon_pending
-        type: grey
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upNVRXaXVnR0dUMGM'
 
     - type: Lecture
       date: 2019-04-11
