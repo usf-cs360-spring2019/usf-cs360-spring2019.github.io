@@ -672,6 +672,7 @@ weeks:
   days:
     - type: Lecture
       date: 2019-04-09
+      zoom: "https://usfca.zoom.us/recording/share/CVKQVXxKTQw0seJOyhU7Gj5Q5wq2FIX4ygDOFYfRj6M"
       resources:
       - text: Hierarchical Data
         icon: *icon_slides
@@ -679,6 +680,7 @@ weeks:
 
     - type: Lecture
       date: 2019-04-11
+      zoom: "https://usfca.zoom.us/recording/share/D47ZyDMnUfhWyNf4ou2VIHzojcI3MN_PmykpYhZbj3ywIumekTziMw"
       resources:
       - text: 'Java 11 API Hierarchy (Wrangling)'
         icon: *icon_code
