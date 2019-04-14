@@ -65,7 +65,10 @@ weeks:
       tues: 'Pioneers of Data Visualization: Fernanda Viégas' # Martha S.
       thur: 'Feature Visualization' # Seyyed M. H.
     - time: '1:30p'
+      tues: 'Keshif: Rapid and Expressive Tabular Data Exploration for Novices' # Divya V.
+      thur: 'Evaluating Interactive Graphical Encodings for Data Visualization' # Neal S.
     - time: '1:50p'
+      tues: 'Approach to Deal With Overdraw Data' # Brian S.
     - time: '2:10p'
 
   - week: 16
