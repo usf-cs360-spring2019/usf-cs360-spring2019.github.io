@@ -702,9 +702,13 @@ weeks:
     - type: Lecture
       date: 2019-04-16
       resources:
-      - text: Network Data
-        icon: *icon_pending
-        type: grey
+      - text: Networks and Graphs
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upemJwcHpSYmNFSlU'
+
+      - text: Graph Visualization
+        icon: *icon_slides
+        link: 'https://drive.google.com/open?id=0BxYofk0iB_upUVRZNjBBS05zRFk'
 
       deadlines:
       - <<: *final_alpha
@@ -712,9 +716,9 @@ weeks:
     - type: Lecture
       date: 2019-04-18
       resources:
-      - text: Network Data
-        icon: *icon_pending
-        type: grey
+      - text: Coauthorship in Network Science
+        icon: *icon_code
+        link: 'http://bl.ocks.org/sjengle/f6f522f3969752b384cfec5449eacd98'
 
       deadlines:
       - <<: *feedback3
