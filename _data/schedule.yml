@@ -747,8 +747,8 @@ weeks:
       date: 2019-04-30
       resources:
       - text: Prototype Exercises
-        icon: *icon_pending
-        type: grey
+        icon: *icon_participation
+        link: "/guides/projects/final-project-beta.html#feedback"
 
       deadlines:
       - <<: *final_beta
@@ -757,8 +757,8 @@ weeks:
       date: 2019-05-02
       resources:
       - text: Prototype Exercises
-        icon: *icon_pending
-        type: grey
+        icon: *icon_participation
+        link: "/guides/projects/final-project-beta.html#feedback"
 
       deadlines:
       - <<: *feedback4
