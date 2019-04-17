@@ -42,6 +42,12 @@ You may create your prototype in any tool, as long as it is based on actual data
 
 Make sure to **clearly mark** which is your alpha versus beta prototype. You will receive feedback from the professor on your alpha prototype, and from other students on your beta prototype.
 
+{% include section.html level="h2" name="Submission" %}
+
+The website beta release is due on <strong>April 30 at 12:15pm</strong>. You must [submit a link in Canvas](https://usfca.instructure.com/courses/1582982/assignments/6821968) to a [release of your website repository](https://help.github.com/articles/creating-releases/) before the deadline. Name the release using the pattern `v0.2.x` where `x` starts at `0` and is incremented each time you make another release before the deadline.
+
+You must also submit a link to your **project website** for both the [Beta Feedback (Tue)](https://usfca.instructure.com/courses/1582982/assignments/6840937) and [Beta Feedback (Thu)](https://usfca.instructure.com/courses/1582982/assignments/6840939) assignments. This gives students access to your website to view your prototype and the ability to fill out the evaluation rubric.
+
 {% include section.html level="h2" name="Feedback" %}
 
 Each student must present their beta prototype in two consecutive 20 minute feedback sessions. Approximately 10 minutes of that time should be spent describing the dataset (why you chose that dataset and what you want to learn from that dataset), and the beta prototype (including the goal of the visualization, the specific encoding used, and planned interactivity). The other 10 minutes should be spent answering questions as the audience provides feedback. (Some of this will be down time for presenters while the audience is writing feedback, so please come prepared.)
@@ -73,12 +79,82 @@ Here is the schedule for an idea of what to expect:
 
 See below for when you are assigned to present and who you are assigned to provide feedback for during each session.
 
-  > Pending
+<table class="table is-hoverable">
+<thead>
+  <tr>
+    <th colspan="2" class="has-text-centered">Tuesday 04/30</th>
 
+    <th colspan="2" class="has-text-centered">Session A</th>
+    <th colspan="2" class="has-text-centered">Session B</th>
+  </tr>
 
+  <tr>
+    <th colspan="2" class="has-text-centered">Name</th>
 
-{% include section.html level="h2" name="Submission" %}
+    <th class="has-text-centered">12:50 – 01:10p</th>
+    <th class="has-text-centered">01:15 – 01:35p</th>
 
-The website beta release is due on <strong>April 30 at 12:15pm</strong>. You must [submit a link in Canvas](https://usfca.instructure.com/courses/1582982/assignments/6821968) to a [release of your website repository](https://help.github.com/articles/creating-releases/) before the deadline. Name the release using the pattern `v0.2.x` where `x` starts at `0` and is incremented each time you make another release before the deadline.
+    <th class="has-text-centered">01:45 – 02:05p</th>
+    <th class="has-text-centered">02:20 – 02:30p</th>
+  </tr>
+</thead>
 
-You must also submit a link to your **project website** for both the [Beta Feedback (Tue)](https://usfca.instructure.com/courses/1582982/assignments/6840937) and [Beta Feedback (Thu)](https://usfca.instructure.com/courses/1582982/assignments/6840939) assignments. This gives students access to your website to view your prototype and the ability to fill out the evaluation rubric.
+<tbody>
+
+  {% for row in site.data.feedback -%}
+  <tr>
+    <td class="has-background-white-bis">{% if row.date contains 'Tue' %}<i class="far fa-user-chart has-text-danger"></i>{% endif %}</td>
+    <th class="has-background-white-bis">
+      <a href="https://usf-cs360-spring2019.github.io/project-{{ row.github }}">{{ row.first }}</a>
+    </th>
+
+    {% if row.tue_a1 == null %}<td class="has-text-danger"><strong>Presenting at #{{ row.computer }}</strong>{% else %}<td>{% include presenter.html name=row.tue_a1 %}{% endif %}</td>
+    {% if row.tue_a2 == null %}<td class="has-text-danger"><strong>Presenting at #{{ row.computer }}</strong>{% else %}<td>{% include presenter.html name=row.tue_a2 %}{% endif %}</td>
+    {% if row.tue_b1 == null %}<td class="has-text-danger"><strong>Presenting at #{{ row.computer }}</strong>{% else %}<td>{% include presenter.html name=row.tue_b1 %}{% endif %}</td>
+    {% if row.tue_b2 == null %}<td class="has-text-danger"><strong>Presenting at #{{ row.computer }}</strong>{% else %}<td>{% include presenter.html name=row.tue_b2 %}{% endif %}</td>
+
+  </tr>
+  {% endfor -%}
+
+</tbody>
+</table>
+
+<table class="table is-hoverable">
+<thead>
+  <tr>
+    <th colspan="2" class="has-text-centered">Thursday 05/02</th>
+
+    <th colspan="2" class="has-text-centered">Session A</th>
+    <th colspan="2" class="has-text-centered">Session B</th>
+  </tr>
+
+  <tr>
+    <th colspan="2" class="has-text-centered">Name</th>
+
+    <th class="has-text-centered">12:50 – 01:10p</th>
+    <th class="has-text-centered">01:15 – 01:35p</th>
+
+    <th class="has-text-centered">01:45 – 02:05p</th>
+    <th class="has-text-centered">02:20 – 02:30p</th>
+  </tr>
+</thead>
+
+<tbody>
+
+  {% for row in site.data.feedback -%}
+  <tr>
+    <td class="has-background-white-bis">{% if row.date contains 'Thu' %}<i class="far fa-user-chart has-text-danger"></i>{% endif %}</td>
+    <th class="has-background-white-bis">
+      <a href="https://usf-cs360-spring2019.github.io/project-{{ row.github }}">{{ row.first }}</a>
+    </th>
+
+    {% if row.thu_a1 == null %}<td class="has-text-danger"><strong>Presenting at #{{ row.computer }}</strong>{% else %}<td>{% include presenter.html name=row.thu_a1 %}{% endif %}</td>
+    {% if row.thu_a2 == null %}<td class="has-text-danger"><strong>Presenting at #{{ row.computer }}</strong>{% else %}<td>{% include presenter.html name=row.thu_a2 %}{% endif %}</td>
+    {% if row.thu_b1 == null %}<td class="has-text-danger"><strong>Presenting at #{{ row.computer }}</strong>{% else %}<td>{% include presenter.html name=row.thu_b1 %}{% endif %}</td>
+    {% if row.thu_b2 == null %}<td class="has-text-danger"><strong>Presenting at #{{ row.computer }}</strong>{% else %}<td>{% include presenter.html name=row.thu_b2 %}{% endif %}</td>
+
+  </tr>
+  {% endfor -%}
+
+</tbody>
+</table>

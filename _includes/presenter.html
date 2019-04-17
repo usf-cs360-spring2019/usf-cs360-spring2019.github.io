@@ -1,0 +1,6 @@
+{%- for row in site.data.feedback -%}
+{% if row.first == include.name %}
+<a href="https://usf-cs360-spring2019.github.io/project-{{ row.github }}">{{ row.first }}</a> at #{{ row.computer }}
+{% break %}
+{% endif %}
+{%- endfor -%}
