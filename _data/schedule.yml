@@ -701,6 +701,7 @@ weeks:
   days:
     - type: Lecture
       date: 2019-04-16
+      zoom: 'https://usfca.zoom.us/recording/share/GiI0z7xk2DvEsg0UGhmeb6sWEk16zFtDwcWEN0VE5xiwIumekTziMw'
       resources:
       - text: Networks and Graphs
         icon: *icon_slides

@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 6.1
 
-tags:
-  - text: 'Due 04/02'
-    type: 'is-danger'
-
 assignments:
   - text: 'Project Proposal'
     info: '(Canvas Submission)'
