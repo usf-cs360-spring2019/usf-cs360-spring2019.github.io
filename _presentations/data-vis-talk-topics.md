@@ -70,6 +70,8 @@ weeks:
     - time: '1:50p'
       tues: 'Approach to Deal With Overdraw Data' # Brian S.
     - time: '2:10p'
+      tues: 'Data Visualization in Video Games' # Tracy C.
+      thur: 'How to Effectively Present Ideas to VCs using Data Visualization' # Kibeom K.
 
   - week: 16
     tues: 2019-05-07
@@ -79,7 +81,6 @@ weeks:
       tues: "Major League Baseball Statistics" # John M.
     - time: '1:10p'
     - time: '1:30p'
-    - time: '1:50p'
 
 ---
 
