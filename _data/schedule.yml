@@ -716,6 +716,7 @@ weeks:
 
     - type: Lecture
       date: 2019-04-18
+      zoom: https://usfca.zoom.us/recording/share/OuVBAurLbAvgrlKJX1VthKsuVnZ1Gx39rAKgEPeF9ciwIumekTziMw
       resources:
       - text: Coauthorship in Network Science
         icon: *icon_code
