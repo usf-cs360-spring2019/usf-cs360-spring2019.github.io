@@ -68,7 +68,8 @@ weeks:
       tues: 'Keshif: Rapid and Expressive Tabular Data Exploration for Novices' # Divya V.
       thur: 'Evaluating Interactive Graphical Encodings for Data Visualization' # Neal S.
     - time: '1:50p'
-      tues: 'Approach to Deal With Overdraw Data' # Brian S.
+      tues: 'Approach to Deal With Overdraw' # Brian S.
+      thur: 'What Makes a Scientific Visualization Memorable' # Roger Y.
     - time: '2:10p'
       tues: 'Data Visualization in Video Games' # Tracy C.
       thur: 'How to Effectively Present Ideas to VCs using Data Visualization' # Kibeom K.
@@ -80,6 +81,7 @@ weeks:
     - time: '12:50p'
       tues: "Major League Baseball Statistics" # John M.
     - time: '1:10p'
+      tues: 'Wrestling with Data' # Derrick S.
     - time: '1:30p'
 
 ---
