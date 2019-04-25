@@ -45,7 +45,10 @@ icons_special:
   pending: &icon_pending
     label: Pending
     class: far fa-question-square
-
+  evals: &icon_evals
+    label: Special
+    class: far fa-users-class
+    
 # reusable assignments
 assignments:
   - gitsetup: &gitsetup
