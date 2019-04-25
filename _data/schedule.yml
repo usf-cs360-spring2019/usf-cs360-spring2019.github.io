@@ -772,6 +772,15 @@ weeks:
       resources:
       - <<: *vistalks
 
+      - text: Course Survey (Informal)
+        icon: *icon_evals
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSedbpubCoYn4T3s8ash4DMfd7-S5pytJrsO8oe5vAwOvaDulQ/viewform?usp=sf_link'
+        bump: true
+
+      - text: Course Survey (Official)
+        icon: *icon_evals
+        link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
+
     - type: Lecture
       date: 2019-05-09
       resources:
@@ -789,6 +798,15 @@ weeks:
       - <<: *piazzaec
       - <<: *feedbackec1
       - <<: *feedbackec2
+
+      - text: Course Survey (Informal)
+        icon: *icon_evals
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSedbpubCoYn4T3s8ash4DMfd7-S5pytJrsO8oe5vAwOvaDulQ/viewform?usp=sf_link'
+        bump: true
+
+      - text: Course Survey (Official)
+        icon: *icon_evals
+        link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
 
 - text: Finals
   days:
