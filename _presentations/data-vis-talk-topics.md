@@ -83,6 +83,7 @@ weeks:
     - time: '1:10p'
       tues: 'Wrestling with Data' # Derrick S.
     - time: '1:30p'
+      tues: 'Offense Evolution of NBA Teams' # Dustin H.
 
 ---
 
