@@ -48,7 +48,7 @@ icons_special:
   evals: &icon_evals
     label: Special
     class: far fa-users-class
-    
+
 # reusable assignments
 assignments:
   - gitsetup: &gitsetup
@@ -775,6 +775,26 @@ weeks:
       resources:
       - <<: *vistalks
 
+      - <<: *final_demo
+        bump: true
+
+      - <<: *final_project
+
+      - text: 'User Study'
+        type: 'grey'
+
+    - type: Lecture
+      date: 2019-05-09
+      resources:
+      - text: Visualization Research
+        icon: *icon_website
+        link: 'https://vgl.cs.usfca.edu/'
+
+      - text: 'Reviewer Awards'
+        icon: *icon_survey
+        link: 'https://usfca.instructure.com/courses/1582982/quizzes/2337113'
+        bump: true
+
       - text: Course Survey (Informal)
         icon: *icon_evals
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSedbpubCoYn4T3s8ash4DMfd7-S5pytJrsO8oe5vAwOvaDulQ/viewform?usp=sf_link'
@@ -784,23 +804,16 @@ weeks:
         icon: *icon_evals
         link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
 
-    - type: Lecture
-      date: 2019-05-09
-      resources:
-      - text: Formal Evaluation
-        icon: *icon_pending
-        type: grey
-
-      - text: Visualization Research
-        icon: *icon_pending
-        type: grey
-
       deadlines:
       - <<: *csevent2
       - <<: *piazza2
       - <<: *piazzaec
       - <<: *feedbackec1
       - <<: *feedbackec2
+
+      - text: 'Reviewer Awards'
+        icon: *icon_survey
+        link: 'https://usfca.instructure.com/courses/1582982/quizzes/2337113'
 
       - text: Course Survey (Informal)
         icon: *icon_evals
