@@ -782,6 +782,7 @@ weeks:
 
       - text: 'User Study'
         type: 'grey'
+        bump: true
 
     - type: Lecture
       date: 2019-05-09
@@ -793,6 +794,7 @@ weeks:
       - text: 'Reviewer Awards'
         icon: *icon_survey
         link: 'https://usfca.instructure.com/courses/1582982/quizzes/2337113'
+        date: 2019-05-10
         bump: true
 
       - text: Course Survey (Informal)
@@ -830,6 +832,11 @@ weeks:
 
     - type: Final Demos
       date: 2019-05-16
+      resources:
+        - text: 'Demo Video Showing (Mandatory)'
+          icon: *icon_presentation
+          type: danger
+
       deadlines:
       - <<: *final_demo
       - <<: *final_project
