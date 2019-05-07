@@ -806,6 +806,11 @@ weeks:
         icon: *icon_evals
         link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
 
+      - text: Flight Paths Edge Bundling (Bonus)
+        icon: *icon_code
+        link: 'https://bl.ocks.org/sjengle/2e58e83685f6d854aa40c7bc546aeb24'
+        bump: true
+
       deadlines:
       - <<: *csevent2
       - <<: *piazza2
