@@ -791,11 +791,15 @@ weeks:
         icon: *icon_website
         link: 'https://vgl.cs.usfca.edu/'
 
+      - text: 'Rubrics Survey'
+        icon: *icon_survey
+        link: 'https://usfca.instructure.com/courses/1582982/quizzes/2337252'
+        bump: true
+
       - text: 'Reviewer Awards'
         icon: *icon_survey
         link: 'https://usfca.instructure.com/courses/1582982/quizzes/2337113'
         date: 2019-05-10
-        bump: true
 
       - text: Course Survey (Informal)
         icon: *icon_evals
@@ -818,18 +822,27 @@ weeks:
       - <<: *feedbackec1
       - <<: *feedbackec2
 
+      - text: 'Rubrics Survey'
+        icon: *icon_survey
+        link: 'https://usfca.instructure.com/courses/1582982/quizzes/2337252'
+        date: 2019-05-10
+        bump: true
+
       - text: 'Reviewer Awards'
         icon: *icon_survey
         link: 'https://usfca.instructure.com/courses/1582982/quizzes/2337113'
+        date: 2019-05-10
 
       - text: Course Survey (Informal)
         icon: *icon_evals
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSedbpubCoYn4T3s8ash4DMfd7-S5pytJrsO8oe5vAwOvaDulQ/viewform?usp=sf_link'
+        date: 2019-05-22
         bump: true
 
       - text: Course Survey (Official)
         icon: *icon_evals
         link: 'https://myusf.usfca.edu/registration/teaching-effectiveness-survey-faq-for-students'
+        date: 2019-05-22
 
 - text: Finals
   days:
