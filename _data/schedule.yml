@@ -786,6 +786,7 @@ weeks:
 
     - type: Lecture
       date: 2019-05-09
+      zoom: 'https://usfca.zoom.us/recording/share/4kOxvuHlvwkSgpHjumpHsH5udKnbrVN64Lth7UP_duqwIumekTziMw'
       resources:
       - text: Visualization Research
         icon: *icon_website
