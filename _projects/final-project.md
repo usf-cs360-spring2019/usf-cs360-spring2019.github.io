@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 6.0
 bump: true
-tags:
-  - text: 'New'
-    type: 'is-info'
-
 
 blurb: |
   <p>

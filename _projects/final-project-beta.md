@@ -4,10 +4,6 @@ navbar: Guides
 layout: guides
 key: 6.3
 
-tags:
-  - text: 'Due 04/30'
-    type: 'is-danger'
-
 assignments:
   - text: 'Beta Release'
     info: '(Canvas Submission)'

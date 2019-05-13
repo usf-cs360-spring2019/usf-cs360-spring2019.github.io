@@ -6,7 +6,7 @@ key: 6.6
 
 tags:
   - text: 'Due 05/16'
-    type: 'is-light'
+    type: 'is-danger'
 
 blurb: |
   <p>
