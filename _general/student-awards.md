@@ -14,7 +14,7 @@ tags:
 
 These are awards given to students in CS 360 or CS 560 in Spring 2019 that were voted to have the most thoughtful, constructive, and actionable peer feedback throughout the semester.
 
-Normally the awards are given to only the top 3 students per semester, but there was a three-way tie this semester. The recipients are (in alphabetical order by last name):
+Normally the awards are given to only the top 3 students per semester, but there was a tie this semester. The recipients are (in alphabetical order by last name):
 
   - Tracy C. (Grad, MSCS)
   - Samuel E. (Undergrad, CS)
@@ -23,3 +23,16 @@ Normally the awards are given to only the top 3 students per semester, but there
   - Brian S. (Grad, MSCS)
 
 This year’s recipients include both undergraduate and graduate students, as well as computer science and data science majors.
+
+## CS 360/560 Best Video Awards
+
+These are awards given to students in CS 360 or CS 560 in Spring 2019 that were voted to have the best demonstration videos of their final projects.
+
+Normally the awards are given to only the top 3 students per semester, but there was a tie this semester. The recipients are (in alphabetical order by last name):
+
+- Gudbrand S. (Grad, MSCS)
+- Derrick S. (Undergrad, CS)
+- Brian S. (Grad, MSCS)
+- Divya V. (Grad, MSCS)
+
+This year’s recipients include both undergraduate and graduate students in computer science.
